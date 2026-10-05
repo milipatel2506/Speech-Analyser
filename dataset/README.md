@@ -1,6 +1,7 @@
 ---
 license: other
-license_name: public-domain-us-gov
+license_name: us-government-public-domain
+license_link: https://www.usa.gov/government-copyright
 language: [en]
 task_categories: [audio-classification]
 tags: [speech, prosody, public-speaking, contrastive, temporal-grounding, forced-alignment]

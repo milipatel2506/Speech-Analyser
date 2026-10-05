@@ -27,13 +27,9 @@ def main() -> None:
     if args.action == "upload":
         api = HfApi()
         api.create_repo(args.repo, repo_type="dataset", exist_ok=True)
-        api.upload_folder(
-            repo_id=args.repo,
-            repo_type="dataset",
-            folder_path=DS,
-            allow_patterns=PATTERNS,
-            commit_message="Upload contrastive speech delivery dataset",
-        )
+        # resumable: uploads in chunks, keeps progress in dataset/.cache, and continues after a
+        # dropped connection when re-run
+        api.upload_large_folder(repo_id=args.repo, repo_type="dataset", folder_path=DS, allow_patterns=PATTERNS)
         print(f"uploaded -> https://huggingface.co/datasets/{args.repo}")
     else:
         snapshot_download(repo_id=args.repo, repo_type="dataset", local_dir=DS, allow_patterns=PATTERNS)

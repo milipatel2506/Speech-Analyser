@@ -18,8 +18,14 @@ interactive dashboard.
   waveform with flaw regions, three time-aligned feature overlays, flaw cards with the math behind
   each one, and A/B playback against the reference.
 
-See [docs/TECHNICAL.md](docs/TECHNICAL.md) for the method and evaluation, and
-[dataset/README.md](dataset/README.md) for the dataset card.
+| Deliverable | Link |
+|---|---|
+| Code & documentation | this repository |
+| Dataset (audio + labels) | https://huggingface.co/datasets/milipatel2506/cadence-contrastive-speech |
+| Technical documentation | [docs/TECHNICAL.md](docs/TECHNICAL.md) · [PDF](docs/Cadence_Technical_Report.pdf) |
+| Dataset card | [dataset/README.md](dataset/README.md) |
+| Evaluation results | [docs/results/evaluation.md](docs/results/evaluation.md) |
+| Demo video | *(YouTube link: coming soon)* |
 
 ## Quick start
 
@@ -30,16 +36,20 @@ Requirements: Python 3.11, [uv](https://docs.astral.sh/uv/), ffmpeg, Node.js 20+
 uv sync
 
 # 2. Dataset: download the published build...
-uv run python scripts/hf_dataset.py download --repo <hf-user>/cadence-contrastive-speech
+uv run python scripts/hf_dataset.py download --repo milipatel2506/cadence-contrastive-speech
 #    ...or rebuild it from the original public-domain recordings (deterministic)
 uv run python scripts/fetch_sources.py       # download source speeches (Wikimedia Commons)
 uv run python scripts/prepare_baseline.py    # cut, normalise, transcribe, force-align baselines
 uv run python scripts/build_dataset.py       # inject the flaw spectrum + labels (~1 h on CPU)
 
-# 3. Backend API (http://127.0.0.1:8000)
+# 3. Start everything on Windows (opens the dashboard in your browser)
+powershell -ExecutionPolicy Bypass -File .\start.ps1
+
+#    ...or start the two parts manually:
+# Backend API (http://127.0.0.1:8000)
 uv run uvicorn speech_analyser.api.main:app --app-dir src --port 8000
 
-# 4. Dashboard (http://127.0.0.1:5173)
+# Dashboard (http://127.0.0.1:5173)
 cd frontend && npm ci && npm run dev
 ```
 
@@ -49,7 +59,7 @@ The first analysis downloads the forced-alignment model (MMS_FA, about 1.2 GB) i
 
 ```bash
 docker build -t cadence .
-docker run -p 8000:8000 -v cadence-models:/models cadence    # open http://localhost:8000
+docker run -p 8000:8000 -v cadence-models:/home/user/models cadence    # open http://localhost:8000
 ```
 
 ### Tests and evaluation
