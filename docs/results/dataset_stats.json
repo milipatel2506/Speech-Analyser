@@ -1,0 +1,38 @@
+{
+ "baselines": 6,
+ "speakers": {
+  "M": 4,
+  "F": 2
+ },
+ "flawed_clips": 240,
+ "single_flaw_clips": 210,
+ "mix_clips": 30,
+ "labelled_flaw_regions": 300,
+ "flaw_regions_by_type": {
+  "dragging": 40,
+  "long_pause": 41,
+  "monotone": 47,
+  "volume_drop": 44,
+  "pause_removal": 44,
+  "mumble": 42,
+  "rushing": 42
+ },
+ "baseline_audio_min": 6.16,
+ "total_audio_min": 253.89,
+ "baseline_words": 758,
+ "baseline_alignment_mean_score": 0.929,
+ "flawed_alignment_error_ms": {
+  "mean": 3.8,
+  "p95": 11.3,
+  "by_type": {
+   "dragging": 8.3,
+   "long_pause": 2.6,
+   "mix": 6.2,
+   "monotone": 0.3,
+   "mumble": 0.4,
+   "pause_removal": 5.1,
+   "rushing": 7.1,
+   "volume_drop": 0.4
+  }
+ }
+}

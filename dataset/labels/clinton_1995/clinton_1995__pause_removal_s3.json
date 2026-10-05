@@ -1,0 +1,1808 @@
+{
+ "clip_id": "clinton_1995__pause_removal_s3",
+ "baseline_id": "clinton_1995",
+ "kind": "single",
+ "level": 3,
+ "generator_version": "1.0",
+ "audio": "audio/flawed/clinton_1995/clinton_1995__pause_removal_s3.wav",
+ "baseline_audio": "audio/baseline/clinton_1995.wav",
+ "sample_rate": 16000,
+ "duration": 60.8774,
+ "transcript": "I have met new mothers in Indonesia who come together regularly in their village to discuss nutrition, family planning, and baby care. I have met working parents in Denmark who talk about the comfort they feel in knowing that their children can be cared for in safe and nurturing after-school centers. I have met women in South Africa who helped lead the struggle to end apartheid and are now helping to build a new democracy. I have met with the leading women of my own hemisphere who are working every day to promote literacy and better health care for children in their countries. I have met women in India and Bangladesh who are taking out small loans to buy milk cows or rickshaws or thread in order to create a livelihood for themselves and their families. I have met the doctors and nurses in Belarus and Ukraine who are trying to keep children alive in the aftermath of Chernobyl.",
+ "flaws": [
+  {
+   "type": "pause_removal",
+   "label": "Missing rhetorical pause",
+   "rubric": "pausing",
+   "severity": 3,
+   "start": 34.4651,
+   "end": 35.0036,
+   "word_span": [
+    90,
+    91
+   ],
+   "text": "day to",
+   "params": {
+    "pause_kept": 0.3,
+    "original_pause_s": 0.501,
+    "new_pause_s": 0.178
+   },
+   "description": "Phrase-boundary pause shortened to 30% of its original length"
+  }
+ ],
+ "words": [
+  {
+   "word": "I",
+   "start": 0.2003,
+   "end": 0.2203
+  },
+  {
+   "word": "have",
+   "start": 0.2603,
+   "end": 0.4205
+  },
+  {
+   "word": "met",
+   "start": 0.4606,
+   "end": 0.6609
+  },
+  {
+   "word": "new",
+   "start": 0.8211,
+   "end": 0.9412
+  },
+  {
+   "word": "mothers",
+   "start": 1.0013,
+   "end": 1.3818
+  },
+  {
+   "word": "in",
+   "start": 1.4219,
+   "end": 1.4819
+  },
+  {
+   "word": "Indonesia",
+   "start": 1.542,
+   "end": 2.1428
+  },
+  {
+   "word": "who",
+   "start": 2.6234,
+   "end": 2.7035
+  },
+  {
+   "word": "come",
+   "start": 2.7836,
+   "end": 2.9839
+  },
+  {
+   "word": "together",
+   "start": 3.024,
+   "end": 3.4045
+  },
+  {
+   "word": "regularly",
+   "start": 3.5046,
+   "end": 4.1254
+  },
+  {
+   "word": "in",
+   "start": 4.2255,
+   "end": 4.2856
+  },
+  {
+   "word": "their",
+   "start": 4.3457,
+   "end": 4.4859
+  },
+  {
+   "word": "village",
+   "start": 4.566,
+   "end": 4.9865
+  },
+  {
+   "word": "to",
+   "start": 5.0466,
+   "end": 5.1067
+  },
+  {
+   "word": "discuss",
+   "start": 5.1467,
+   "end": 5.6474
+  },
+  {
+   "word": "nutrition",
+   "start": 5.7475,
+   "end": 6.3683
+  },
+  {
+   "word": "family",
+   "start": 6.8289,
+   "end": 7.2094
+  },
+  {
+   "word": "planning",
+   "start": 7.2895,
+   "end": 7.7702
+  },
+  {
+   "word": "and",
+   "start": 7.9504,
+   "end": 8.0705
+  },
+  {
+   "word": "baby",
+   "start": 8.1707,
+   "end": 8.451
+  },
+  {
+   "word": "care",
+   "start": 8.5512,
+   "end": 8.8916
+  },
+  {
+   "word": "I",
+   "start": 9.6526,
+   "end": 9.6726
+  },
+  {
+   "word": "have",
+   "start": 9.7127,
+   "end": 9.8329
+  },
+  {
+   "word": "met",
+   "start": 9.913,
+   "end": 10.1132
+  },
+  {
+   "word": "working",
+   "start": 10.2334,
+   "end": 10.5938
+  },
+  {
+   "word": "parents",
+   "start": 10.6539,
+   "end": 11.1546
+  },
+  {
+   "word": "in",
+   "start": 11.2347,
+   "end": 11.3148
+  },
+  {
+   "word": "Denmark",
+   "start": 11.3949,
+   "end": 11.9156
+  },
+  {
+   "word": "who",
+   "start": 11.9556,
+   "end": 12.0357
+  },
+  {
+   "word": "talk",
+   "start": 12.1158,
+   "end": 12.3762
+  },
+  {
+   "word": "about",
+   "start": 12.4162,
+   "end": 12.6565
+  },
+  {
+   "word": "the",
+   "start": 12.6766,
+   "end": 12.7767
+  },
+  {
+   "word": "comfort",
+   "start": 12.8368,
+   "end": 13.2774
+  },
+  {
+   "word": "they",
+   "start": 13.3374,
+   "end": 13.4776
+  },
+  {
+   "word": "feel",
+   "start": 13.5777,
+   "end": 13.8982
+  },
+  {
+   "word": "in",
+   "start": 14.3588,
+   "end": 14.4389
+  },
+  {
+   "word": "knowing",
+   "start": 14.499,
+   "end": 14.8795
+  },
+  {
+   "word": "that",
+   "start": 14.9195,
+   "end": 15.0597
+  },
+  {
+   "word": "their",
+   "start": 15.0997,
+   "end": 15.2599
+  },
+  {
+   "word": "children",
+   "start": 15.3601,
+   "end": 15.7806
+  },
+  {
+   "word": "can",
+   "start": 15.8407,
+   "end": 15.9809
+  },
+  {
+   "word": "be",
+   "start": 16.0209,
+   "end": 16.081
+  },
+  {
+   "word": "cared",
+   "start": 16.2212,
+   "end": 16.5616
+  },
+  {
+   "word": "for",
+   "start": 16.6418,
+   "end": 16.9021
+  },
+  {
+   "word": "in",
+   "start": 17.3427,
+   "end": 17.4228
+  },
+  {
+   "word": "safe",
+   "start": 17.603,
+   "end": 17.9435
+  },
+  {
+   "word": "and",
+   "start": 18.0436,
+   "end": 18.1437
+  },
+  {
+   "word": "nurturing",
+   "start": 18.2038,
+   "end": 18.7445
+  },
+  {
+   "word": "after-school",
+   "start": 18.9047,
+   "end": 19.6457
+  },
+  {
+   "word": "centers",
+   "start": 19.7658,
+   "end": 20.2665
+  },
+  {
+   "word": "I",
+   "start": 20.9874,
+   "end": 21.0075
+  },
+  {
+   "word": "have",
+   "start": 21.0475,
+   "end": 21.1677
+  },
+  {
+   "word": "met",
+   "start": 21.2077,
+   "end": 21.3679
+  },
+  {
+   "word": "women",
+   "start": 21.4681,
+   "end": 21.7484
+  },
+  {
+   "word": "in",
+   "start": 21.8085,
+   "end": 21.8886
+  },
+  {
+   "word": "South",
+   "start": 21.9887,
+   "end": 22.2691
+  },
+  {
+   "word": "Africa",
+   "start": 22.3492,
+   "end": 22.7898
+  },
+  {
+   "word": "who",
+   "start": 22.8899,
+   "end": 22.9901
+  },
+  {
+   "word": "helped",
+   "start": 23.0702,
+   "end": 23.3505
+  },
+  {
+   "word": "lead",
+   "start": 23.4907,
+   "end": 23.7711
+  },
+  {
+   "word": "the",
+   "start": 23.8111,
+   "end": 23.9113
+  },
+  {
+   "word": "struggle",
+   "start": 23.9914,
+   "end": 24.4319
+  },
+  {
+   "word": "to",
+   "start": 24.512,
+   "end": 24.6122
+  },
+  {
+   "word": "end",
+   "start": 24.7924,
+   "end": 24.9526
+  },
+  {
+   "word": "apartheid",
+   "start": 24.9927,
+   "end": 25.7537
+  },
+  {
+   "word": "and",
+   "start": 26.1542,
+   "end": 26.2543
+  },
+  {
+   "word": "are",
+   "start": 26.2944,
+   "end": 26.4145
+  },
+  {
+   "word": "now",
+   "start": 26.4546,
+   "end": 26.6348
+  },
+  {
+   "word": "helping",
+   "start": 26.755,
+   "end": 27.2156
+  },
+  {
+   "word": "to",
+   "start": 27.3157,
+   "end": 27.3958
+  },
+  {
+   "word": "build",
+   "start": 27.4959,
+   "end": 27.8164
+  },
+  {
+   "word": "a",
+   "start": 27.9565,
+   "end": 27.9766
+  },
+  {
+   "word": "new",
+   "start": 28.0967,
+   "end": 28.297
+  },
+  {
+   "word": "democracy",
+   "start": 28.4973,
+   "end": 29.2182
+  },
+  {
+   "word": "I",
+   "start": 30.0393,
+   "end": 30.0593
+  },
+  {
+   "word": "have",
+   "start": 30.0793,
+   "end": 30.1995
+  },
+  {
+   "word": "met",
+   "start": 30.2395,
+   "end": 30.4198
+  },
+  {
+   "word": "with",
+   "start": 30.4999,
+   "end": 30.62
+  },
+  {
+   "word": "the",
+   "start": 30.6401,
+   "end": 30.7202
+  },
+  {
+   "word": "leading",
+   "start": 30.8003,
+   "end": 31.1407
+  },
+  {
+   "word": "women",
+   "start": 31.3009,
+   "end": 31.6013
+  },
+  {
+   "word": "of",
+   "start": 31.7215,
+   "end": 31.8216
+  },
+  {
+   "word": "my",
+   "start": 31.9017,
+   "end": 32.0619
+  },
+  {
+   "word": "own",
+   "start": 32.162,
+   "end": 32.3623
+  },
+  {
+   "word": "hemisphere",
+   "start": 32.4825,
+   "end": 33.1834
+  },
+  {
+   "word": "who",
+   "start": 33.2435,
+   "end": 33.3436
+  },
+  {
+   "word": "are",
+   "start": 33.4237,
+   "end": 33.5639
+  },
+  {
+   "word": "working",
+   "start": 33.6039,
+   "end": 33.9844
+  },
+  {
+   "word": "every",
+   "start": 34.1046,
+   "end": 34.3849
+  },
+  {
+   "word": "day",
+   "start": 34.4651,
+   "end": 34.7454
+  },
+  {
+   "word": "to",
+   "start": 34.9235,
+   "end": 35.0036
+  },
+  {
+   "word": "promote",
+   "start": 35.0837,
+   "end": 35.4842
+  },
+  {
+   "word": "literacy",
+   "start": 35.5643,
+   "end": 36.105
+  },
+  {
+   "word": "and",
+   "start": 36.2252,
+   "end": 36.3453
+  },
+  {
+   "word": "better",
+   "start": 36.4054,
+   "end": 36.6457
+  },
+  {
+   "word": "health",
+   "start": 36.7258,
+   "end": 37.0262
+  },
+  {
+   "word": "care",
+   "start": 37.1063,
+   "end": 37.4267
+  },
+  {
+   "word": "for",
+   "start": 37.7872,
+   "end": 37.9274
+  },
+  {
+   "word": "children",
+   "start": 38.0476,
+   "end": 38.5482
+  },
+  {
+   "word": "in",
+   "start": 38.7084,
+   "end": 38.7885
+  },
+  {
+   "word": "their",
+   "start": 38.8286,
+   "end": 38.9888
+  },
+  {
+   "word": "countries",
+   "start": 39.0689,
+   "end": 39.6497
+  },
+  {
+   "word": "I",
+   "start": 40.3506,
+   "end": 40.3706
+  },
+  {
+   "word": "have",
+   "start": 40.3906,
+   "end": 40.5108
+  },
+  {
+   "word": "met",
+   "start": 40.5508,
+   "end": 40.711
+  },
+  {
+   "word": "women",
+   "start": 40.8312,
+   "end": 41.1516
+  },
+  {
+   "word": "in",
+   "start": 41.2317,
+   "end": 41.3118
+  },
+  {
+   "word": "India",
+   "start": 41.4921,
+   "end": 41.7925
+  },
+  {
+   "word": "and",
+   "start": 41.8525,
+   "end": 41.9326
+  },
+  {
+   "word": "Bangladesh",
+   "start": 42.0127,
+   "end": 42.8338
+  },
+  {
+   "word": "who",
+   "start": 43.1542,
+   "end": 43.2343
+  },
+  {
+   "word": "are",
+   "start": 43.2944,
+   "end": 43.3945
+  },
+  {
+   "word": "taking",
+   "start": 43.4346,
+   "end": 43.7951
+  },
+  {
+   "word": "out",
+   "start": 43.8351,
+   "end": 43.9753
+  },
+  {
+   "word": "small",
+   "start": 44.0955,
+   "end": 44.4359
+  },
+  {
+   "word": "loans",
+   "start": 44.5561,
+   "end": 45.0567
+  },
+  {
+   "word": "to",
+   "start": 45.1168,
+   "end": 45.1969
+  },
+  {
+   "word": "buy",
+   "start": 45.257,
+   "end": 45.4572
+  },
+  {
+   "word": "milk",
+   "start": 45.5574,
+   "end": 45.7977
+  },
+  {
+   "word": "cows",
+   "start": 45.8978,
+   "end": 46.3584
+  },
+  {
+   "word": "or",
+   "start": 46.4185,
+   "end": 46.4786
+  },
+  {
+   "word": "rickshaws",
+   "start": 46.5587,
+   "end": 47.1795
+  },
+  {
+   "word": "or",
+   "start": 47.2195,
+   "end": 47.2997
+  },
+  {
+   "word": "thread",
+   "start": 47.3998,
+   "end": 47.8203
+  },
+  {
+   "word": "in",
+   "start": 48.2609,
+   "end": 48.321
+  },
+  {
+   "word": "order",
+   "start": 48.3811,
+   "end": 48.5413
+  },
+  {
+   "word": "to",
+   "start": 48.5813,
+   "end": 48.6614
+  },
+  {
+   "word": "create",
+   "start": 48.7415,
+   "end": 49.122
+  },
+  {
+   "word": "a",
+   "start": 49.1421,
+   "end": 49.1621
+  },
+  {
+   "word": "livelihood",
+   "start": 49.2822,
+   "end": 50.0232
+  },
+  {
+   "word": "for",
+   "start": 50.0833,
+   "end": 50.1834
+  },
+  {
+   "word": "themselves",
+   "start": 50.2034,
+   "end": 50.9044
+  },
+  {
+   "word": "and",
+   "start": 51.0445,
+   "end": 51.1447
+  },
+  {
+   "word": "their",
+   "start": 51.1647,
+   "end": 51.3049
+  },
+  {
+   "word": "families",
+   "start": 51.405,
+   "end": 51.9858
+  },
+  {
+   "word": "I",
+   "start": 52.6466,
+   "end": 52.6667
+  },
+  {
+   "word": "have",
+   "start": 52.7067,
+   "end": 52.8269
+  },
+  {
+   "word": "met",
+   "start": 52.887,
+   "end": 53.0672
+  },
+  {
+   "word": "the",
+   "start": 53.1273,
+   "end": 53.2074
+  },
+  {
+   "word": "doctors",
+   "start": 53.2474,
+   "end": 53.7881
+  },
+  {
+   "word": "and",
+   "start": 53.8482,
+   "end": 53.9483
+  },
+  {
+   "word": "nurses",
+   "start": 53.9884,
+   "end": 54.489
+  },
+  {
+   "word": "in",
+   "start": 54.5291,
+   "end": 54.6092
+  },
+  {
+   "word": "Belarus",
+   "start": 54.6893,
+   "end": 55.25
+  },
+  {
+   "word": "and",
+   "start": 55.3301,
+   "end": 55.4303
+  },
+  {
+   "word": "Ukraine",
+   "start": 55.4904,
+   "end": 56.0511
+  },
+  {
+   "word": "who",
+   "start": 56.3715,
+   "end": 56.4716
+  },
+  {
+   "word": "are",
+   "start": 56.5117,
+   "end": 56.6118
+  },
+  {
+   "word": "trying",
+   "start": 56.6519,
+   "end": 57.0123
+  },
+  {
+   "word": "to",
+   "start": 57.0324,
+   "end": 57.0925
+  },
+  {
+   "word": "keep",
+   "start": 57.1926,
+   "end": 57.3928
+  },
+  {
+   "word": "children",
+   "start": 57.493,
+   "end": 57.9536
+  },
+  {
+   "word": "alive",
+   "start": 58.0137,
+   "end": 58.5343
+  },
+  {
+   "word": "in",
+   "start": 58.5544,
+   "end": 58.6144
+  },
+  {
+   "word": "the",
+   "start": 58.6545,
+   "end": 58.7346
+  },
+  {
+   "word": "aftermath",
+   "start": 58.8948,
+   "end": 59.5757
+  },
+  {
+   "word": "of",
+   "start": 59.6558,
+   "end": 59.7159
+  },
+  {
+   "word": "Chernobyl",
+   "start": 59.816,
+   "end": 60.4168
+  }
+ ],
+ "time_map": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   34.7454,
+   34.7454
+  ],
+  [
+   35.2461,
+   34.9235
+  ],
+  [
+   61.2,
+   60.8774
+  ]
+ ],
+ "aligned_words": [
+  {
+   "word": "I",
+   "start": 0.2003,
+   "end": 0.2203,
+   "score": 0.9985
+  },
+  {
+   "word": "have",
+   "start": 0.2603,
+   "end": 0.4205,
+   "score": 0.9609
+  },
+  {
+   "word": "met",
+   "start": 0.4606,
+   "end": 0.6608,
+   "score": 0.9995
+  },
+  {
+   "word": "new",
+   "start": 0.821,
+   "end": 0.9412,
+   "score": 0.9574
+  },
+  {
+   "word": "mothers",
+   "start": 1.0013,
+   "end": 1.3818,
+   "score": 0.9678
+  },
+  {
+   "word": "in",
+   "start": 1.4218,
+   "end": 1.4819,
+   "score": 0.9886
+  },
+  {
+   "word": "Indonesia",
+   "start": 1.542,
+   "end": 2.1427,
+   "score": 0.9982
+  },
+  {
+   "word": "who",
+   "start": 2.6233,
+   "end": 2.7034,
+   "score": 0.9875
+  },
+  {
+   "word": "come",
+   "start": 2.7835,
+   "end": 2.9838,
+   "score": 0.9998
+  },
+  {
+   "word": "together",
+   "start": 3.0238,
+   "end": 3.4043,
+   "score": 0.9992
+  },
+  {
+   "word": "regularly",
+   "start": 3.5045,
+   "end": 4.1252,
+   "score": 0.9989
+  },
+  {
+   "word": "in",
+   "start": 4.2254,
+   "end": 4.2854,
+   "score": 0.9987
+  },
+  {
+   "word": "their",
+   "start": 4.3455,
+   "end": 4.4857,
+   "score": 0.9987
+  },
+  {
+   "word": "village",
+   "start": 4.5658,
+   "end": 4.9863,
+   "score": 0.9954
+  },
+  {
+   "word": "to",
+   "start": 5.0464,
+   "end": 5.1065,
+   "score": 0.9983
+  },
+  {
+   "word": "discuss",
+   "start": 5.1465,
+   "end": 5.6472,
+   "score": 0.9383
+  },
+  {
+   "word": "nutrition",
+   "start": 5.7473,
+   "end": 6.3681,
+   "score": 0.9176
+  },
+  {
+   "word": "family",
+   "start": 6.8287,
+   "end": 7.2092,
+   "score": 0.9995
+  },
+  {
+   "word": "planning",
+   "start": 7.2893,
+   "end": 7.7699,
+   "score": 0.9993
+  },
+  {
+   "word": "and",
+   "start": 7.9501,
+   "end": 8.0703,
+   "score": 0.9988
+  },
+  {
+   "word": "baby",
+   "start": 8.1704,
+   "end": 8.4507,
+   "score": 0.9965
+  },
+  {
+   "word": "care",
+   "start": 8.5509,
+   "end": 8.8913,
+   "score": 0.8906
+  },
+  {
+   "word": "I",
+   "start": 9.6523,
+   "end": 9.6723,
+   "score": 0.9996
+  },
+  {
+   "word": "have",
+   "start": 9.7123,
+   "end": 9.8325,
+   "score": 0.9988
+  },
+  {
+   "word": "met",
+   "start": 9.9126,
+   "end": 10.1129,
+   "score": 0.9997
+  },
+  {
+   "word": "working",
+   "start": 10.233,
+   "end": 10.5935,
+   "score": 0.9997
+  },
+  {
+   "word": "parents",
+   "start": 10.6535,
+   "end": 11.1542,
+   "score": 0.9994
+  },
+  {
+   "word": "in",
+   "start": 11.2343,
+   "end": 11.3144,
+   "score": 0.999
+  },
+  {
+   "word": "Denmark",
+   "start": 11.3945,
+   "end": 11.9151,
+   "score": 0.9997
+  },
+  {
+   "word": "who",
+   "start": 11.9552,
+   "end": 12.0353,
+   "score": 0.9915
+  },
+  {
+   "word": "talk",
+   "start": 12.1154,
+   "end": 12.3757,
+   "score": 0.9918
+  },
+  {
+   "word": "about",
+   "start": 12.4158,
+   "end": 12.6561,
+   "score": 0.9968
+  },
+  {
+   "word": "the",
+   "start": 12.6761,
+   "end": 12.7762,
+   "score": 0.9491
+  },
+  {
+   "word": "comfort",
+   "start": 12.8363,
+   "end": 13.2769,
+   "score": 0.9994
+  },
+  {
+   "word": "they",
+   "start": 13.337,
+   "end": 13.4771,
+   "score": 0.9906
+  },
+  {
+   "word": "feel",
+   "start": 13.5773,
+   "end": 13.8977,
+   "score": 0.9527
+  },
+  {
+   "word": "in",
+   "start": 14.3582,
+   "end": 14.4384,
+   "score": 0.9934
+  },
+  {
+   "word": "knowing",
+   "start": 14.4984,
+   "end": 14.8789,
+   "score": 0.9831
+  },
+  {
+   "word": "that",
+   "start": 14.919,
+   "end": 15.0591,
+   "score": 0.9539
+  },
+  {
+   "word": "their",
+   "start": 15.0992,
+   "end": 15.2594,
+   "score": 0.9984
+  },
+  {
+   "word": "children",
+   "start": 15.3595,
+   "end": 15.7801,
+   "score": 0.9875
+  },
+  {
+   "word": "can",
+   "start": 15.8401,
+   "end": 15.9803,
+   "score": 0.9824
+  },
+  {
+   "word": "be",
+   "start": 16.0204,
+   "end": 16.0804,
+   "score": 0.999
+  },
+  {
+   "word": "cared",
+   "start": 16.2206,
+   "end": 16.561,
+   "score": 0.9957
+  },
+  {
+   "word": "for",
+   "start": 16.6412,
+   "end": 16.9015,
+   "score": 0.9987
+  },
+  {
+   "word": "in",
+   "start": 17.342,
+   "end": 17.4221,
+   "score": 0.9961
+  },
+  {
+   "word": "safe",
+   "start": 17.6024,
+   "end": 17.9428,
+   "score": 0.9514
+  },
+  {
+   "word": "and",
+   "start": 18.0429,
+   "end": 18.1431,
+   "score": 0.9864
+  },
+  {
+   "word": "nurturing",
+   "start": 18.2031,
+   "end": 18.7438,
+   "score": 0.8162
+  },
+  {
+   "word": "after-school",
+   "start": 18.904,
+   "end": 19.645,
+   "score": 0.9913
+  },
+  {
+   "word": "centers",
+   "start": 19.7651,
+   "end": 20.2658,
+   "score": 0.6151
+  },
+  {
+   "word": "I",
+   "start": 20.9867,
+   "end": 21.0067,
+   "score": 0.9772
+  },
+  {
+   "word": "have",
+   "start": 21.0468,
+   "end": 21.1669,
+   "score": 0.9828
+  },
+  {
+   "word": "met",
+   "start": 21.207,
+   "end": 21.3672,
+   "score": 0.9989
+  },
+  {
+   "word": "women",
+   "start": 21.4673,
+   "end": 21.7476,
+   "score": 0.9987
+  },
+  {
+   "word": "in",
+   "start": 21.8077,
+   "end": 21.8878,
+   "score": 0.9984
+  },
+  {
+   "word": "South",
+   "start": 21.9879,
+   "end": 22.2683,
+   "score": 0.95
+  },
+  {
+   "word": "Africa",
+   "start": 22.3684,
+   "end": 22.789,
+   "score": 0.9767
+  },
+  {
+   "word": "who",
+   "start": 22.8891,
+   "end": 22.9892,
+   "score": 0.9561
+  },
+  {
+   "word": "helped",
+   "start": 23.0693,
+   "end": 23.3497,
+   "score": 0.9363
+  },
+  {
+   "word": "lead",
+   "start": 23.4899,
+   "end": 23.7702,
+   "score": 0.9953
+  },
+  {
+   "word": "the",
+   "start": 23.8103,
+   "end": 23.9104,
+   "score": 0.9762
+  },
+  {
+   "word": "struggle",
+   "start": 23.9905,
+   "end": 24.4311,
+   "score": 0.9096
+  },
+  {
+   "word": "to",
+   "start": 24.5112,
+   "end": 24.6113,
+   "score": 0.9958
+  },
+  {
+   "word": "end",
+   "start": 24.7915,
+   "end": 24.9517,
+   "score": 0.9314
+  },
+  {
+   "word": "apartheid",
+   "start": 24.9918,
+   "end": 25.7527,
+   "score": 0.7428
+  },
+  {
+   "word": "and",
+   "start": 26.1532,
+   "end": 26.2534,
+   "score": 0.9959
+  },
+  {
+   "word": "are",
+   "start": 26.2934,
+   "end": 26.4136,
+   "score": 0.9895
+  },
+  {
+   "word": "now",
+   "start": 26.4536,
+   "end": 26.6339,
+   "score": 0.9968
+  },
+  {
+   "word": "helping",
+   "start": 26.754,
+   "end": 27.2146,
+   "score": 0.977
+  },
+  {
+   "word": "to",
+   "start": 27.3147,
+   "end": 27.3948,
+   "score": 0.9975
+  },
+  {
+   "word": "build",
+   "start": 27.4949,
+   "end": 27.8154,
+   "score": 0.8921
+  },
+  {
+   "word": "a",
+   "start": 27.9555,
+   "end": 27.9756,
+   "score": 0.9959
+  },
+  {
+   "word": "new",
+   "start": 28.0957,
+   "end": 28.296,
+   "score": 0.9952
+  },
+  {
+   "word": "democracy",
+   "start": 28.4962,
+   "end": 29.2171,
+   "score": 0.989
+  },
+  {
+   "word": "I",
+   "start": 30.0382,
+   "end": 30.0582,
+   "score": 0.9954
+  },
+  {
+   "word": "have",
+   "start": 30.0782,
+   "end": 30.1984,
+   "score": 0.9604
+  },
+  {
+   "word": "met",
+   "start": 30.2384,
+   "end": 30.4187,
+   "score": 0.9989
+  },
+  {
+   "word": "with",
+   "start": 30.4988,
+   "end": 30.6189,
+   "score": 0.9505
+  },
+  {
+   "word": "the",
+   "start": 30.6389,
+   "end": 30.719,
+   "score": 0.9924
+  },
+  {
+   "word": "leading",
+   "start": 30.7991,
+   "end": 31.1396,
+   "score": 0.9987
+  },
+  {
+   "word": "women",
+   "start": 31.2998,
+   "end": 31.6002,
+   "score": 0.999
+  },
+  {
+   "word": "of",
+   "start": 31.7203,
+   "end": 31.8204,
+   "score": 0.9988
+  },
+  {
+   "word": "my",
+   "start": 31.9005,
+   "end": 32.0607,
+   "score": 0.9935
+  },
+  {
+   "word": "own",
+   "start": 32.1609,
+   "end": 32.3611,
+   "score": 0.9974
+  },
+  {
+   "word": "hemisphere",
+   "start": 32.4813,
+   "end": 33.1822,
+   "score": 0.9814
+  },
+  {
+   "word": "who",
+   "start": 33.2423,
+   "end": 33.3424,
+   "score": 0.9769
+  },
+  {
+   "word": "are",
+   "start": 33.4225,
+   "end": 33.5627,
+   "score": 0.9873
+  },
+  {
+   "word": "working",
+   "start": 33.6027,
+   "end": 33.9832,
+   "score": 0.9995
+  },
+  {
+   "word": "every",
+   "start": 34.1033,
+   "end": 34.3837,
+   "score": 0.9991
+  },
+  {
+   "word": "day",
+   "start": 34.4638,
+   "end": 34.7442,
+   "score": 0.9997
+  },
+  {
+   "word": "to",
+   "start": 34.9244,
+   "end": 35.0045,
+   "score": 0.9988
+  },
+  {
+   "word": "promote",
+   "start": 35.0846,
+   "end": 35.4851,
+   "score": 0.9822
+  },
+  {
+   "word": "literacy",
+   "start": 35.5652,
+   "end": 36.1059,
+   "score": 0.9836
+  },
+  {
+   "word": "and",
+   "start": 36.226,
+   "end": 36.3462,
+   "score": 0.9871
+  },
+  {
+   "word": "better",
+   "start": 36.4063,
+   "end": 36.6466,
+   "score": 0.942
+  },
+  {
+   "word": "health",
+   "start": 36.7267,
+   "end": 37.0271,
+   "score": 0.8648
+  },
+  {
+   "word": "care",
+   "start": 37.1072,
+   "end": 37.4075,
+   "score": 0.8951
+  },
+  {
+   "word": "for",
+   "start": 37.788,
+   "end": 37.9282,
+   "score": 0.9957
+  },
+  {
+   "word": "children",
+   "start": 38.0484,
+   "end": 38.549,
+   "score": 0.9904
+  },
+  {
+   "word": "in",
+   "start": 38.7092,
+   "end": 38.7893,
+   "score": 0.9971
+  },
+  {
+   "word": "their",
+   "start": 38.8294,
+   "end": 38.9896,
+   "score": 0.9902
+  },
+  {
+   "word": "countries",
+   "start": 39.0496,
+   "end": 39.6504,
+   "score": 0.992
+  },
+  {
+   "word": "I",
+   "start": 40.3313,
+   "end": 40.3513,
+   "score": 0.9921
+  },
+  {
+   "word": "have",
+   "start": 40.3913,
+   "end": 40.5115,
+   "score": 0.9973
+  },
+  {
+   "word": "met",
+   "start": 40.5515,
+   "end": 40.7117,
+   "score": 0.9994
+  },
+  {
+   "word": "women",
+   "start": 40.8319,
+   "end": 41.1523,
+   "score": 0.9987
+  },
+  {
+   "word": "in",
+   "start": 41.2324,
+   "end": 41.3125,
+   "score": 0.882
+  },
+  {
+   "word": "India",
+   "start": 41.4927,
+   "end": 41.7931,
+   "score": 0.9974
+  },
+  {
+   "word": "and",
+   "start": 41.8532,
+   "end": 41.9333,
+   "score": 0.9116
+  },
+  {
+   "word": "Bangladesh",
+   "start": 42.0134,
+   "end": 42.8144,
+   "score": 0.9659
+  },
+  {
+   "word": "who",
+   "start": 43.1548,
+   "end": 43.235,
+   "score": 0.9951
+  },
+  {
+   "word": "are",
+   "start": 43.295,
+   "end": 43.3952,
+   "score": 0.9364
+  },
+  {
+   "word": "taking",
+   "start": 43.4352,
+   "end": 43.7957,
+   "score": 0.9896
+  },
+  {
+   "word": "out",
+   "start": 43.8357,
+   "end": 43.9759,
+   "score": 0.9996
+  },
+  {
+   "word": "small",
+   "start": 44.096,
+   "end": 44.4365,
+   "score": 0.9186
+  },
+  {
+   "word": "loans",
+   "start": 44.5566,
+   "end": 45.0372,
+   "score": 0.9105
+  },
+  {
+   "word": "to",
+   "start": 45.1173,
+   "end": 45.1974,
+   "score": 0.998
+  },
+  {
+   "word": "buy",
+   "start": 45.2575,
+   "end": 45.4578,
+   "score": 0.7789
+  },
+  {
+   "word": "milk",
+   "start": 45.5579,
+   "end": 45.7982,
+   "score": 0.9755
+  },
+  {
+   "word": "cows",
+   "start": 45.8983,
+   "end": 46.3589,
+   "score": 0.9087
+  },
+  {
+   "word": "or",
+   "start": 46.399,
+   "end": 46.4791,
+   "score": 0.9808
+  },
+  {
+   "word": "rickshaws",
+   "start": 46.5592,
+   "end": 47.18,
+   "score": 0.9005
+  },
+  {
+   "word": "or",
+   "start": 47.22,
+   "end": 47.3001,
+   "score": 0.9943
+  },
+  {
+   "word": "thread",
+   "start": 47.4002,
+   "end": 47.8208,
+   "score": 0.96
+  },
+  {
+   "word": "in",
+   "start": 48.2613,
+   "end": 48.3214,
+   "score": 0.9996
+  },
+  {
+   "word": "order",
+   "start": 48.3615,
+   "end": 48.5417,
+   "score": 0.9993
+  },
+  {
+   "word": "to",
+   "start": 48.5817,
+   "end": 48.6618,
+   "score": 0.9985
+  },
+  {
+   "word": "create",
+   "start": 48.7219,
+   "end": 49.1224,
+   "score": 0.9958
+  },
+  {
+   "word": "a",
+   "start": 49.1425,
+   "end": 49.1625,
+   "score": 0.9945
+  },
+  {
+   "word": "livelihood",
+   "start": 49.2826,
+   "end": 50.0236,
+   "score": 0.8844
+  },
+  {
+   "word": "for",
+   "start": 50.0636,
+   "end": 50.1838,
+   "score": 0.9828
+  },
+  {
+   "word": "themselves",
+   "start": 50.2038,
+   "end": 50.9047,
+   "score": 0.9906
+  },
+  {
+   "word": "and",
+   "start": 51.0449,
+   "end": 51.125,
+   "score": 0.9944
+  },
+  {
+   "word": "their",
+   "start": 51.165,
+   "end": 51.3052,
+   "score": 0.9984
+  },
+  {
+   "word": "families",
+   "start": 51.3853,
+   "end": 51.9861,
+   "score": 0.9812
+  },
+  {
+   "word": "I",
+   "start": 52.6469,
+   "end": 52.6669,
+   "score": 0.9984
+  },
+  {
+   "word": "have",
+   "start": 52.707,
+   "end": 52.8271,
+   "score": 0.997
+  },
+  {
+   "word": "met",
+   "start": 52.8872,
+   "end": 53.0674,
+   "score": 0.9994
+  },
+  {
+   "word": "the",
+   "start": 53.1075,
+   "end": 53.2076,
+   "score": 0.9078
+  },
+  {
+   "word": "doctors",
+   "start": 53.2477,
+   "end": 53.7884,
+   "score": 0.9757
+  },
+  {
+   "word": "and",
+   "start": 53.8484,
+   "end": 53.9486,
+   "score": 0.9926
+  },
+  {
+   "word": "nurses",
+   "start": 53.9886,
+   "end": 54.4692,
+   "score": 0.8216
+  },
+  {
+   "word": "in",
+   "start": 54.5293,
+   "end": 54.6094,
+   "score": 0.9807
+  },
+  {
+   "word": "Belarus",
+   "start": 54.6895,
+   "end": 55.2502,
+   "score": 0.9132
+  },
+  {
+   "word": "and",
+   "start": 55.3303,
+   "end": 55.4104,
+   "score": 0.3603
+  },
+  {
+   "word": "Ukraine",
+   "start": 55.4905,
+   "end": 56.0512,
+   "score": 0.8186
+  },
+  {
+   "word": "who",
+   "start": 56.3716,
+   "end": 56.4518,
+   "score": 0.9875
+  },
+  {
+   "word": "are",
+   "start": 56.5118,
+   "end": 56.612,
+   "score": 0.9986
+  },
+  {
+   "word": "trying",
+   "start": 56.652,
+   "end": 57.0125,
+   "score": 0.9834
+  },
+  {
+   "word": "to",
+   "start": 57.0325,
+   "end": 57.0926,
+   "score": 0.9979
+  },
+  {
+   "word": "keep",
+   "start": 57.1927,
+   "end": 57.3929,
+   "score": 0.9996
+  },
+  {
+   "word": "children",
+   "start": 57.4931,
+   "end": 57.9537,
+   "score": 0.9651
+  },
+  {
+   "word": "alive",
+   "start": 58.0137,
+   "end": 58.5344,
+   "score": 0.9995
+  },
+  {
+   "word": "in",
+   "start": 58.5544,
+   "end": 58.6145,
+   "score": 0.9894
+  },
+  {
+   "word": "the",
+   "start": 58.6345,
+   "end": 58.7347,
+   "score": 0.9344
+  },
+  {
+   "word": "aftermath",
+   "start": 58.8949,
+   "end": 59.5557,
+   "score": 0.9945
+  },
+  {
+   "word": "of",
+   "start": 59.6558,
+   "end": 59.7359,
+   "score": 0.9974
+  },
+  {
+   "word": "Chernobyl",
+   "start": 59.8361,
+   "end": 60.4168,
+   "score": 0.7293
+  }
+ ],
+ "alignment_error_ms": {
+  "mean": 1.9,
+  "max": 20.1
+ }
+}

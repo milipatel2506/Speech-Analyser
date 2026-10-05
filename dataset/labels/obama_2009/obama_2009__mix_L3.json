@@ -1,0 +1,2030 @@
+{
+ "clip_id": "obama_2009__mix_L3",
+ "baseline_id": "obama_2009",
+ "kind": "mix",
+ "level": 3,
+ "generator_version": "1.0",
+ "audio": "audio/flawed/obama_2009/obama_2009__mix_L3.wav",
+ "baseline_audio": "audio/baseline/obama_2009.wav",
+ "sample_rate": 16000,
+ "duration": 73.5385,
+ "transcript": "In reaffirming the greatness of our nation, we understand that greatness is never a given. It must be earned. Our journey has never been one of shortcuts or settling for less. It has not been the path for the fainthearted, for those who prefer leisure over work or seek only the pleasures of riches and fame. Rather, it has been the risk-takers, the doers, the makers of things, some celebrated, but more often men and women obscure in their labor, who have carried us up the long, rugged path towards prosperity and freedom. For us, they packed up their few worldly possessions and traveled across oceans in search of a new life. For us, they toiled in sweatshops and settled the West, endured the lash of the whip, and plowed the hard earth. For us, they fought and died in places like Concord and Gettysburg, Normandy and Khe Sanh. Time and again, these men and women struggled and sacrificed and worked till their hands were raw so that we might live a better life.",
+ "flaws": [
+  {
+   "type": "monotone",
+   "label": "Monotone delivery",
+   "rubric": "pitch_variety",
+   "severity": 2,
+   "start": 19.7185,
+   "end": 24.5431,
+   "word_span": [
+    48,
+    58
+   ],
+   "text": "seek only the pleasures of riches and fame Rather it has",
+   "params": {
+    "pitch_range_kept": 0.5,
+    "speaker_f0_median_hz": 200.9
+   },
+   "description": "Pitch excursions around the speaker's median compressed to 50% of natural range"
+  },
+  {
+   "type": "long_pause",
+   "label": "Awkward mid-phrase pause",
+   "rubric": "pausing",
+   "severity": 2,
+   "start": 44.692,
+   "end": 45.392,
+   "word_span": [
+    104,
+    105
+   ],
+   "text": "across oceans",
+   "params": {
+    "pause_s": 0.7
+   },
+   "description": "0.70 s of silence inserted inside a phrase"
+  },
+  {
+   "type": "rushing",
+   "label": "Rushed pacing",
+   "rubric": "pace",
+   "severity": 2,
+   "start": 52.779,
+   "end": 57.1781,
+   "word_span": [
+    122,
+    135
+   ],
+   "text": "endured the lash of the whip and plowed the hard earth For us they",
+   "params": {
+    "duration_factor": 0.75
+   },
+   "description": "Span compressed to 75% of original duration (pitch preserved)"
+  }
+ ],
+ "words": [
+  {
+   "word": "In",
+   "start": 0.5205,
+   "end": 0.5805
+  },
+  {
+   "word": "reaffirming",
+   "start": 0.6406,
+   "end": 1.3413
+  },
+  {
+   "word": "the",
+   "start": 2.102,
+   "end": 2.1821
+  },
+  {
+   "word": "greatness",
+   "start": 2.2221,
+   "end": 2.5824
+  },
+  {
+   "word": "of",
+   "start": 2.6225,
+   "end": 2.6825
+  },
+  {
+   "word": "our",
+   "start": 2.7226,
+   "end": 2.8227
+  },
+  {
+   "word": "nation",
+   "start": 2.8627,
+   "end": 3.223
+  },
+  {
+   "word": "we",
+   "start": 4.4442,
+   "end": 4.5042
+  },
+  {
+   "word": "understand",
+   "start": 4.5643,
+   "end": 5.1048
+  },
+  {
+   "word": "that",
+   "start": 5.1248,
+   "end": 5.2449
+  },
+  {
+   "word": "greatness",
+   "start": 5.285,
+   "end": 5.7254
+  },
+  {
+   "word": "is",
+   "start": 6.0257,
+   "end": 6.1057
+  },
+  {
+   "word": "never",
+   "start": 6.1658,
+   "end": 6.386
+  },
+  {
+   "word": "a",
+   "start": 6.426,
+   "end": 6.4461
+  },
+  {
+   "word": "given",
+   "start": 6.5061,
+   "end": 6.7463
+  },
+  {
+   "word": "It",
+   "start": 8.0876,
+   "end": 8.1477
+  },
+  {
+   "word": "must",
+   "start": 8.1677,
+   "end": 8.3278
+  },
+  {
+   "word": "be",
+   "start": 8.3679,
+   "end": 8.4279
+  },
+  {
+   "word": "earned",
+   "start": 8.528,
+   "end": 8.8283
+  },
+  {
+   "word": "Our",
+   "start": 10.2897,
+   "end": 10.3698
+  },
+  {
+   "word": "journey",
+   "start": 10.4098,
+   "end": 10.7301
+  },
+  {
+   "word": "has",
+   "start": 10.7301,
+   "end": 10.7902
+  },
+  {
+   "word": "never",
+   "start": 10.8502,
+   "end": 11.0504
+  },
+  {
+   "word": "been",
+   "start": 11.1105,
+   "end": 11.2906
+  },
+  {
+   "word": "one",
+   "start": 11.4308,
+   "end": 11.5709
+  },
+  {
+   "word": "of",
+   "start": 11.5909,
+   "end": 11.651
+  },
+  {
+   "word": "shortcuts",
+   "start": 11.7511,
+   "end": 12.4117
+  },
+  {
+   "word": "or",
+   "start": 12.4918,
+   "end": 12.5718
+  },
+  {
+   "word": "settling",
+   "start": 12.712,
+   "end": 13.0723
+  },
+  {
+   "word": "for",
+   "start": 13.1123,
+   "end": 13.2124
+  },
+  {
+   "word": "less",
+   "start": 13.2725,
+   "end": 13.5327
+  },
+  {
+   "word": "It",
+   "start": 14.4136,
+   "end": 14.4936
+  },
+  {
+   "word": "has",
+   "start": 14.5137,
+   "end": 14.6137
+  },
+  {
+   "word": "not",
+   "start": 14.6738,
+   "end": 14.8139
+  },
+  {
+   "word": "been",
+   "start": 14.874,
+   "end": 15.0141
+  },
+  {
+   "word": "the",
+   "start": 15.0341,
+   "end": 15.1142
+  },
+  {
+   "word": "path",
+   "start": 15.1743,
+   "end": 15.5346
+  },
+  {
+   "word": "for",
+   "start": 15.5747,
+   "end": 15.6747
+  },
+  {
+   "word": "the",
+   "start": 15.6948,
+   "end": 15.7748
+  },
+  {
+   "word": "fainthearted",
+   "start": 15.8349,
+   "end": 16.3754
+  },
+  {
+   "word": "for",
+   "start": 17.3964,
+   "end": 17.4965
+  },
+  {
+   "word": "those",
+   "start": 17.5165,
+   "end": 17.7367
+  },
+  {
+   "word": "who",
+   "start": 17.7367,
+   "end": 17.8168
+  },
+  {
+   "word": "prefer",
+   "start": 17.8568,
+   "end": 18.1771
+  },
+  {
+   "word": "leisure",
+   "start": 18.3172,
+   "end": 18.6576
+  },
+  {
+   "word": "over",
+   "start": 18.7176,
+   "end": 18.8978
+  },
+  {
+   "word": "work",
+   "start": 18.9578,
+   "end": 19.178
+  },
+  {
+   "word": "or",
+   "start": 19.5384,
+   "end": 19.6185
+  },
+  {
+   "word": "seek",
+   "start": 19.7185,
+   "end": 19.9588
+  },
+  {
+   "word": "only",
+   "start": 20.0589,
+   "end": 20.2591
+  },
+  {
+   "word": "the",
+   "start": 20.2991,
+   "end": 20.3792
+  },
+  {
+   "word": "pleasures",
+   "start": 20.4192,
+   "end": 20.8396
+  },
+  {
+   "word": "of",
+   "start": 20.8796,
+   "end": 20.9397
+  },
+  {
+   "word": "riches",
+   "start": 20.9998,
+   "end": 21.3601
+  },
+  {
+   "word": "and",
+   "start": 21.8005,
+   "end": 21.9006
+  },
+  {
+   "word": "fame",
+   "start": 21.9807,
+   "end": 22.301
+  },
+  {
+   "word": "Rather",
+   "start": 24.0626,
+   "end": 24.3429
+  },
+  {
+   "word": "it",
+   "start": 24.3629,
+   "end": 24.423
+  },
+  {
+   "word": "has",
+   "start": 24.443,
+   "end": 24.5431
+  },
+  {
+   "word": "been",
+   "start": 24.6232,
+   "end": 24.8234
+  },
+  {
+   "word": "the",
+   "start": 25.0436,
+   "end": 25.1036
+  },
+  {
+   "word": "risk-takers",
+   "start": 25.1637,
+   "end": 25.8043
+  },
+  {
+   "word": "the",
+   "start": 26.1846,
+   "end": 26.2647
+  },
+  {
+   "word": "doers",
+   "start": 26.3248,
+   "end": 26.7452
+  },
+  {
+   "word": "the",
+   "start": 27.3257,
+   "end": 27.4058
+  },
+  {
+   "word": "makers",
+   "start": 27.4658,
+   "end": 27.8662
+  },
+  {
+   "word": "of",
+   "start": 27.9263,
+   "end": 27.9863
+  },
+  {
+   "word": "things",
+   "start": 28.0464,
+   "end": 28.4868
+  },
+  {
+   "word": "some",
+   "start": 28.747,
+   "end": 28.9673
+  },
+  {
+   "word": "celebrated",
+   "start": 29.0473,
+   "end": 29.6879
+  },
+  {
+   "word": "but",
+   "start": 30.1884,
+   "end": 30.3085
+  },
+  {
+   "word": "more",
+   "start": 30.3686,
+   "end": 30.5688
+  },
+  {
+   "word": "often",
+   "start": 30.6288,
+   "end": 30.9091
+  },
+  {
+   "word": "men",
+   "start": 30.9691,
+   "end": 31.2094
+  },
+  {
+   "word": "and",
+   "start": 31.4095,
+   "end": 31.5297
+  },
+  {
+   "word": "women",
+   "start": 31.5697,
+   "end": 31.85
+  },
+  {
+   "word": "obscure",
+   "start": 31.9701,
+   "end": 32.5106
+  },
+  {
+   "word": "in",
+   "start": 32.5306,
+   "end": 32.5907
+  },
+  {
+   "word": "their",
+   "start": 32.6107,
+   "end": 32.7108
+  },
+  {
+   "word": "labor",
+   "start": 32.7708,
+   "end": 33.0511
+  },
+  {
+   "word": "who",
+   "start": 33.9319,
+   "end": 33.992
+  },
+  {
+   "word": "have",
+   "start": 34.012,
+   "end": 34.1121
+  },
+  {
+   "word": "carried",
+   "start": 34.1521,
+   "end": 34.4724
+  },
+  {
+   "word": "us",
+   "start": 34.5325,
+   "end": 34.7127
+  },
+  {
+   "word": "up",
+   "start": 35.4133,
+   "end": 35.4934
+  },
+  {
+   "word": "the",
+   "start": 35.5534,
+   "end": 35.6135
+  },
+  {
+   "word": "long",
+   "start": 35.6736,
+   "end": 35.9738
+  },
+  {
+   "word": "rugged",
+   "start": 36.0339,
+   "end": 36.2541
+  },
+  {
+   "word": "path",
+   "start": 36.2941,
+   "end": 36.6745
+  },
+  {
+   "word": "towards",
+   "start": 36.8146,
+   "end": 37.0549
+  },
+  {
+   "word": "prosperity",
+   "start": 37.0949,
+   "end": 37.6754
+  },
+  {
+   "word": "and",
+   "start": 37.7155,
+   "end": 37.8156
+  },
+  {
+   "word": "freedom",
+   "start": 37.8556,
+   "end": 38.1359
+  },
+  {
+   "word": "For",
+   "start": 40.2178,
+   "end": 40.378
+  },
+  {
+   "word": "us",
+   "start": 40.5381,
+   "end": 40.8184
+  },
+  {
+   "word": "they",
+   "start": 41.7793,
+   "end": 41.8994
+  },
+  {
+   "word": "packed",
+   "start": 41.9795,
+   "end": 42.3198
+  },
+  {
+   "word": "up",
+   "start": 42.3598,
+   "end": 42.4599
+  },
+  {
+   "word": "their",
+   "start": 42.52,
+   "end": 42.6401
+  },
+  {
+   "word": "few",
+   "start": 42.7002,
+   "end": 42.8803
+  },
+  {
+   "word": "worldly",
+   "start": 42.9804,
+   "end": 43.3208
+  },
+  {
+   "word": "possessions",
+   "start": 43.3808,
+   "end": 43.8813
+  },
+  {
+   "word": "and",
+   "start": 43.9013,
+   "end": 43.9614
+  },
+  {
+   "word": "traveled",
+   "start": 44.0014,
+   "end": 44.3417
+  },
+  {
+   "word": "across",
+   "start": 44.3617,
+   "end": 44.642
+  },
+  {
+   "word": "oceans",
+   "start": 45.4421,
+   "end": 45.8024
+  },
+  {
+   "word": "in",
+   "start": 46.423,
+   "end": 46.4831
+  },
+  {
+   "word": "search",
+   "start": 46.5631,
+   "end": 46.8034
+  },
+  {
+   "word": "of",
+   "start": 46.8234,
+   "end": 46.8834
+  },
+  {
+   "word": "a",
+   "start": 46.9235,
+   "end": 46.9435
+  },
+  {
+   "word": "new",
+   "start": 46.9835,
+   "end": 47.1037
+  },
+  {
+   "word": "life",
+   "start": 47.1837,
+   "end": 47.464
+  },
+  {
+   "word": "For",
+   "start": 48.585,
+   "end": 48.7252
+  },
+  {
+   "word": "us",
+   "start": 48.8453,
+   "end": 49.0855
+  },
+  {
+   "word": "they",
+   "start": 49.626,
+   "end": 49.7461
+  },
+  {
+   "word": "toiled",
+   "start": 49.8462,
+   "end": 50.2866
+  },
+  {
+   "word": "in",
+   "start": 50.3667,
+   "end": 50.4468
+  },
+  {
+   "word": "sweatshops",
+   "start": 50.5269,
+   "end": 51.1875
+  },
+  {
+   "word": "and",
+   "start": 51.2676,
+   "end": 51.3476
+  },
+  {
+   "word": "settled",
+   "start": 51.4277,
+   "end": 51.728
+  },
+  {
+   "word": "the",
+   "start": 51.728,
+   "end": 51.8081
+  },
+  {
+   "word": "West",
+   "start": 51.8281,
+   "end": 52.1484
+  },
+  {
+   "word": "endured",
+   "start": 52.779,
+   "end": 53.1243
+  },
+  {
+   "word": "the",
+   "start": 53.2895,
+   "end": 53.3495
+  },
+  {
+   "word": "lash",
+   "start": 53.3945,
+   "end": 53.6198
+  },
+  {
+   "word": "of",
+   "start": 53.6498,
+   "end": 53.6798
+  },
+  {
+   "word": "the",
+   "start": 53.7098,
+   "end": 53.7549
+  },
+  {
+   "word": "whip",
+   "start": 53.7849,
+   "end": 53.9201
+  },
+  {
+   "word": "and",
+   "start": 54.4906,
+   "end": 54.5506
+  },
+  {
+   "word": "plowed",
+   "start": 54.5957,
+   "end": 54.911
+  },
+  {
+   "word": "the",
+   "start": 54.941,
+   "end": 54.986
+  },
+  {
+   "word": "hard",
+   "start": 55.0161,
+   "end": 55.1812
+  },
+  {
+   "word": "earth",
+   "start": 55.2262,
+   "end": 55.3915
+  },
+  {
+   "word": "For",
+   "start": 56.3674,
+   "end": 56.5175
+  },
+  {
+   "word": "us",
+   "start": 56.6677,
+   "end": 56.8478
+  },
+  {
+   "word": "they",
+   "start": 57.088,
+   "end": 57.1781
+  },
+  {
+   "word": "fought",
+   "start": 57.2832,
+   "end": 57.5635
+  },
+  {
+   "word": "and",
+   "start": 57.6636,
+   "end": 57.7837
+  },
+  {
+   "word": "died",
+   "start": 57.8437,
+   "end": 58.2241
+  },
+  {
+   "word": "in",
+   "start": 58.8647,
+   "end": 58.9248
+  },
+  {
+   "word": "places",
+   "start": 58.9848,
+   "end": 59.3051
+  },
+  {
+   "word": "like",
+   "start": 59.3451,
+   "end": 59.5453
+  },
+  {
+   "word": "Concord",
+   "start": 59.5453,
+   "end": 59.9657
+  },
+  {
+   "word": "and",
+   "start": 60.5663,
+   "end": 60.6464
+  },
+  {
+   "word": "Gettysburg",
+   "start": 60.6864,
+   "end": 61.287
+  },
+  {
+   "word": "Normandy",
+   "start": 61.8475,
+   "end": 62.328
+  },
+  {
+   "word": "and",
+   "start": 62.9285,
+   "end": 63.0286
+  },
+  {
+   "word": "Khe",
+   "start": 63.0687,
+   "end": 63.1487
+  },
+  {
+   "word": "Sanh",
+   "start": 63.2488,
+   "end": 63.6492
+  },
+  {
+   "word": "Time",
+   "start": 65.2107,
+   "end": 65.6511
+  },
+  {
+   "word": "and",
+   "start": 65.7712,
+   "end": 65.8913
+  },
+  {
+   "word": "again",
+   "start": 65.9113,
+   "end": 66.2316
+  },
+  {
+   "word": "these",
+   "start": 66.3117,
+   "end": 66.592
+  },
+  {
+   "word": "men",
+   "start": 66.632,
+   "end": 66.8122
+  },
+  {
+   "word": "and",
+   "start": 66.9323,
+   "end": 67.0524
+  },
+  {
+   "word": "women",
+   "start": 67.1125,
+   "end": 67.3927
+  },
+  {
+   "word": "struggled",
+   "start": 67.5128,
+   "end": 68.0533
+  },
+  {
+   "word": "and",
+   "start": 68.1334,
+   "end": 68.2535
+  },
+  {
+   "word": "sacrificed",
+   "start": 68.3336,
+   "end": 69.0943
+  },
+  {
+   "word": "and",
+   "start": 69.1544,
+   "end": 69.2745
+  },
+  {
+   "word": "worked",
+   "start": 69.3345,
+   "end": 69.6148
+  },
+  {
+   "word": "till",
+   "start": 69.6348,
+   "end": 69.775
+  },
+  {
+   "word": "their",
+   "start": 69.815,
+   "end": 69.9351
+  },
+  {
+   "word": "hands",
+   "start": 69.9952,
+   "end": 70.2554
+  },
+  {
+   "word": "were",
+   "start": 70.3155,
+   "end": 70.4556
+  },
+  {
+   "word": "raw",
+   "start": 70.4956,
+   "end": 70.7359
+  },
+  {
+   "word": "so",
+   "start": 71.4766,
+   "end": 71.5366
+  },
+  {
+   "word": "that",
+   "start": 71.5767,
+   "end": 71.6767
+  },
+  {
+   "word": "we",
+   "start": 71.6968,
+   "end": 71.7768
+  },
+  {
+   "word": "might",
+   "start": 71.8569,
+   "end": 72.0771
+  },
+  {
+   "word": "live",
+   "start": 72.1172,
+   "end": 72.2973
+  },
+  {
+   "word": "a",
+   "start": 72.3174,
+   "end": 72.3374
+  },
+  {
+   "word": "better",
+   "start": 72.3974,
+   "end": 72.5976
+  },
+  {
+   "word": "life",
+   "start": 72.6577,
+   "end": 72.9379
+  }
+ ],
+ "time_map": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   19.6685,
+   19.6685
+  ],
+  [
+   24.5831,
+   24.5831
+  ],
+  [
+   44.642,
+   44.642
+  ],
+  [
+   44.6921,
+   44.692
+  ],
+  [
+   44.6921,
+   45.392
+  ],
+  [
+   44.7421,
+   45.4421
+  ],
+  [
+   51.8088,
+   52.5088
+  ],
+  [
+   58.0946,
+   57.2231
+  ],
+  [
+   74.41,
+   73.5385
+  ]
+ ],
+ "aligned_words": [
+  {
+   "word": "In",
+   "start": 0.5206,
+   "end": 0.5806,
+   "score": 0.9957
+  },
+  {
+   "word": "reaffirming",
+   "start": 0.6407,
+   "end": 1.3414,
+   "score": 0.9189
+  },
+  {
+   "word": "the",
+   "start": 2.1022,
+   "end": 2.1823,
+   "score": 0.9902
+  },
+  {
+   "word": "greatness",
+   "start": 2.2224,
+   "end": 2.5828,
+   "score": 0.9956
+  },
+  {
+   "word": "of",
+   "start": 2.6228,
+   "end": 2.6829,
+   "score": 0.987
+  },
+  {
+   "word": "our",
+   "start": 2.7229,
+   "end": 2.823,
+   "score": 0.9902
+  },
+  {
+   "word": "nation",
+   "start": 2.8631,
+   "end": 3.2234,
+   "score": 0.8831
+  },
+  {
+   "word": "we",
+   "start": 4.4447,
+   "end": 4.5048,
+   "score": 0.9843
+  },
+  {
+   "word": "understand",
+   "start": 4.5649,
+   "end": 5.1054,
+   "score": 0.9385
+  },
+  {
+   "word": "that",
+   "start": 5.1255,
+   "end": 5.2456,
+   "score": 0.6505
+  },
+  {
+   "word": "greatness",
+   "start": 5.2856,
+   "end": 5.7261,
+   "score": 0.972
+  },
+  {
+   "word": "is",
+   "start": 6.0264,
+   "end": 6.1065,
+   "score": 0.9506
+  },
+  {
+   "word": "never",
+   "start": 6.1666,
+   "end": 6.3868,
+   "score": 0.8627
+  },
+  {
+   "word": "a",
+   "start": 6.4269,
+   "end": 6.4469,
+   "score": 0.7283
+  },
+  {
+   "word": "given",
+   "start": 6.5069,
+   "end": 6.7472,
+   "score": 0.95
+  },
+  {
+   "word": "It",
+   "start": 8.0886,
+   "end": 8.1487,
+   "score": 0.9546
+  },
+  {
+   "word": "must",
+   "start": 8.1687,
+   "end": 8.3289,
+   "score": 0.9077
+  },
+  {
+   "word": "be",
+   "start": 8.3689,
+   "end": 8.429,
+   "score": 0.958
+  },
+  {
+   "word": "earned",
+   "start": 8.5291,
+   "end": 8.8294,
+   "score": 0.8549
+  },
+  {
+   "word": "Our",
+   "start": 10.291,
+   "end": 10.3711,
+   "score": 0.9838
+  },
+  {
+   "word": "journey",
+   "start": 10.4111,
+   "end": 10.7315,
+   "score": 0.7907
+  },
+  {
+   "word": "has",
+   "start": 10.7315,
+   "end": 10.7915,
+   "score": 0.3326
+  },
+  {
+   "word": "never",
+   "start": 10.8516,
+   "end": 11.0518,
+   "score": 0.9967
+  },
+  {
+   "word": "been",
+   "start": 11.1119,
+   "end": 11.2921,
+   "score": 0.9872
+  },
+  {
+   "word": "one",
+   "start": 11.4322,
+   "end": 11.5724,
+   "score": 0.9729
+  },
+  {
+   "word": "of",
+   "start": 11.5924,
+   "end": 11.6524,
+   "score": 0.9939
+  },
+  {
+   "word": "shortcuts",
+   "start": 11.7525,
+   "end": 12.4133,
+   "score": 0.9345
+  },
+  {
+   "word": "or",
+   "start": 12.4933,
+   "end": 12.5734,
+   "score": 0.7528
+  },
+  {
+   "word": "settling",
+   "start": 12.7136,
+   "end": 13.074,
+   "score": 0.9498
+  },
+  {
+   "word": "for",
+   "start": 13.114,
+   "end": 13.2141,
+   "score": 0.987
+  },
+  {
+   "word": "less",
+   "start": 13.2742,
+   "end": 13.5344,
+   "score": 0.9711
+  },
+  {
+   "word": "It",
+   "start": 14.4154,
+   "end": 14.4955,
+   "score": 0.9952
+  },
+  {
+   "word": "has",
+   "start": 14.5155,
+   "end": 14.6156,
+   "score": 0.9939
+  },
+  {
+   "word": "not",
+   "start": 14.6757,
+   "end": 14.8158,
+   "score": 0.9982
+  },
+  {
+   "word": "been",
+   "start": 14.8759,
+   "end": 15.016,
+   "score": 0.9949
+  },
+  {
+   "word": "the",
+   "start": 15.0361,
+   "end": 15.1161,
+   "score": 0.9901
+  },
+  {
+   "word": "path",
+   "start": 15.1762,
+   "end": 15.5366,
+   "score": 0.9761
+  },
+  {
+   "word": "for",
+   "start": 15.5766,
+   "end": 15.6767,
+   "score": 0.9621
+  },
+  {
+   "word": "the",
+   "start": 15.6968,
+   "end": 15.7768,
+   "score": 0.9815
+  },
+  {
+   "word": "fainthearted",
+   "start": 15.8369,
+   "end": 16.3775,
+   "score": 0.8577
+  },
+  {
+   "word": "for",
+   "start": 17.3986,
+   "end": 17.4987,
+   "score": 0.9814
+  },
+  {
+   "word": "those",
+   "start": 17.5187,
+   "end": 17.7389,
+   "score": 0.9122
+  },
+  {
+   "word": "who",
+   "start": 17.7389,
+   "end": 17.819,
+   "score": 0.8882
+  },
+  {
+   "word": "prefer",
+   "start": 17.8591,
+   "end": 18.1794,
+   "score": 0.9885
+  },
+  {
+   "word": "leisure",
+   "start": 18.3196,
+   "end": 18.6599,
+   "score": 0.6117
+  },
+  {
+   "word": "over",
+   "start": 18.72,
+   "end": 18.9002,
+   "score": 0.9615
+  },
+  {
+   "word": "work",
+   "start": 18.9602,
+   "end": 19.1805,
+   "score": 0.9408
+  },
+  {
+   "word": "or",
+   "start": 19.5409,
+   "end": 19.6209,
+   "score": 0.234
+  },
+  {
+   "word": "seek",
+   "start": 19.7211,
+   "end": 19.9613,
+   "score": 0.6173
+  },
+  {
+   "word": "only",
+   "start": 20.0814,
+   "end": 20.2616,
+   "score": 0.5967
+  },
+  {
+   "word": "the",
+   "start": 20.3017,
+   "end": 20.3818,
+   "score": 0.4458
+  },
+  {
+   "word": "pleasures",
+   "start": 20.4218,
+   "end": 20.8422,
+   "score": 0.8404
+  },
+  {
+   "word": "of",
+   "start": 20.8823,
+   "end": 20.9424,
+   "score": 0.8923
+  },
+  {
+   "word": "riches",
+   "start": 21.0024,
+   "end": 21.3628,
+   "score": 0.9238
+  },
+  {
+   "word": "and",
+   "start": 21.8033,
+   "end": 21.9034,
+   "score": 0.7853
+  },
+  {
+   "word": "fame",
+   "start": 21.9835,
+   "end": 22.3038,
+   "score": 0.8298
+  },
+  {
+   "word": "Rather",
+   "start": 24.0657,
+   "end": 24.346,
+   "score": 0.9558
+  },
+  {
+   "word": "it",
+   "start": 24.366,
+   "end": 24.4261,
+   "score": 0.9846
+  },
+  {
+   "word": "has",
+   "start": 24.4461,
+   "end": 24.5662,
+   "score": 0.9769
+  },
+  {
+   "word": "been",
+   "start": 24.6263,
+   "end": 24.8265,
+   "score": 0.9807
+  },
+  {
+   "word": "the",
+   "start": 25.0467,
+   "end": 25.1068,
+   "score": 0.9824
+  },
+  {
+   "word": "risk-takers",
+   "start": 25.1669,
+   "end": 25.8075,
+   "score": 0.8195
+  },
+  {
+   "word": "the",
+   "start": 26.188,
+   "end": 26.268,
+   "score": 0.9761
+  },
+  {
+   "word": "doers",
+   "start": 26.3281,
+   "end": 26.7486,
+   "score": 0.7856
+  },
+  {
+   "word": "the",
+   "start": 27.3292,
+   "end": 27.4093,
+   "score": 0.9822
+  },
+  {
+   "word": "makers",
+   "start": 27.4693,
+   "end": 27.8698,
+   "score": 0.995
+  },
+  {
+   "word": "of",
+   "start": 27.9298,
+   "end": 27.9899,
+   "score": 0.9912
+  },
+  {
+   "word": "things",
+   "start": 28.0499,
+   "end": 28.4904,
+   "score": 0.9326
+  },
+  {
+   "word": "some",
+   "start": 28.7507,
+   "end": 28.9709,
+   "score": 0.9936
+  },
+  {
+   "word": "celebrated",
+   "start": 29.051,
+   "end": 29.6917,
+   "score": 0.9974
+  },
+  {
+   "word": "but",
+   "start": 30.1922,
+   "end": 30.3124,
+   "score": 0.999
+  },
+  {
+   "word": "more",
+   "start": 30.3724,
+   "end": 30.5726,
+   "score": 0.9902
+  },
+  {
+   "word": "often",
+   "start": 30.6327,
+   "end": 30.913,
+   "score": 0.9979
+  },
+  {
+   "word": "men",
+   "start": 30.9731,
+   "end": 31.2133,
+   "score": 0.92
+  },
+  {
+   "word": "and",
+   "start": 31.4135,
+   "end": 31.5337,
+   "score": 0.8966
+  },
+  {
+   "word": "women",
+   "start": 31.5737,
+   "end": 31.854,
+   "score": 0.9939
+  },
+  {
+   "word": "obscure",
+   "start": 31.9741,
+   "end": 32.5147,
+   "score": 0.9396
+  },
+  {
+   "word": "in",
+   "start": 32.5347,
+   "end": 32.5948,
+   "score": 0.9733
+  },
+  {
+   "word": "their",
+   "start": 32.6148,
+   "end": 32.7149,
+   "score": 0.9922
+  },
+  {
+   "word": "labor",
+   "start": 32.775,
+   "end": 33.0553,
+   "score": 0.9844
+  },
+  {
+   "word": "who",
+   "start": 33.9362,
+   "end": 33.9963,
+   "score": 0.9947
+  },
+  {
+   "word": "have",
+   "start": 34.0163,
+   "end": 34.1164,
+   "score": 0.8927
+  },
+  {
+   "word": "carried",
+   "start": 34.1565,
+   "end": 34.4768,
+   "score": 0.9685
+  },
+  {
+   "word": "us",
+   "start": 34.5369,
+   "end": 34.7171,
+   "score": 0.9977
+  },
+  {
+   "word": "up",
+   "start": 35.4178,
+   "end": 35.4979,
+   "score": 0.9979
+  },
+  {
+   "word": "the",
+   "start": 35.558,
+   "end": 35.618,
+   "score": 0.9902
+  },
+  {
+   "word": "long",
+   "start": 35.6781,
+   "end": 35.9784,
+   "score": 0.99
+  },
+  {
+   "word": "rugged",
+   "start": 36.0385,
+   "end": 36.2587,
+   "score": 0.9675
+  },
+  {
+   "word": "path",
+   "start": 36.2987,
+   "end": 36.6792,
+   "score": 0.9122
+  },
+  {
+   "word": "towards",
+   "start": 36.8193,
+   "end": 37.0596,
+   "score": 0.9805
+  },
+  {
+   "word": "prosperity",
+   "start": 37.0996,
+   "end": 37.6802,
+   "score": 0.9968
+  },
+  {
+   "word": "and",
+   "start": 37.7203,
+   "end": 37.8204,
+   "score": 0.9463
+  },
+  {
+   "word": "freedom",
+   "start": 37.8604,
+   "end": 38.1407,
+   "score": 0.9963
+  },
+  {
+   "word": "For",
+   "start": 40.2229,
+   "end": 40.3831,
+   "score": 0.9891
+  },
+  {
+   "word": "us",
+   "start": 40.5433,
+   "end": 40.8236,
+   "score": 0.9963
+  },
+  {
+   "word": "they",
+   "start": 41.7846,
+   "end": 41.9047,
+   "score": 0.9917
+  },
+  {
+   "word": "packed",
+   "start": 41.9848,
+   "end": 42.3252,
+   "score": 0.9475
+  },
+  {
+   "word": "up",
+   "start": 42.3652,
+   "end": 42.4653,
+   "score": 0.9991
+  },
+  {
+   "word": "their",
+   "start": 42.5254,
+   "end": 42.6455,
+   "score": 0.9855
+  },
+  {
+   "word": "few",
+   "start": 42.7056,
+   "end": 42.8858,
+   "score": 0.9981
+  },
+  {
+   "word": "worldly",
+   "start": 42.9859,
+   "end": 43.3262,
+   "score": 0.9847
+  },
+  {
+   "word": "possessions",
+   "start": 43.3863,
+   "end": 43.8868,
+   "score": 0.984
+  },
+  {
+   "word": "and",
+   "start": 43.9069,
+   "end": 43.9669,
+   "score": 0.9768
+  },
+  {
+   "word": "traveled",
+   "start": 44.007,
+   "end": 44.3473,
+   "score": 0.8986
+  },
+  {
+   "word": "across",
+   "start": 44.3674,
+   "end": 44.6276,
+   "score": 0.9944
+  },
+  {
+   "word": "oceans",
+   "start": 45.4485,
+   "end": 45.8089,
+   "score": 0.5183
+  },
+  {
+   "word": "in",
+   "start": 46.4296,
+   "end": 46.4896,
+   "score": 0.9966
+  },
+  {
+   "word": "search",
+   "start": 46.5697,
+   "end": 46.81,
+   "score": 0.9173
+  },
+  {
+   "word": "of",
+   "start": 46.83,
+   "end": 46.8901,
+   "score": 0.9935
+  },
+  {
+   "word": "a",
+   "start": 46.9301,
+   "end": 46.9501,
+   "score": 0.9762
+  },
+  {
+   "word": "new",
+   "start": 46.9902,
+   "end": 47.1103,
+   "score": 0.9305
+  },
+  {
+   "word": "life",
+   "start": 47.1904,
+   "end": 47.4507,
+   "score": 0.9969
+  },
+  {
+   "word": "For",
+   "start": 48.5919,
+   "end": 48.732,
+   "score": 0.9869
+  },
+  {
+   "word": "us",
+   "start": 48.8521,
+   "end": 49.0924,
+   "score": 0.9979
+  },
+  {
+   "word": "they",
+   "start": 49.633,
+   "end": 49.7531,
+   "score": 0.9553
+  },
+  {
+   "word": "toiled",
+   "start": 49.8532,
+   "end": 50.2937,
+   "score": 0.9709
+  },
+  {
+   "word": "in",
+   "start": 50.3738,
+   "end": 50.4539,
+   "score": 0.996
+  },
+  {
+   "word": "sweatshops",
+   "start": 50.5339,
+   "end": 51.1946,
+   "score": 0.902
+  },
+  {
+   "word": "and",
+   "start": 51.2747,
+   "end": 51.3548,
+   "score": 0.9917
+  },
+  {
+   "word": "settled",
+   "start": 51.4349,
+   "end": 51.7352,
+   "score": 0.9555
+  },
+  {
+   "word": "the",
+   "start": 51.7352,
+   "end": 51.8153,
+   "score": 0.9117
+  },
+  {
+   "word": "West",
+   "start": 51.8353,
+   "end": 52.1557,
+   "score": 0.9985
+  },
+  {
+   "word": "endured",
+   "start": 52.7763,
+   "end": 53.1367,
+   "score": 0.9905
+  },
+  {
+   "word": "the",
+   "start": 53.2969,
+   "end": 53.377,
+   "score": 0.957
+  },
+  {
+   "word": "lash",
+   "start": 53.417,
+   "end": 53.6373,
+   "score": 0.9388
+  },
+  {
+   "word": "of",
+   "start": 53.6573,
+   "end": 53.6973,
+   "score": 0.9879
+  },
+  {
+   "word": "the",
+   "start": 53.7173,
+   "end": 53.7774,
+   "score": 0.9725
+  },
+  {
+   "word": "whip",
+   "start": 53.7974,
+   "end": 53.9376,
+   "score": 0.8701
+  },
+  {
+   "word": "and",
+   "start": 54.4982,
+   "end": 54.5783,
+   "score": 0.9616
+  },
+  {
+   "word": "plowed",
+   "start": 54.5983,
+   "end": 54.9186,
+   "score": 0.7941
+  },
+  {
+   "word": "the",
+   "start": 54.9386,
+   "end": 54.9987,
+   "score": 0.9822
+  },
+  {
+   "word": "hard",
+   "start": 55.0187,
+   "end": 55.1989,
+   "score": 0.8486
+  },
+  {
+   "word": "earth",
+   "start": 55.239,
+   "end": 55.4192,
+   "score": 0.9657
+  },
+  {
+   "word": "For",
+   "start": 56.3802,
+   "end": 56.5404,
+   "score": 0.9906
+  },
+  {
+   "word": "us",
+   "start": 56.6805,
+   "end": 56.8807,
+   "score": 0.9981
+  },
+  {
+   "word": "they",
+   "start": 57.101,
+   "end": 57.2011,
+   "score": 0.9961
+  },
+  {
+   "word": "fought",
+   "start": 57.2811,
+   "end": 57.5614,
+   "score": 0.9121
+  },
+  {
+   "word": "and",
+   "start": 57.6816,
+   "end": 57.8017,
+   "score": 0.9672
+  },
+  {
+   "word": "died",
+   "start": 57.8417,
+   "end": 58.2222,
+   "score": 0.9951
+  },
+  {
+   "word": "in",
+   "start": 58.8829,
+   "end": 58.9429,
+   "score": 0.9935
+  },
+  {
+   "word": "places",
+   "start": 58.983,
+   "end": 59.3433,
+   "score": 0.9965
+  },
+  {
+   "word": "like",
+   "start": 59.3834,
+   "end": 59.5636,
+   "score": 0.9921
+  },
+  {
+   "word": "Concord",
+   "start": 59.5836,
+   "end": 60.0041,
+   "score": 0.5571
+  },
+  {
+   "word": "and",
+   "start": 60.5647,
+   "end": 60.6648,
+   "score": 0.6707
+  },
+  {
+   "word": "Gettysburg",
+   "start": 60.7048,
+   "end": 61.3054,
+   "score": 0.7818
+  },
+  {
+   "word": "Normandy",
+   "start": 61.846,
+   "end": 62.3466,
+   "score": 0.9977
+  },
+  {
+   "word": "and",
+   "start": 62.9272,
+   "end": 63.0273,
+   "score": 0.7708
+  },
+  {
+   "word": "Khe",
+   "start": 63.0673,
+   "end": 63.3276,
+   "score": 0.2387
+  },
+  {
+   "word": "Sanh",
+   "start": 63.3476,
+   "end": 63.5679,
+   "score": 0.2363
+  },
+  {
+   "word": "Time",
+   "start": 65.2296,
+   "end": 65.6501,
+   "score": 0.994
+  },
+  {
+   "word": "and",
+   "start": 65.7702,
+   "end": 65.8903,
+   "score": 0.8469
+  },
+  {
+   "word": "again",
+   "start": 65.9304,
+   "end": 66.2507,
+   "score": 0.9912
+  },
+  {
+   "word": "these",
+   "start": 66.3308,
+   "end": 66.5911,
+   "score": 0.9988
+  },
+  {
+   "word": "men",
+   "start": 66.6311,
+   "end": 66.8313,
+   "score": 0.9995
+  },
+  {
+   "word": "and",
+   "start": 66.9314,
+   "end": 67.0516,
+   "score": 0.9849
+  },
+  {
+   "word": "women",
+   "start": 67.1317,
+   "end": 67.412,
+   "score": 0.9409
+  },
+  {
+   "word": "struggled",
+   "start": 67.5321,
+   "end": 68.0526,
+   "score": 0.9279
+  },
+  {
+   "word": "and",
+   "start": 68.1528,
+   "end": 68.2529,
+   "score": 0.9391
+  },
+  {
+   "word": "sacrificed",
+   "start": 68.353,
+   "end": 69.0938,
+   "score": 0.9772
+  },
+  {
+   "word": "and",
+   "start": 69.1538,
+   "end": 69.2739,
+   "score": 0.9371
+  },
+  {
+   "word": "worked",
+   "start": 69.354,
+   "end": 69.6143,
+   "score": 0.6829
+  },
+  {
+   "word": "till",
+   "start": 69.6544,
+   "end": 69.7945,
+   "score": 0.7874
+  },
+  {
+   "word": "their",
+   "start": 69.8145,
+   "end": 69.9547,
+   "score": 0.9657
+  },
+  {
+   "word": "hands",
+   "start": 69.9947,
+   "end": 70.275,
+   "score": 0.9284
+  },
+  {
+   "word": "were",
+   "start": 70.3151,
+   "end": 70.4752,
+   "score": 0.9947
+  },
+  {
+   "word": "raw",
+   "start": 70.5153,
+   "end": 70.7355,
+   "score": 0.8728
+  },
+  {
+   "word": "so",
+   "start": 71.4763,
+   "end": 71.5364,
+   "score": 0.9996
+  },
+  {
+   "word": "that",
+   "start": 71.5764,
+   "end": 71.6765,
+   "score": 0.9795
+  },
+  {
+   "word": "we",
+   "start": 71.7166,
+   "end": 71.7966,
+   "score": 0.9987
+  },
+  {
+   "word": "might",
+   "start": 71.8767,
+   "end": 72.0769,
+   "score": 0.9919
+  },
+  {
+   "word": "live",
+   "start": 72.117,
+   "end": 72.2972,
+   "score": 0.9989
+  },
+  {
+   "word": "a",
+   "start": 72.3372,
+   "end": 72.3572,
+   "score": 0.9887
+  },
+  {
+   "word": "better",
+   "start": 72.3973,
+   "end": 72.5975,
+   "score": 0.9991
+  },
+  {
+   "word": "life",
+   "start": 72.6576,
+   "end": 72.9379,
+   "score": 0.9993
+  }
+ ],
+ "alignment_error_ms": {
+  "mean": 6.1,
+  "max": 98.8
+ }
+}

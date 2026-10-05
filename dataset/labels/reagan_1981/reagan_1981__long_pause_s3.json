@@ -1,0 +1,1594 @@
+{
+ "clip_id": "reagan_1981__long_pause_s3",
+ "baseline_id": "reagan_1981",
+ "kind": "single",
+ "level": 3,
+ "generator_version": "1.0",
+ "audio": "audio/flawed/reagan_1981/reagan_1981__long_pause_s3.wav",
+ "baseline_audio": "audio/baseline/reagan_1981.wav",
+ "sample_rate": 16000,
+ "duration": 66.74,
+ "transcript": "The business of our nation goes forward. These United States are confronted with an economic affliction of great proportions. We suffer from the longest and one of the worst sustained inflations in our national history. It distorts our economic decisions, penalizes thrift, and crushes the struggling young and the fixed-income elderly alike. It threatens to shatter the lives of millions of our people. Idle industries have cast workers into unemployment, human misery, and personal indignity. Those who do work are denied a fair return for their labor by a tax system which penalizes successful achievement and keeps us from maintaining full productivity. But great as our tax burden is, it has not kept pace with public spending. For decades, we have piled deficit upon deficit, mortgaging our future and our children's future for the temporary convenience of the present.",
+ "flaws": [
+  {
+   "type": "long_pause",
+   "label": "Awkward mid-phrase pause",
+   "rubric": "pausing",
+   "severity": 3,
+   "start": 4.7158,
+   "end": 5.7158,
+   "word_span": [
+    9,
+    10
+   ],
+   "text": "States are",
+   "params": {
+    "pause_s": 1.0
+   },
+   "description": "1.00 s of silence inserted inside a phrase"
+  }
+ ],
+ "words": [
+  {
+   "word": "The",
+   "start": 0.2203,
+   "end": 0.3204
+  },
+  {
+   "word": "business",
+   "start": 0.3604,
+   "end": 0.8811
+  },
+  {
+   "word": "of",
+   "start": 0.9411,
+   "end": 1.0212
+  },
+  {
+   "word": "our",
+   "start": 1.0813,
+   "end": 1.2015
+  },
+  {
+   "word": "nation",
+   "start": 1.2615,
+   "end": 1.6019
+  },
+  {
+   "word": "goes",
+   "start": 1.662,
+   "end": 1.8422
+  },
+  {
+   "word": "forward",
+   "start": 1.9023,
+   "end": 2.3028
+  },
+  {
+   "word": "These",
+   "start": 3.4642,
+   "end": 3.7245
+  },
+  {
+   "word": "United",
+   "start": 3.8046,
+   "end": 4.2251
+  },
+  {
+   "word": "States",
+   "start": 4.2852,
+   "end": 4.6857
+  },
+  {
+   "word": "are",
+   "start": 5.7458,
+   "end": 5.8859
+  },
+  {
+   "word": "confronted",
+   "start": 5.946,
+   "end": 6.4867
+  },
+  {
+   "word": "with",
+   "start": 6.5467,
+   "end": 6.6869
+  },
+  {
+   "word": "an",
+   "start": 6.7069,
+   "end": 6.787
+  },
+  {
+   "word": "economic",
+   "start": 7.8483,
+   "end": 8.369
+  },
+  {
+   "word": "affliction",
+   "start": 8.429,
+   "end": 8.9697
+  },
+  {
+   "word": "of",
+   "start": 9.0097,
+   "end": 9.0698
+  },
+  {
+   "word": "great",
+   "start": 9.1299,
+   "end": 9.3502
+  },
+  {
+   "word": "proportions",
+   "start": 9.4102,
+   "end": 10.0911
+  },
+  {
+   "word": "We",
+   "start": 11.1524,
+   "end": 11.2325
+  },
+  {
+   "word": "suffer",
+   "start": 11.3726,
+   "end": 11.673
+  },
+  {
+   "word": "from",
+   "start": 11.713,
+   "end": 11.8732
+  },
+  {
+   "word": "the",
+   "start": 11.9133,
+   "end": 11.9934
+  },
+  {
+   "word": "longest",
+   "start": 12.0535,
+   "end": 12.6542
+  },
+  {
+   "word": "and",
+   "start": 12.8544,
+   "end": 12.9545
+  },
+  {
+   "word": "one",
+   "start": 13.0146,
+   "end": 13.1147
+  },
+  {
+   "word": "of",
+   "start": 13.1147,
+   "end": 13.1748
+  },
+  {
+   "word": "the",
+   "start": 13.1748,
+   "end": 13.2549
+  },
+  {
+   "word": "worst",
+   "start": 13.2749,
+   "end": 13.5152
+  },
+  {
+   "word": "sustained",
+   "start": 13.5553,
+   "end": 14.116
+  },
+  {
+   "word": "inflations",
+   "start": 14.156,
+   "end": 14.7968
+  },
+  {
+   "word": "in",
+   "start": 14.8569,
+   "end": 14.9169
+  },
+  {
+   "word": "our",
+   "start": 14.957,
+   "end": 15.0571
+  },
+  {
+   "word": "national",
+   "start": 15.1172,
+   "end": 15.4976
+  },
+  {
+   "word": "history",
+   "start": 15.5577,
+   "end": 15.9182
+  },
+  {
+   "word": "It",
+   "start": 16.9194,
+   "end": 16.9995
+  },
+  {
+   "word": "distorts",
+   "start": 17.0395,
+   "end": 17.5201
+  },
+  {
+   "word": "our",
+   "start": 17.6002,
+   "end": 17.7003
+  },
+  {
+   "word": "economic",
+   "start": 17.8205,
+   "end": 18.281
+  },
+  {
+   "word": "decisions",
+   "start": 18.3411,
+   "end": 18.9819
+  },
+  {
+   "word": "penalizes",
+   "start": 19.7829,
+   "end": 20.4837
+  },
+  {
+   "word": "thrift",
+   "start": 20.5438,
+   "end": 20.9643
+  },
+  {
+   "word": "and",
+   "start": 21.6651,
+   "end": 21.7653
+  },
+  {
+   "word": "crushes",
+   "start": 21.8253,
+   "end": 22.2459
+  },
+  {
+   "word": "the",
+   "start": 22.3059,
+   "end": 22.386
+  },
+  {
+   "word": "struggling",
+   "start": 22.4461,
+   "end": 22.9467
+  },
+  {
+   "word": "young",
+   "start": 23.0068,
+   "end": 23.2671
+  },
+  {
+   "word": "and",
+   "start": 23.5074,
+   "end": 23.5875
+  },
+  {
+   "word": "the",
+   "start": 23.6075,
+   "end": 23.6876
+  },
+  {
+   "word": "fixed-income",
+   "start": 23.7477,
+   "end": 24.5487
+  },
+  {
+   "word": "elderly",
+   "start": 24.6688,
+   "end": 24.9692
+  },
+  {
+   "word": "alike",
+   "start": 25.0292,
+   "end": 25.4097
+  },
+  {
+   "word": "It",
+   "start": 26.511,
+   "end": 26.5911
+  },
+  {
+   "word": "threatens",
+   "start": 26.6312,
+   "end": 27.0517
+  },
+  {
+   "word": "to",
+   "start": 27.1118,
+   "end": 27.1518
+  },
+  {
+   "word": "shatter",
+   "start": 27.2519,
+   "end": 27.6124
+  },
+  {
+   "word": "the",
+   "start": 27.6524,
+   "end": 27.7325
+  },
+  {
+   "word": "lives",
+   "start": 27.7926,
+   "end": 28.2131
+  },
+  {
+   "word": "of",
+   "start": 28.2532,
+   "end": 28.3333
+  },
+  {
+   "word": "millions",
+   "start": 28.3933,
+   "end": 28.7337
+  },
+  {
+   "word": "of",
+   "start": 28.7738,
+   "end": 28.8339
+  },
+  {
+   "word": "our",
+   "start": 28.8939,
+   "end": 29.0141
+  },
+  {
+   "word": "people",
+   "start": 29.0541,
+   "end": 29.3946
+  },
+  {
+   "word": "Idle",
+   "start": 30.6561,
+   "end": 30.8563
+  },
+  {
+   "word": "industries",
+   "start": 30.8964,
+   "end": 31.5171
+  },
+  {
+   "word": "have",
+   "start": 31.5572,
+   "end": 31.6773
+  },
+  {
+   "word": "cast",
+   "start": 31.7174,
+   "end": 32.0177
+  },
+  {
+   "word": "workers",
+   "start": 32.0778,
+   "end": 32.4383
+  },
+  {
+   "word": "into",
+   "start": 32.4783,
+   "end": 32.6185
+  },
+  {
+   "word": "unemployment",
+   "start": 32.7186,
+   "end": 33.3394
+  },
+  {
+   "word": "human",
+   "start": 33.9401,
+   "end": 34.2605
+  },
+  {
+   "word": "misery",
+   "start": 34.3406,
+   "end": 34.721
+  },
+  {
+   "word": "and",
+   "start": 35.1215,
+   "end": 35.2216
+  },
+  {
+   "word": "personal",
+   "start": 35.3017,
+   "end": 35.7022
+  },
+  {
+   "word": "indignity",
+   "start": 35.7423,
+   "end": 36.2429
+  },
+  {
+   "word": "Those",
+   "start": 37.3643,
+   "end": 37.6246
+  },
+  {
+   "word": "who",
+   "start": 37.6246,
+   "end": 37.7247
+  },
+  {
+   "word": "do",
+   "start": 37.8248,
+   "end": 37.9049
+  },
+  {
+   "word": "work",
+   "start": 38.0651,
+   "end": 38.3454
+  },
+  {
+   "word": "are",
+   "start": 39.1264,
+   "end": 39.2265
+  },
+  {
+   "word": "denied",
+   "start": 39.2465,
+   "end": 39.6671
+  },
+  {
+   "word": "a",
+   "start": 39.6871,
+   "end": 39.7071
+  },
+  {
+   "word": "fair",
+   "start": 39.8072,
+   "end": 40.0075
+  },
+  {
+   "word": "return",
+   "start": 40.0876,
+   "end": 40.5281
+  },
+  {
+   "word": "for",
+   "start": 40.5882,
+   "end": 40.6683
+  },
+  {
+   "word": "their",
+   "start": 40.6883,
+   "end": 40.8084
+  },
+  {
+   "word": "labor",
+   "start": 40.8685,
+   "end": 41.1288
+  },
+  {
+   "word": "by",
+   "start": 41.1889,
+   "end": 41.3091
+  },
+  {
+   "word": "a",
+   "start": 41.3691,
+   "end": 41.3892
+  },
+  {
+   "word": "tax",
+   "start": 41.4893,
+   "end": 41.7296
+  },
+  {
+   "word": "system",
+   "start": 41.8497,
+   "end": 42.2101
+  },
+  {
+   "word": "which",
+   "start": 42.8309,
+   "end": 42.9911
+  },
+  {
+   "word": "penalizes",
+   "start": 43.0912,
+   "end": 43.692
+  },
+  {
+   "word": "successful",
+   "start": 43.8922,
+   "end": 44.4729
+  },
+  {
+   "word": "achievement",
+   "start": 44.513,
+   "end": 45.0136
+  },
+  {
+   "word": "and",
+   "start": 45.6143,
+   "end": 45.7344
+  },
+  {
+   "word": "keeps",
+   "start": 45.8346,
+   "end": 46.1549
+  },
+  {
+   "word": "us",
+   "start": 46.235,
+   "end": 46.3552
+  },
+  {
+   "word": "from",
+   "start": 46.4353,
+   "end": 46.5755
+  },
+  {
+   "word": "maintaining",
+   "start": 46.6556,
+   "end": 47.2963
+  },
+  {
+   "word": "full",
+   "start": 47.3764,
+   "end": 47.6368
+  },
+  {
+   "word": "productivity",
+   "start": 47.7169,
+   "end": 48.3777
+  },
+  {
+   "word": "But",
+   "start": 49.7193,
+   "end": 49.8394
+  },
+  {
+   "word": "great",
+   "start": 49.8995,
+   "end": 50.1598
+  },
+  {
+   "word": "as",
+   "start": 50.2399,
+   "end": 50.34
+  },
+  {
+   "word": "our",
+   "start": 50.4201,
+   "end": 50.5203
+  },
+  {
+   "word": "tax",
+   "start": 50.6004,
+   "end": 50.8407
+  },
+  {
+   "word": "burden",
+   "start": 50.9608,
+   "end": 51.3012
+  },
+  {
+   "word": "is",
+   "start": 51.4214,
+   "end": 51.6617
+  },
+  {
+   "word": "it",
+   "start": 53.0834,
+   "end": 53.1835
+  },
+  {
+   "word": "has",
+   "start": 53.2236,
+   "end": 53.3837
+  },
+  {
+   "word": "not",
+   "start": 53.4638,
+   "end": 53.6641
+  },
+  {
+   "word": "kept",
+   "start": 53.7442,
+   "end": 53.9845
+  },
+  {
+   "word": "pace",
+   "start": 54.0646,
+   "end": 54.425
+  },
+  {
+   "word": "with",
+   "start": 54.4851,
+   "end": 54.6253
+  },
+  {
+   "word": "public",
+   "start": 54.7054,
+   "end": 55.0257
+  },
+  {
+   "word": "spending",
+   "start": 55.0858,
+   "end": 55.5464
+  },
+  {
+   "word": "For",
+   "start": 56.5075,
+   "end": 56.6477
+  },
+  {
+   "word": "decades",
+   "start": 56.7278,
+   "end": 57.4287
+  },
+  {
+   "word": "we",
+   "start": 58.1295,
+   "end": 58.2296
+  },
+  {
+   "word": "have",
+   "start": 58.2897,
+   "end": 58.4299
+  },
+  {
+   "word": "piled",
+   "start": 58.49,
+   "end": 58.9305
+  },
+  {
+   "word": "deficit",
+   "start": 59.0106,
+   "end": 59.4511
+  },
+  {
+   "word": "upon",
+   "start": 59.5112,
+   "end": 59.7515
+  },
+  {
+   "word": "deficit",
+   "start": 59.8316,
+   "end": 60.2922
+  },
+  {
+   "word": "mortgaging",
+   "start": 60.9129,
+   "end": 61.4135
+  },
+  {
+   "word": "our",
+   "start": 61.4536,
+   "end": 61.5737
+  },
+  {
+   "word": "future",
+   "start": 61.6338,
+   "end": 62.0343
+  },
+  {
+   "word": "and",
+   "start": 62.0543,
+   "end": 62.1344
+  },
+  {
+   "word": "our",
+   "start": 62.1744,
+   "end": 62.2746
+  },
+  {
+   "word": "children's",
+   "start": 62.3346,
+   "end": 62.7952
+  },
+  {
+   "word": "future",
+   "start": 62.8553,
+   "end": 63.2357
+  },
+  {
+   "word": "for",
+   "start": 63.7163,
+   "end": 63.7964
+  },
+  {
+   "word": "the",
+   "start": 63.8164,
+   "end": 63.8965
+  },
+  {
+   "word": "temporary",
+   "start": 63.9566,
+   "end": 64.4572
+  },
+  {
+   "word": "convenience",
+   "start": 64.5173,
+   "end": 65.2582
+  },
+  {
+   "word": "of",
+   "start": 65.4785,
+   "end": 65.5385
+  },
+  {
+   "word": "the",
+   "start": 65.5786,
+   "end": 65.6587
+  },
+  {
+   "word": "present",
+   "start": 65.6987,
+   "end": 66.1192
+  }
+ ],
+ "time_map": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   4.6857,
+   4.6857
+  ],
+  [
+   4.7158,
+   4.7158
+  ],
+  [
+   4.7158,
+   5.7158
+  ],
+  [
+   4.7458,
+   5.7458
+  ],
+  [
+   65.74,
+   66.74
+  ]
+ ],
+ "aligned_words": [
+  {
+   "word": "The",
+   "start": 0.2203,
+   "end": 0.3204,
+   "score": 0.9113
+  },
+  {
+   "word": "business",
+   "start": 0.3604,
+   "end": 0.8811,
+   "score": 0.9339
+  },
+  {
+   "word": "of",
+   "start": 0.9411,
+   "end": 1.0212,
+   "score": 0.9921
+  },
+  {
+   "word": "our",
+   "start": 1.0813,
+   "end": 1.2014,
+   "score": 0.9772
+  },
+  {
+   "word": "nation",
+   "start": 1.2615,
+   "end": 1.6019,
+   "score": 0.9661
+  },
+  {
+   "word": "goes",
+   "start": 1.662,
+   "end": 1.8422,
+   "score": 0.753
+  },
+  {
+   "word": "forward",
+   "start": 1.9023,
+   "end": 2.3028,
+   "score": 0.9943
+  },
+  {
+   "word": "These",
+   "start": 3.4642,
+   "end": 3.7245,
+   "score": 0.994
+  },
+  {
+   "word": "United",
+   "start": 3.8046,
+   "end": 4.2251,
+   "score": 0.993
+  },
+  {
+   "word": "States",
+   "start": 4.2851,
+   "end": 4.6856,
+   "score": 0.9976
+  },
+  {
+   "word": "are",
+   "start": 5.7669,
+   "end": 5.9071,
+   "score": 0.9135
+  },
+  {
+   "word": "confronted",
+   "start": 5.9471,
+   "end": 6.4878,
+   "score": 0.9982
+  },
+  {
+   "word": "with",
+   "start": 6.5478,
+   "end": 6.688,
+   "score": 0.8978
+  },
+  {
+   "word": "an",
+   "start": 6.708,
+   "end": 6.7881,
+   "score": 0.9595
+  },
+  {
+   "word": "economic",
+   "start": 7.8494,
+   "end": 8.37,
+   "score": 0.9989
+  },
+  {
+   "word": "affliction",
+   "start": 8.4301,
+   "end": 8.9708,
+   "score": 0.9801
+  },
+  {
+   "word": "of",
+   "start": 9.0108,
+   "end": 9.0709,
+   "score": 0.9975
+  },
+  {
+   "word": "great",
+   "start": 9.1309,
+   "end": 9.3512,
+   "score": 0.999
+  },
+  {
+   "word": "proportions",
+   "start": 9.3913,
+   "end": 10.0921,
+   "score": 0.9577
+  },
+  {
+   "word": "We",
+   "start": 11.1534,
+   "end": 11.2335,
+   "score": 0.999
+  },
+  {
+   "word": "suffer",
+   "start": 11.3736,
+   "end": 11.674,
+   "score": 0.9945
+  },
+  {
+   "word": "from",
+   "start": 11.714,
+   "end": 11.8742,
+   "score": 0.97
+  },
+  {
+   "word": "the",
+   "start": 11.9143,
+   "end": 11.9944,
+   "score": 0.9967
+  },
+  {
+   "word": "longest",
+   "start": 12.0544,
+   "end": 12.6552,
+   "score": 0.999
+  },
+  {
+   "word": "and",
+   "start": 12.8554,
+   "end": 12.9555,
+   "score": 0.9204
+  },
+  {
+   "word": "one",
+   "start": 13.0156,
+   "end": 13.1157,
+   "score": 0.9642
+  },
+  {
+   "word": "of",
+   "start": 13.1157,
+   "end": 13.1758,
+   "score": 0.8339
+  },
+  {
+   "word": "the",
+   "start": 13.1758,
+   "end": 13.2559,
+   "score": 0.9759
+  },
+  {
+   "word": "worst",
+   "start": 13.2759,
+   "end": 13.5162,
+   "score": 0.9973
+  },
+  {
+   "word": "sustained",
+   "start": 13.5562,
+   "end": 14.1169,
+   "score": 0.9838
+  },
+  {
+   "word": "inflations",
+   "start": 14.157,
+   "end": 14.7977,
+   "score": 0.9779
+  },
+  {
+   "word": "in",
+   "start": 14.8578,
+   "end": 14.9179,
+   "score": 0.9961
+  },
+  {
+   "word": "our",
+   "start": 14.9579,
+   "end": 15.058,
+   "score": 0.9982
+  },
+  {
+   "word": "national",
+   "start": 15.1181,
+   "end": 15.4986,
+   "score": 0.9996
+  },
+  {
+   "word": "history",
+   "start": 15.5586,
+   "end": 15.9191,
+   "score": 0.9998
+  },
+  {
+   "word": "It",
+   "start": 16.9203,
+   "end": 17.0004,
+   "score": 0.9973
+  },
+  {
+   "word": "distorts",
+   "start": 17.0404,
+   "end": 17.521,
+   "score": 0.9421
+  },
+  {
+   "word": "our",
+   "start": 17.6011,
+   "end": 17.7012,
+   "score": 0.9976
+  },
+  {
+   "word": "economic",
+   "start": 17.8214,
+   "end": 18.2819,
+   "score": 0.9994
+  },
+  {
+   "word": "decisions",
+   "start": 18.342,
+   "end": 18.9828,
+   "score": 0.9986
+  },
+  {
+   "word": "penalizes",
+   "start": 19.7837,
+   "end": 20.4645,
+   "score": 0.8509
+  },
+  {
+   "word": "thrift",
+   "start": 20.5246,
+   "end": 20.9651,
+   "score": 0.9661
+  },
+  {
+   "word": "and",
+   "start": 21.666,
+   "end": 21.7661,
+   "score": 0.9939
+  },
+  {
+   "word": "crushes",
+   "start": 21.8262,
+   "end": 22.2467,
+   "score": 0.9582
+  },
+  {
+   "word": "the",
+   "start": 22.3067,
+   "end": 22.3868,
+   "score": 0.9935
+  },
+  {
+   "word": "struggling",
+   "start": 22.4469,
+   "end": 22.9475,
+   "score": 0.9141
+  },
+  {
+   "word": "young",
+   "start": 23.0076,
+   "end": 23.2679,
+   "score": 0.9816
+  },
+  {
+   "word": "and",
+   "start": 23.5082,
+   "end": 23.5883,
+   "score": 0.9864
+  },
+  {
+   "word": "the",
+   "start": 23.6083,
+   "end": 23.6884,
+   "score": 0.9687
+  },
+  {
+   "word": "fixed-income",
+   "start": 23.7485,
+   "end": 24.5494,
+   "score": 0.9306
+  },
+  {
+   "word": "elderly",
+   "start": 24.6696,
+   "end": 24.9699,
+   "score": 0.99
+  },
+  {
+   "word": "alike",
+   "start": 25.03,
+   "end": 25.4105,
+   "score": 0.9958
+  },
+  {
+   "word": "It",
+   "start": 26.5118,
+   "end": 26.5919,
+   "score": 0.9943
+  },
+  {
+   "word": "threatens",
+   "start": 26.6319,
+   "end": 27.0524,
+   "score": 0.972
+  },
+  {
+   "word": "to",
+   "start": 27.1125,
+   "end": 27.1525,
+   "score": 0.9895
+  },
+  {
+   "word": "shatter",
+   "start": 27.2527,
+   "end": 27.6131,
+   "score": 0.6297
+  },
+  {
+   "word": "the",
+   "start": 27.6531,
+   "end": 27.7332,
+   "score": 0.9785
+  },
+  {
+   "word": "lives",
+   "start": 27.7933,
+   "end": 28.2138,
+   "score": 0.9865
+  },
+  {
+   "word": "of",
+   "start": 28.2539,
+   "end": 28.334,
+   "score": 0.9916
+  },
+  {
+   "word": "millions",
+   "start": 28.394,
+   "end": 28.7344,
+   "score": 0.9916
+  },
+  {
+   "word": "of",
+   "start": 28.7745,
+   "end": 28.8346,
+   "score": 0.9913
+  },
+  {
+   "word": "our",
+   "start": 28.8946,
+   "end": 29.0148,
+   "score": 0.8855
+  },
+  {
+   "word": "people",
+   "start": 29.0548,
+   "end": 29.3952,
+   "score": 0.9905
+  },
+  {
+   "word": "Idle",
+   "start": 30.6567,
+   "end": 30.857,
+   "score": 0.7493
+  },
+  {
+   "word": "industries",
+   "start": 30.897,
+   "end": 31.5178,
+   "score": 0.9929
+  },
+  {
+   "word": "have",
+   "start": 31.5578,
+   "end": 31.678,
+   "score": 0.4667
+  },
+  {
+   "word": "cast",
+   "start": 31.718,
+   "end": 32.0184,
+   "score": 0.9655
+  },
+  {
+   "word": "workers",
+   "start": 32.0785,
+   "end": 32.4389,
+   "score": 0.9981
+  },
+  {
+   "word": "into",
+   "start": 32.4789,
+   "end": 32.6191,
+   "score": 0.9954
+  },
+  {
+   "word": "unemployment",
+   "start": 32.7192,
+   "end": 33.34,
+   "score": 0.8884
+  },
+  {
+   "word": "human",
+   "start": 33.9407,
+   "end": 34.2611,
+   "score": 0.9967
+  },
+  {
+   "word": "misery",
+   "start": 34.3412,
+   "end": 34.7216,
+   "score": 0.9983
+  },
+  {
+   "word": "and",
+   "start": 35.1221,
+   "end": 35.2222,
+   "score": 0.9694
+  },
+  {
+   "word": "personal",
+   "start": 35.3023,
+   "end": 35.7028,
+   "score": 0.9838
+  },
+  {
+   "word": "indignity",
+   "start": 35.7428,
+   "end": 36.2434,
+   "score": 0.9972
+  },
+  {
+   "word": "Those",
+   "start": 37.3648,
+   "end": 37.6251,
+   "score": 0.989
+  },
+  {
+   "word": "who",
+   "start": 37.6251,
+   "end": 37.7252,
+   "score": 0.8892
+  },
+  {
+   "word": "do",
+   "start": 37.8253,
+   "end": 37.9054,
+   "score": 0.9809
+  },
+  {
+   "word": "work",
+   "start": 38.0656,
+   "end": 38.346,
+   "score": 0.9777
+  },
+  {
+   "word": "are",
+   "start": 39.1269,
+   "end": 39.227,
+   "score": 0.7669
+  },
+  {
+   "word": "denied",
+   "start": 39.247,
+   "end": 39.6675,
+   "score": 0.9537
+  },
+  {
+   "word": "a",
+   "start": 39.6876,
+   "end": 39.7076,
+   "score": 0.817
+  },
+  {
+   "word": "fair",
+   "start": 39.8077,
+   "end": 40.008,
+   "score": 0.7166
+  },
+  {
+   "word": "return",
+   "start": 40.068,
+   "end": 40.5086,
+   "score": 0.9786
+  },
+  {
+   "word": "for",
+   "start": 40.5686,
+   "end": 40.6487,
+   "score": 0.9939
+  },
+  {
+   "word": "their",
+   "start": 40.6687,
+   "end": 40.8089,
+   "score": 0.9375
+  },
+  {
+   "word": "labor",
+   "start": 40.849,
+   "end": 41.1293,
+   "score": 0.9969
+  },
+  {
+   "word": "by",
+   "start": 41.1894,
+   "end": 41.3095,
+   "score": 0.9971
+  },
+  {
+   "word": "a",
+   "start": 41.3696,
+   "end": 41.3896,
+   "score": 0.994
+  },
+  {
+   "word": "tax",
+   "start": 41.4897,
+   "end": 41.73,
+   "score": 0.9971
+  },
+  {
+   "word": "system",
+   "start": 41.8502,
+   "end": 42.2306,
+   "score": 0.9973
+  },
+  {
+   "word": "which",
+   "start": 42.8313,
+   "end": 42.9915,
+   "score": 0.9967
+  },
+  {
+   "word": "penalizes",
+   "start": 43.0917,
+   "end": 43.8125,
+   "score": 0.7274
+  },
+  {
+   "word": "successful",
+   "start": 43.8926,
+   "end": 44.4733,
+   "score": 0.9989
+  },
+  {
+   "word": "achievement",
+   "start": 44.5134,
+   "end": 45.014,
+   "score": 0.9846
+  },
+  {
+   "word": "and",
+   "start": 45.6147,
+   "end": 45.7348,
+   "score": 0.9948
+  },
+  {
+   "word": "keeps",
+   "start": 45.8349,
+   "end": 46.1553,
+   "score": 0.9972
+  },
+  {
+   "word": "us",
+   "start": 46.2354,
+   "end": 46.3556,
+   "score": 0.9972
+  },
+  {
+   "word": "from",
+   "start": 46.4357,
+   "end": 46.5758,
+   "score": 0.9961
+  },
+  {
+   "word": "maintaining",
+   "start": 46.6559,
+   "end": 47.2967,
+   "score": 0.9671
+  },
+  {
+   "word": "full",
+   "start": 47.3768,
+   "end": 47.6371,
+   "score": 0.9811
+  },
+  {
+   "word": "productivity",
+   "start": 47.7172,
+   "end": 48.378,
+   "score": 0.9577
+  },
+  {
+   "word": "But",
+   "start": 49.7196,
+   "end": 49.8397,
+   "score": 0.9377
+  },
+  {
+   "word": "great",
+   "start": 49.8998,
+   "end": 50.1601,
+   "score": 0.9676
+  },
+  {
+   "word": "as",
+   "start": 50.2402,
+   "end": 50.3403,
+   "score": 0.9901
+  },
+  {
+   "word": "our",
+   "start": 50.4204,
+   "end": 50.5206,
+   "score": 0.9511
+  },
+  {
+   "word": "tax",
+   "start": 50.6007,
+   "end": 50.8409,
+   "score": 0.9961
+  },
+  {
+   "word": "burden",
+   "start": 50.9611,
+   "end": 51.3015,
+   "score": 0.8453
+  },
+  {
+   "word": "is",
+   "start": 51.4216,
+   "end": 51.6619,
+   "score": 0.9934
+  },
+  {
+   "word": "it",
+   "start": 53.0836,
+   "end": 53.1838,
+   "score": 0.9796
+  },
+  {
+   "word": "has",
+   "start": 53.2238,
+   "end": 53.384,
+   "score": 0.9508
+  },
+  {
+   "word": "not",
+   "start": 53.4641,
+   "end": 53.6643,
+   "score": 0.9244
+  },
+  {
+   "word": "kept",
+   "start": 53.7444,
+   "end": 53.9847,
+   "score": 0.9842
+  },
+  {
+   "word": "pace",
+   "start": 54.0648,
+   "end": 54.4252,
+   "score": 0.9982
+  },
+  {
+   "word": "with",
+   "start": 54.4853,
+   "end": 54.6255,
+   "score": 0.9972
+  },
+  {
+   "word": "public",
+   "start": 54.7056,
+   "end": 55.026,
+   "score": 0.9978
+  },
+  {
+   "word": "spending",
+   "start": 55.086,
+   "end": 55.5466,
+   "score": 0.9959
+  },
+  {
+   "word": "For",
+   "start": 56.5077,
+   "end": 56.6479,
+   "score": 0.9625
+  },
+  {
+   "word": "decades",
+   "start": 56.728,
+   "end": 57.4288,
+   "score": 0.9864
+  },
+  {
+   "word": "we",
+   "start": 58.1297,
+   "end": 58.2298,
+   "score": 0.9457
+  },
+  {
+   "word": "have",
+   "start": 58.2899,
+   "end": 58.43,
+   "score": 0.7985
+  },
+  {
+   "word": "piled",
+   "start": 58.4901,
+   "end": 58.9306,
+   "score": 0.9194
+  },
+  {
+   "word": "deficit",
+   "start": 59.0107,
+   "end": 59.4513,
+   "score": 0.8513
+  },
+  {
+   "word": "upon",
+   "start": 59.5113,
+   "end": 59.7516,
+   "score": 0.6931
+  },
+  {
+   "word": "deficit",
+   "start": 59.8317,
+   "end": 60.2722,
+   "score": 0.9429
+  },
+  {
+   "word": "mortgaging",
+   "start": 60.893,
+   "end": 61.4136,
+   "score": 0.8542
+  },
+  {
+   "word": "our",
+   "start": 61.4537,
+   "end": 61.5738,
+   "score": 0.8989
+  },
+  {
+   "word": "future",
+   "start": 61.6339,
+   "end": 62.0344,
+   "score": 0.999
+  },
+  {
+   "word": "and",
+   "start": 62.0544,
+   "end": 62.1345,
+   "score": 0.9984
+  },
+  {
+   "word": "our",
+   "start": 62.1745,
+   "end": 62.2746,
+   "score": 0.9953
+  },
+  {
+   "word": "children's",
+   "start": 62.3347,
+   "end": 62.7953,
+   "score": 0.9491
+  },
+  {
+   "word": "future",
+   "start": 62.8553,
+   "end": 63.2358,
+   "score": 0.9994
+  },
+  {
+   "word": "for",
+   "start": 63.7164,
+   "end": 63.7965,
+   "score": 0.9993
+  },
+  {
+   "word": "the",
+   "start": 63.8165,
+   "end": 63.8966,
+   "score": 0.9779
+  },
+  {
+   "word": "temporary",
+   "start": 63.9567,
+   "end": 64.4573,
+   "score": 0.9984
+  },
+  {
+   "word": "convenience",
+   "start": 64.5173,
+   "end": 65.2582,
+   "score": 0.9578
+  },
+  {
+   "word": "of",
+   "start": 65.4785,
+   "end": 65.5386,
+   "score": 0.9995
+  },
+  {
+   "word": "the",
+   "start": 65.5786,
+   "end": 65.6587,
+   "score": 0.9989
+  },
+  {
+   "word": "present",
+   "start": 65.6988,
+   "end": 66.1193,
+   "score": 0.9575
+  }
+ ],
+ "alignment_error_ms": {
+  "mean": 1.6,
+  "max": 21.1
+ }
+}

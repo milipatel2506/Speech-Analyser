@@ -1,0 +1,45 @@
+{
+ "baseline_id": "reagan_1981",
+ "scripts": {
+  "good": [],
+  "A": [
+   {
+    "type": "long_pause",
+    "w0": 4,
+    "w1": 5
+   },
+   {
+    "type": "monotone",
+    "w0": 58,
+    "w1": 71
+   },
+   {
+    "type": "rushing",
+    "w0": 81,
+    "w1": 91
+   }
+  ],
+  "B": [
+   {
+    "type": "pause_removal",
+    "w0": 39,
+    "w1": 40
+   },
+   {
+    "type": "volume_drop",
+    "w0": 51,
+    "w1": 56
+   },
+   {
+    "type": "dragging",
+    "w0": 62,
+    "w1": 73
+   },
+   {
+    "type": "mumble",
+    "w0": 124,
+    "w1": 131
+   }
+  ]
+ }
+}

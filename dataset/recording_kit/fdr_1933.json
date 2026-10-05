@@ -1,0 +1,45 @@
+{
+ "baseline_id": "fdr_1933",
+ "scripts": {
+  "good": [],
+  "A": [
+   {
+    "type": "rushing",
+    "w0": 24,
+    "w1": 35
+   },
+   {
+    "type": "long_pause",
+    "w0": 43,
+    "w1": 44
+   },
+   {
+    "type": "monotone",
+    "w0": 58,
+    "w1": 71
+   }
+  ],
+  "B": [
+   {
+    "type": "mumble",
+    "w0": 15,
+    "w1": 19
+   },
+   {
+    "type": "volume_drop",
+    "w0": 28,
+    "w1": 39
+   },
+   {
+    "type": "dragging",
+    "w0": 44,
+    "w1": 50
+   },
+   {
+    "type": "pause_removal",
+    "w0": 55,
+    "w1": 56
+   }
+  ]
+ }
+}

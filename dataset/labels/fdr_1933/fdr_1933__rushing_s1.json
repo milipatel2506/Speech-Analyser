@@ -1,0 +1,915 @@
+{
+ "clip_id": "fdr_1933__rushing_s1",
+ "baseline_id": "fdr_1933",
+ "kind": "single",
+ "level": 1,
+ "generator_version": "1.0",
+ "audio": "audio/flawed/fdr_1933/fdr_1933__rushing_s1.wav",
+ "baseline_audio": "audio/baseline/fdr_1933.wav",
+ "sample_rate": 16000,
+ "duration": 45.7671,
+ "transcript": "Let me assert my firm belief that the only thing we have to fear is fear itself, nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance. In every dark hour of our national life, a leadership of frankness and of vigor has met with that understanding and support of the people themselves, which is essential to victory. And I am convinced that you will again give that support to leadership in these critical days.",
+ "flaws": [
+  {
+   "type": "rushing",
+   "label": "Rushed pacing",
+   "rubric": "pace",
+   "severity": 1,
+   "start": 4.5228,
+   "end": 8.6081,
+   "word_span": [
+    7,
+    15
+   ],
+   "text": "the only thing we have to fear is fear",
+   "params": {
+    "duration_factor": 0.85
+   },
+   "description": "Span compressed to 85% of original duration (pitch preserved)"
+  }
+ ],
+ "words": [
+  {
+   "word": "Let",
+   "start": 0.801,
+   "end": 0.9813
+  },
+  {
+   "word": "me",
+   "start": 1.0814,
+   "end": 1.1415
+  },
+  {
+   "word": "assert",
+   "start": 1.2817,
+   "end": 1.8023
+  },
+  {
+   "word": "my",
+   "start": 1.9425,
+   "end": 2.1428
+  },
+  {
+   "word": "firm",
+   "start": 2.343,
+   "end": 2.6835
+  },
+  {
+   "word": "belief",
+   "start": 2.7636,
+   "end": 3.1841
+  },
+  {
+   "word": "that",
+   "start": 4.3256,
+   "end": 4.4858
+  },
+  {
+   "word": "the",
+   "start": 4.5228,
+   "end": 4.5909
+  },
+  {
+   "word": "only",
+   "start": 4.6761,
+   "end": 4.9654
+  },
+  {
+   "word": "thing",
+   "start": 5.1186,
+   "end": 5.3739
+  },
+  {
+   "word": "we",
+   "start": 5.4931,
+   "end": 5.5952
+  },
+  {
+   "word": "have",
+   "start": 5.7825,
+   "end": 6.0548
+  },
+  {
+   "word": "to",
+   "start": 6.1399,
+   "end": 6.208
+  },
+  {
+   "word": "fear",
+   "start": 6.4123,
+   "end": 6.6846
+  },
+  {
+   "word": "is",
+   "start": 6.94,
+   "end": 7.2804
+  },
+  {
+   "word": "fear",
+   "start": 8.2507,
+   "end": 8.6081
+  },
+  {
+   "word": "itself",
+   "start": 8.7193,
+   "end": 9.3401
+  },
+  {
+   "word": "nameless",
+   "start": 10.4816,
+   "end": 11.1024
+  },
+  {
+   "word": "unreasoning",
+   "start": 11.3227,
+   "end": 12.2038
+  },
+  {
+   "word": "unjustified",
+   "start": 12.2839,
+   "end": 13.3252
+  },
+  {
+   "word": "terror",
+   "start": 13.4454,
+   "end": 13.8459
+  },
+  {
+   "word": "which",
+   "start": 14.8072,
+   "end": 15.0274
+  },
+  {
+   "word": "paralyzes",
+   "start": 15.1676,
+   "end": 16.1088
+  },
+  {
+   "word": "needed",
+   "start": 16.249,
+   "end": 16.5494
+  },
+  {
+   "word": "efforts",
+   "start": 16.6295,
+   "end": 17.05
+  },
+  {
+   "word": "to",
+   "start": 17.6108,
+   "end": 17.6909
+  },
+  {
+   "word": "convert",
+   "start": 17.811,
+   "end": 18.3918
+  },
+  {
+   "word": "retreat",
+   "start": 18.552,
+   "end": 19.1327
+  },
+  {
+   "word": "into",
+   "start": 19.7736,
+   "end": 19.9738
+  },
+  {
+   "word": "advance",
+   "start": 20.0739,
+   "end": 20.6947
+  },
+  {
+   "word": "In",
+   "start": 21.9364,
+   "end": 22.0165
+  },
+  {
+   "word": "every",
+   "start": 22.0565,
+   "end": 22.2768
+  },
+  {
+   "word": "dark",
+   "start": 22.3769,
+   "end": 22.7174
+  },
+  {
+   "word": "hour",
+   "start": 22.7774,
+   "end": 23.0378
+  },
+  {
+   "word": "of",
+   "start": 23.0778,
+   "end": 23.1579
+  },
+  {
+   "word": "our",
+   "start": 23.218,
+   "end": 23.3582
+  },
+  {
+   "word": "national",
+   "start": 23.4583,
+   "end": 23.9189
+  },
+  {
+   "word": "life",
+   "start": 23.979,
+   "end": 24.3194
+  },
+  {
+   "word": "a",
+   "start": 25.3207,
+   "end": 25.3407
+  },
+  {
+   "word": "leadership",
+   "start": 25.521,
+   "end": 26.0416
+  },
+  {
+   "word": "of",
+   "start": 26.302,
+   "end": 26.4021
+  },
+  {
+   "word": "frankness",
+   "start": 26.5223,
+   "end": 27.083
+  },
+  {
+   "word": "and",
+   "start": 27.2832,
+   "end": 27.3834
+  },
+  {
+   "word": "of",
+   "start": 27.4435,
+   "end": 27.5035
+  },
+  {
+   "word": "vigor",
+   "start": 27.6037,
+   "end": 27.9041
+  },
+  {
+   "word": "has",
+   "start": 28.8653,
+   "end": 29.0856
+  },
+  {
+   "word": "met",
+   "start": 29.2258,
+   "end": 29.426
+  },
+  {
+   "word": "with",
+   "start": 29.5261,
+   "end": 29.7064
+  },
+  {
+   "word": "that",
+   "start": 29.7464,
+   "end": 29.9467
+  },
+  {
+   "word": "understanding",
+   "start": 30.1269,
+   "end": 31.0681
+  },
+  {
+   "word": "and",
+   "start": 31.0882,
+   "end": 31.1883
+  },
+  {
+   "word": "support",
+   "start": 31.2684,
+   "end": 31.8692
+  },
+  {
+   "word": "of",
+   "start": 31.9092,
+   "end": 31.9693
+  },
+  {
+   "word": "the",
+   "start": 32.0093,
+   "end": 32.0895
+  },
+  {
+   "word": "people",
+   "start": 32.1696,
+   "end": 32.4699
+  },
+  {
+   "word": "themselves",
+   "start": 32.51,
+   "end": 33.271
+  },
+  {
+   "word": "which",
+   "start": 33.9519,
+   "end": 34.1721
+  },
+  {
+   "word": "is",
+   "start": 34.2322,
+   "end": 34.3323
+  },
+  {
+   "word": "essential",
+   "start": 34.3924,
+   "end": 35.0132
+  },
+  {
+   "word": "to",
+   "start": 35.0933,
+   "end": 35.1734
+  },
+  {
+   "word": "victory",
+   "start": 35.3136,
+   "end": 35.7742
+  },
+  {
+   "word": "And",
+   "start": 37.5966,
+   "end": 37.6967
+  },
+  {
+   "word": "I",
+   "start": 37.8369,
+   "end": 37.8569
+  },
+  {
+   "word": "am",
+   "start": 37.937,
+   "end": 38.0171
+  },
+  {
+   "word": "convinced",
+   "start": 38.0772,
+   "end": 38.678
+  },
+  {
+   "word": "that",
+   "start": 38.718,
+   "end": 38.8782
+  },
+  {
+   "word": "you",
+   "start": 38.8982,
+   "end": 38.9984
+  },
+  {
+   "word": "will",
+   "start": 39.0384,
+   "end": 39.2387
+  },
+  {
+   "word": "again",
+   "start": 39.7593,
+   "end": 40.3401
+  },
+  {
+   "word": "give",
+   "start": 40.9008,
+   "end": 41.1011
+  },
+  {
+   "word": "that",
+   "start": 41.1211,
+   "end": 41.3414
+  },
+  {
+   "word": "support",
+   "start": 41.4215,
+   "end": 41.9422
+  },
+  {
+   "word": "to",
+   "start": 42.3427,
+   "end": 42.4228
+  },
+  {
+   "word": "leadership",
+   "start": 42.603,
+   "end": 43.1838
+  },
+  {
+   "word": "in",
+   "start": 43.7645,
+   "end": 43.8646
+  },
+  {
+   "word": "these",
+   "start": 43.9247,
+   "end": 44.2051
+  },
+  {
+   "word": "critical",
+   "start": 44.2451,
+   "end": 44.6256
+  },
+  {
+   "word": "days",
+   "start": 44.6857,
+   "end": 45.0862
+  }
+ ],
+ "time_map": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   4.5058,
+   4.5058
+  ],
+  [
+   9.3921,
+   8.6592
+  ],
+  [
+   46.5,
+   45.7671
+  ]
+ ],
+ "aligned_words": [
+  {
+   "word": "Let",
+   "start": 0.8008,
+   "end": 0.981,
+   "score": 0.999
+  },
+  {
+   "word": "me",
+   "start": 1.0811,
+   "end": 1.1412,
+   "score": 0.9984
+  },
+  {
+   "word": "assert",
+   "start": 1.2813,
+   "end": 1.8019,
+   "score": 0.879
+  },
+  {
+   "word": "my",
+   "start": 1.942,
+   "end": 2.1422,
+   "score": 0.9979
+  },
+  {
+   "word": "firm",
+   "start": 2.3424,
+   "end": 2.6828,
+   "score": 0.9649
+  },
+  {
+   "word": "belief",
+   "start": 2.7628,
+   "end": 3.1833,
+   "score": 0.9953
+  },
+  {
+   "word": "that",
+   "start": 4.3244,
+   "end": 4.4846,
+   "score": 0.9747
+  },
+  {
+   "word": "the",
+   "start": 4.5046,
+   "end": 4.5847,
+   "score": 0.9782
+  },
+  {
+   "word": "only",
+   "start": 4.6848,
+   "end": 4.9651,
+   "score": 0.9958
+  },
+  {
+   "word": "thing",
+   "start": 5.1253,
+   "end": 5.3855,
+   "score": 0.8986
+  },
+  {
+   "word": "we",
+   "start": 5.5057,
+   "end": 5.6058,
+   "score": 0.9963
+  },
+  {
+   "word": "have",
+   "start": 5.7859,
+   "end": 6.0662,
+   "score": 0.9962
+  },
+  {
+   "word": "to",
+   "start": 6.1263,
+   "end": 6.2064,
+   "score": 0.9901
+  },
+  {
+   "word": "fear",
+   "start": 6.4066,
+   "end": 6.7069,
+   "score": 0.8167
+  },
+  {
+   "word": "is",
+   "start": 6.9672,
+   "end": 7.2675,
+   "score": 0.8049
+  },
+  {
+   "word": "fear",
+   "start": 8.2485,
+   "end": 8.6289,
+   "score": 0.8544
+  },
+  {
+   "word": "itself",
+   "start": 8.729,
+   "end": 9.3496,
+   "score": 0.9884
+  },
+  {
+   "word": "nameless",
+   "start": 10.4908,
+   "end": 11.1114,
+   "score": 0.989
+  },
+  {
+   "word": "unreasoning",
+   "start": 11.3317,
+   "end": 12.2126,
+   "score": 0.9415
+  },
+  {
+   "word": "unjustified",
+   "start": 12.2726,
+   "end": 13.3337,
+   "score": 0.9785
+  },
+  {
+   "word": "terror",
+   "start": 13.4338,
+   "end": 13.8542,
+   "score": 0.7444
+  },
+  {
+   "word": "which",
+   "start": 14.7952,
+   "end": 15.0154,
+   "score": 0.9488
+  },
+  {
+   "word": "paralyzes",
+   "start": 15.1556,
+   "end": 16.1166,
+   "score": 0.7759
+  },
+  {
+   "word": "needed",
+   "start": 16.2367,
+   "end": 16.557,
+   "score": 0.9414
+  },
+  {
+   "word": "efforts",
+   "start": 16.6171,
+   "end": 17.0575,
+   "score": 0.5322
+  },
+  {
+   "word": "to",
+   "start": 17.5981,
+   "end": 17.6782,
+   "score": 0.9975
+  },
+  {
+   "word": "convert",
+   "start": 17.7983,
+   "end": 18.3989,
+   "score": 0.9561
+  },
+  {
+   "word": "retreat",
+   "start": 18.5391,
+   "end": 19.1397,
+   "score": 0.956
+  },
+  {
+   "word": "into",
+   "start": 19.7803,
+   "end": 20.0006,
+   "score": 0.9708
+  },
+  {
+   "word": "advance",
+   "start": 20.0806,
+   "end": 20.7013,
+   "score": 0.9707
+  },
+  {
+   "word": "In",
+   "start": 21.9225,
+   "end": 22.0026,
+   "score": 0.9913
+  },
+  {
+   "word": "every",
+   "start": 22.0627,
+   "end": 22.2829,
+   "score": 0.9301
+  },
+  {
+   "word": "dark",
+   "start": 22.383,
+   "end": 22.7033,
+   "score": 0.9673
+  },
+  {
+   "word": "hour",
+   "start": 22.7834,
+   "end": 23.0237,
+   "score": 0.7608
+  },
+  {
+   "word": "of",
+   "start": 23.0637,
+   "end": 23.1438,
+   "score": 0.8959
+  },
+  {
+   "word": "our",
+   "start": 23.2039,
+   "end": 23.324,
+   "score": 0.6748
+  },
+  {
+   "word": "national",
+   "start": 23.4641,
+   "end": 23.9046,
+   "score": 0.9913
+  },
+  {
+   "word": "life",
+   "start": 23.9646,
+   "end": 24.325,
+   "score": 0.9865
+  },
+  {
+   "word": "a",
+   "start": 25.306,
+   "end": 25.326,
+   "score": 0.9819
+  },
+  {
+   "word": "leadership",
+   "start": 25.5062,
+   "end": 26.0268,
+   "score": 0.9616
+  },
+  {
+   "word": "of",
+   "start": 26.3071,
+   "end": 26.4072,
+   "score": 0.9559
+  },
+  {
+   "word": "frankness",
+   "start": 26.5073,
+   "end": 27.0879,
+   "score": 0.9791
+  },
+  {
+   "word": "and",
+   "start": 27.268,
+   "end": 27.3882,
+   "score": 0.9543
+  },
+  {
+   "word": "of",
+   "start": 27.4282,
+   "end": 27.4883,
+   "score": 0.6241
+  },
+  {
+   "word": "vigor",
+   "start": 27.5884,
+   "end": 27.9487,
+   "score": 0.5319
+  },
+  {
+   "word": "has",
+   "start": 28.8497,
+   "end": 29.0899,
+   "score": 0.9128
+  },
+  {
+   "word": "met",
+   "start": 29.21,
+   "end": 29.4303,
+   "score": 0.9995
+  },
+  {
+   "word": "with",
+   "start": 29.5304,
+   "end": 29.6905,
+   "score": 0.9405
+  },
+  {
+   "word": "that",
+   "start": 29.7306,
+   "end": 29.9508,
+   "score": 0.9768
+  },
+  {
+   "word": "understanding",
+   "start": 30.111,
+   "end": 31.0519,
+   "score": 0.9517
+  },
+  {
+   "word": "and",
+   "start": 31.092,
+   "end": 31.1921,
+   "score": 0.9411
+  },
+  {
+   "word": "support",
+   "start": 31.2521,
+   "end": 31.8528,
+   "score": 0.9755
+  },
+  {
+   "word": "of",
+   "start": 31.8928,
+   "end": 31.9529,
+   "score": 0.9889
+  },
+  {
+   "word": "the",
+   "start": 31.9929,
+   "end": 32.073,
+   "score": 0.8906
+  },
+  {
+   "word": "people",
+   "start": 32.1531,
+   "end": 32.4734,
+   "score": 0.9952
+  },
+  {
+   "word": "themselves",
+   "start": 32.4934,
+   "end": 33.2742,
+   "score": 0.8255
+  },
+  {
+   "word": "which",
+   "start": 33.9349,
+   "end": 34.1551,
+   "score": 0.9768
+  },
+  {
+   "word": "is",
+   "start": 34.2152,
+   "end": 34.3153,
+   "score": 0.9953
+  },
+  {
+   "word": "essential",
+   "start": 34.3954,
+   "end": 35.016,
+   "score": 0.6413
+  },
+  {
+   "word": "to",
+   "start": 35.0761,
+   "end": 35.1762,
+   "score": 0.9179
+  },
+  {
+   "word": "victory",
+   "start": 35.2963,
+   "end": 35.7568,
+   "score": 0.9944
+  },
+  {
+   "word": "And",
+   "start": 37.5786,
+   "end": 37.6787,
+   "score": 0.9251
+  },
+  {
+   "word": "I",
+   "start": 37.8389,
+   "end": 37.8589,
+   "score": 0.9987
+  },
+  {
+   "word": "am",
+   "start": 37.919,
+   "end": 37.9991,
+   "score": 0.9961
+  },
+  {
+   "word": "convinced",
+   "start": 38.0792,
+   "end": 38.6798,
+   "score": 0.9916
+  },
+  {
+   "word": "that",
+   "start": 38.6998,
+   "end": 38.88,
+   "score": 0.605
+  },
+  {
+   "word": "you",
+   "start": 38.88,
+   "end": 38.9801,
+   "score": 0.1153
+  },
+  {
+   "word": "will",
+   "start": 39.0201,
+   "end": 39.2203,
+   "score": 0.3009
+  },
+  {
+   "word": "again",
+   "start": 39.7609,
+   "end": 40.3415,
+   "score": 0.8553
+  },
+  {
+   "word": "give",
+   "start": 40.9021,
+   "end": 41.1023,
+   "score": 0.2609
+  },
+  {
+   "word": "that",
+   "start": 41.1023,
+   "end": 41.3225,
+   "score": 0.608
+  },
+  {
+   "word": "support",
+   "start": 41.4226,
+   "end": 41.9431,
+   "score": 0.5131
+  },
+  {
+   "word": "to",
+   "start": 42.3235,
+   "end": 42.4236,
+   "score": 0.5589
+  },
+  {
+   "word": "leadership",
+   "start": 42.5838,
+   "end": 43.1644,
+   "score": 0.8918
+  },
+  {
+   "word": "in",
+   "start": 43.745,
+   "end": 43.8651,
+   "score": 0.7476
+  },
+  {
+   "word": "these",
+   "start": 43.9051,
+   "end": 44.1854,
+   "score": 0.4209
+  },
+  {
+   "word": "critical",
+   "start": 44.2455,
+   "end": 44.6259,
+   "score": 0.2804
+  },
+  {
+   "word": "days",
+   "start": 44.6659,
+   "end": 45.0663,
+   "score": 0.2118
+  }
+ ],
+ "alignment_error_ms": {
+  "mean": 11.1,
+  "max": 27.2
+ }
+}

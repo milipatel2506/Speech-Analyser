@@ -1,0 +1,45 @@
+{
+ "baseline_id": "jfk_1961",
+ "scripts": {
+  "good": [],
+  "A": [
+   {
+    "type": "long_pause",
+    "w0": 11,
+    "w1": 12
+   },
+   {
+    "type": "rushing",
+    "w0": 34,
+    "w1": 41
+   },
+   {
+    "type": "monotone",
+    "w0": 77,
+    "w1": 88
+   }
+  ],
+  "B": [
+   {
+    "type": "volume_drop",
+    "w0": 11,
+    "w1": 18
+   },
+   {
+    "type": "dragging",
+    "w0": 21,
+    "w1": 28
+   },
+   {
+    "type": "mumble",
+    "w0": 38,
+    "w1": 41
+   },
+   {
+    "type": "pause_removal",
+    "w0": 112,
+    "w1": 113
+   }
+  ]
+ }
+}

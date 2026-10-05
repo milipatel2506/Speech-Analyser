@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Audio data lives on Hugging Face, not in git (labels/transcripts are tracked)
+dataset/raw/
+dataset/audio/
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# Model caches / runtime
+models_cache/
+backend_uploads/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

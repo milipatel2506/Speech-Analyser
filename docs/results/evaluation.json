@@ -1,0 +1,673 @@
+{
+ "settings": {
+  "iou_threshold": 0.3,
+  "oracle_alignment": false,
+  "baselines": [
+   "clinton_1995",
+   "fdr_1933",
+   "harris_2024",
+   "jfk_1961",
+   "obama_2009",
+   "reagan_1981"
+  ]
+ },
+ "overall": {
+  "n": 300,
+  "recall": 0.943,
+  "iou": 0.932,
+  "onset_err_ms": 110.487,
+  "offset_err_ms": 177.3,
+  "severity_mae": 0.117
+ },
+ "by_type": {
+  "monotone": {
+   "1": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.746,
+    "onset_err_ms": 440.5,
+    "offset_err_ms": 1045.478,
+    "severity_mae": 0.0
+   },
+   "2": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.86,
+    "onset_err_ms": 269.578,
+    "offset_err_ms": 621.111,
+    "severity_mae": 0.222
+   },
+   "3": {
+    "n": 8,
+    "recall": 1.0,
+    "iou": 0.873,
+    "onset_err_ms": 280.475,
+    "offset_err_ms": 537.975,
+    "severity_mae": 0.125
+   },
+   "4": {
+    "n": 12,
+    "recall": 1.0,
+    "iou": 0.876,
+    "onset_err_ms": 271.525,
+    "offset_err_ms": 423.65,
+    "severity_mae": 0.167
+   },
+   "5": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.859,
+    "onset_err_ms": 286.444,
+    "offset_err_ms": 648.167,
+    "severity_mae": 0.0
+   },
+   "all": {
+    "n": 47,
+    "recall": 1.0,
+    "iou": 0.844,
+    "onset_err_ms": 307.889,
+    "offset_err_ms": 642.987,
+    "severity_mae": 0.106
+   }
+  },
+  "rushing": {
+   "1": {
+    "n": 10,
+    "recall": 0.7,
+    "iou": 0.753,
+    "onset_err_ms": 144.257,
+    "offset_err_ms": 778.371,
+    "severity_mae": 0.0
+   },
+   "2": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.955,
+    "onset_err_ms": 108.289,
+    "offset_err_ms": 64.378,
+    "severity_mae": 0.0
+   },
+   "3": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.967,
+    "onset_err_ms": 37.056,
+    "offset_err_ms": 40.511,
+    "severity_mae": 0.0
+   },
+   "4": {
+    "n": 7,
+    "recall": 1.0,
+    "iou": 0.913,
+    "onset_err_ms": 104.414,
+    "offset_err_ms": 71.557,
+    "severity_mae": 0.143
+   },
+   "5": {
+    "n": 7,
+    "recall": 1.0,
+    "iou": 0.887,
+    "onset_err_ms": 158.871,
+    "offset_err_ms": 68.443,
+    "severity_mae": 0.143
+   },
+   "all": {
+    "n": 42,
+    "recall": 0.929,
+    "iou": 0.901,
+    "onset_err_ms": 106.69,
+    "offset_err_ms": 189.041,
+    "severity_mae": 0.051
+   }
+  },
+  "dragging": {
+   "1": {
+    "n": 7,
+    "recall": 1.0,
+    "iou": 0.783,
+    "onset_err_ms": 267.357,
+    "offset_err_ms": 776.586,
+    "severity_mae": 0.0
+   },
+   "2": {
+    "n": 6,
+    "recall": 1.0,
+    "iou": 0.984,
+    "onset_err_ms": 50.417,
+    "offset_err_ms": 48.833,
+    "severity_mae": 0.0
+   },
+   "3": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.968,
+    "onset_err_ms": 161.156,
+    "offset_err_ms": 84.822,
+    "severity_mae": 0.0
+   },
+   "4": {
+    "n": 8,
+    "recall": 1.0,
+    "iou": 0.971,
+    "onset_err_ms": 134.212,
+    "offset_err_ms": 82.0,
+    "severity_mae": 0.125
+   },
+   "5": {
+    "n": 10,
+    "recall": 1.0,
+    "iou": 0.961,
+    "onset_err_ms": 241.91,
+    "offset_err_ms": 87.16,
+    "severity_mae": 0.1
+   },
+   "all": {
+    "n": 40,
+    "recall": 1.0,
+    "iou": 0.937,
+    "onset_err_ms": 177.93,
+    "offset_err_ms": 200.502,
+    "severity_mae": 0.05
+   }
+  },
+  "long_pause": {
+   "1": {
+    "n": 7,
+    "recall": 1.0,
+    "iou": 0.874,
+    "onset_err_ms": 26.886,
+    "offset_err_ms": 40.543,
+    "severity_mae": 0.0
+   },
+   "2": {
+    "n": 8,
+    "recall": 1.0,
+    "iou": 0.895,
+    "onset_err_ms": 38.475,
+    "offset_err_ms": 44.9,
+    "severity_mae": 0.0
+   },
+   "3": {
+    "n": 8,
+    "recall": 1.0,
+    "iou": 0.925,
+    "onset_err_ms": 36.088,
+    "offset_err_ms": 45.162,
+    "severity_mae": 0.0
+   },
+   "4": {
+    "n": 12,
+    "recall": 0.917,
+    "iou": 0.954,
+    "onset_err_ms": 32.018,
+    "offset_err_ms": 40.527,
+    "severity_mae": 0.0
+   },
+   "5": {
+    "n": 6,
+    "recall": 1.0,
+    "iou": 0.965,
+    "onset_err_ms": 34.483,
+    "offset_err_ms": 44.517,
+    "severity_mae": 0.0
+   },
+   "all": {
+    "n": 41,
+    "recall": 0.976,
+    "iou": 0.924,
+    "onset_err_ms": 33.595,
+    "offset_err_ms": 42.93,
+    "severity_mae": 0.0
+   }
+  },
+  "pause_removal": {
+   "1": {
+    "n": 8,
+    "recall": 0.0,
+    "iou": null,
+    "onset_err_ms": null,
+    "offset_err_ms": null,
+    "severity_mae": null
+   },
+   "2": {
+    "n": 9,
+    "recall": 0.889,
+    "iou": 0.99,
+    "onset_err_ms": 1.837,
+    "offset_err_ms": 7.425,
+    "severity_mae": 0.0
+   },
+   "3": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.985,
+    "onset_err_ms": 6.2,
+    "offset_err_ms": 7.867,
+    "severity_mae": 0.0
+   },
+   "4": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.966,
+    "onset_err_ms": 9.111,
+    "offset_err_ms": 13.333,
+    "severity_mae": 0.111
+   },
+   "5": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.974,
+    "onset_err_ms": 7.289,
+    "offset_err_ms": 5.244,
+    "severity_mae": 0.556
+   },
+   "all": {
+    "n": 44,
+    "recall": 0.795,
+    "iou": 0.979,
+    "onset_err_ms": 6.231,
+    "offset_err_ms": 8.497,
+    "severity_mae": 0.171
+   }
+  },
+  "volume_drop": {
+   "1": {
+    "n": 6,
+    "recall": 1.0,
+    "iou": 0.926,
+    "onset_err_ms": 307.333,
+    "offset_err_ms": 3.583,
+    "severity_mae": 0.0
+   },
+   "2": {
+    "n": 11,
+    "recall": 1.0,
+    "iou": 0.987,
+    "onset_err_ms": 31.636,
+    "offset_err_ms": 4.491,
+    "severity_mae": 0.0
+   },
+   "3": {
+    "n": 8,
+    "recall": 1.0,
+    "iou": 0.996,
+    "onset_err_ms": 6.025,
+    "offset_err_ms": 4.275,
+    "severity_mae": 0.0
+   },
+   "4": {
+    "n": 10,
+    "recall": 1.0,
+    "iou": 0.996,
+    "onset_err_ms": 4.4,
+    "offset_err_ms": 5.51,
+    "severity_mae": 0.0
+   },
+   "5": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.959,
+    "onset_err_ms": 174.311,
+    "offset_err_ms": 6.856,
+    "severity_mae": 0.222
+   },
+   "all": {
+    "n": 44,
+    "recall": 1.0,
+    "iou": 0.977,
+    "onset_err_ms": 87.568,
+    "offset_err_ms": 5.043,
+    "severity_mae": 0.045
+   }
+  },
+  "mumble": {
+   "1": {
+    "n": 6,
+    "recall": 0.333,
+    "iou": 0.841,
+    "onset_err_ms": 0.05,
+    "offset_err_ms": 481.0,
+    "severity_mae": 0.0
+   },
+   "2": {
+    "n": 9,
+    "recall": 1.0,
+    "iou": 0.997,
+    "onset_err_ms": 4.922,
+    "offset_err_ms": 6.978,
+    "severity_mae": 0.222
+   },
+   "3": {
+    "n": 7,
+    "recall": 1.0,
+    "iou": 0.994,
+    "onset_err_ms": 0.143,
+    "offset_err_ms": 25.929,
+    "severity_mae": 0.143
+   },
+   "4": {
+    "n": 13,
+    "recall": 1.0,
+    "iou": 0.979,
+    "onset_err_ms": 2.777,
+    "offset_err_ms": 77.077,
+    "severity_mae": 1.0
+   },
+   "5": {
+    "n": 7,
+    "recall": 1.0,
+    "iou": 0.995,
+    "onset_err_ms": 3.229,
+    "offset_err_ms": 16.871,
+    "severity_mae": 0.0
+   },
+   "all": {
+    "n": 42,
+    "recall": 0.905,
+    "iou": 0.982,
+    "onset_err_ms": 2.739,
+    "offset_err_ms": 61.221,
+    "severity_mae": 0.421
+   }
+  }
+ },
+ "by_baseline": {
+  "clinton_1995": {
+   "n": 50,
+   "recall": 0.94,
+   "iou": 0.938,
+   "onset_err_ms": 126.698,
+   "offset_err_ms": 98.44,
+   "severity_mae": 0.106,
+   "fp_per_minute": 0.049,
+   "tuning_set": true
+  },
+  "fdr_1933": {
+   "n": 50,
+   "recall": 0.92,
+   "iou": 0.953,
+   "onset_err_ms": 71.057,
+   "offset_err_ms": 104.009,
+   "severity_mae": 0.109,
+   "fp_per_minute": 0.225,
+   "tuning_set": true
+  },
+  "harris_2024": {
+   "n": 50,
+   "recall": 0.96,
+   "iou": 0.925,
+   "onset_err_ms": 146.348,
+   "offset_err_ms": 289.848,
+   "severity_mae": 0.167,
+   "fp_per_minute": 0.251,
+   "tuning_set": false
+  },
+  "jfk_1961": {
+   "n": 50,
+   "recall": 0.92,
+   "iou": 0.956,
+   "onset_err_ms": 52.965,
+   "offset_err_ms": 188.789,
+   "severity_mae": 0.065,
+   "fp_per_minute": 0.081,
+   "tuning_set": false
+  },
+  "obama_2009": {
+   "n": 50,
+   "recall": 0.94,
+   "iou": 0.896,
+   "onset_err_ms": 172.221,
+   "offset_err_ms": 163.389,
+   "severity_mae": 0.191,
+   "fp_per_minute": 0.221,
+   "tuning_set": false
+  },
+  "reagan_1981": {
+   "n": 50,
+   "recall": 0.98,
+   "iou": 0.928,
+   "onset_err_ms": 91.612,
+   "offset_err_ms": 214.053,
+   "severity_mae": 0.061,
+   "fp_per_minute": 0.068,
+   "tuning_set": false
+  }
+ },
+ "false_positives": {
+  "count": 35,
+  "per_minute": 0.141,
+  "items": [
+   {
+    "clip": "clinton_1995__dragging_s3",
+    "type": "monotone",
+    "start": 10.233,
+    "end": 14.199
+   },
+   {
+    "clip": "clinton_1995__dragging_s5",
+    "type": "monotone",
+    "start": 11.472,
+    "end": 17.237
+   },
+   {
+    "clip": "fdr_1933__dragging_s2",
+    "type": "monotone",
+    "start": 40.439,
+    "end": 41.74
+   },
+   {
+    "clip": "fdr_1933__mix_L4",
+    "type": "pause_removal",
+    "start": 19.284,
+    "end": 20.005
+   },
+   {
+    "clip": "fdr_1933__mix_L4",
+    "type": "long_pause",
+    "start": 20.005,
+    "end": 20.826
+   },
+   {
+    "clip": "fdr_1933__mix_L4",
+    "type": "monotone",
+    "start": 39.849,
+    "end": 42.392
+   },
+   {
+    "clip": "fdr_1933__mix_L5",
+    "type": "dragging",
+    "start": 29.933,
+    "end": 33.157
+   },
+   {
+    "clip": "fdr_1933__mumble_s5",
+    "type": "dragging",
+    "start": 28.156,
+    "end": 29.819
+   },
+   {
+    "clip": "fdr_1933__mumble_s5",
+    "type": "pause_removal",
+    "start": 28.357,
+    "end": 29.819
+   },
+   {
+    "clip": "harris_2024__dragging_s1",
+    "type": "dragging",
+    "start": 5.527,
+    "end": 7.489
+   },
+   {
+    "clip": "harris_2024__dragging_s3",
+    "type": "mumble",
+    "start": 27.99,
+    "end": 29.572
+   },
+   {
+    "clip": "harris_2024__dragging_s5",
+    "type": "mumble",
+    "start": 33.46,
+    "end": 36.844
+   },
+   {
+    "clip": "harris_2024__long_pause_s1",
+    "type": "mumble",
+    "start": 25.172,
+    "end": 26.754
+   },
+   {
+    "clip": "harris_2024__mix_L4",
+    "type": "mumble",
+    "start": 25.575,
+    "end": 28.118
+   },
+   {
+    "clip": "harris_2024__mix_L5",
+    "type": "monotone",
+    "start": 36.154,
+    "end": 42.74
+   },
+   {
+    "clip": "harris_2024__pause_removal_s1",
+    "type": "mumble",
+    "start": 25.173,
+    "end": 26.755
+   },
+   {
+    "clip": "harris_2024__pause_removal_s4",
+    "type": "mumble",
+    "start": 25.174,
+    "end": 26.756
+   },
+   {
+    "clip": "jfk_1961__mix_L1",
+    "type": "rushing",
+    "start": 29.789,
+    "end": 30.93
+   },
+   {
+    "clip": "jfk_1961__mix_L1",
+    "type": "rushing",
+    "start": 32.572,
+    "end": 33.172
+   },
+   {
+    "clip": "jfk_1961__rushing_s1",
+    "type": "rushing",
+    "start": 26.104,
+    "end": 27.185
+   },
+   {
+    "clip": "jfk_1961__rushing_s1",
+    "type": "rushing",
+    "start": 29.567,
+    "end": 30.548
+   },
+   {
+    "clip": "obama_2009__long_pause_s1",
+    "type": "dragging",
+    "start": 15.837,
+    "end": 18.179
+   },
+   {
+    "clip": "obama_2009__long_pause_s2",
+    "type": "dragging",
+    "start": 19.658,
+    "end": 20.639
+   },
+   {
+    "clip": "obama_2009__long_pause_s2",
+    "type": "pause_removal",
+    "start": 19.658,
+    "end": 20.299
+   },
+   {
+    "clip": "obama_2009__mix_L2",
+    "type": "dragging",
+    "start": 72.357,
+    "end": 73.118
+   },
+   {
+    "clip": "obama_2009__mix_L5",
+    "type": "dragging",
+    "start": 21.981,
+    "end": 25.925
+   },
+   {
+    "clip": "obama_2009__mix_L5",
+    "type": "monotone",
+    "start": 36.035,
+    "end": 37.476
+   },
+   {
+    "clip": "obama_2009__pause_removal_s1",
+    "type": "rushing",
+    "start": 63.65,
+    "end": 66.233
+   },
+   {
+    "clip": "obama_2009__pause_removal_s5",
+    "type": "rushing",
+    "start": 53.41,
+    "end": 53.831
+   },
+   {
+    "clip": "obama_2009__rushing_s1",
+    "type": "rushing",
+    "start": 72.376,
+    "end": 72.897
+   },
+   {
+    "clip": "obama_2009__rushing_s4",
+    "type": "mumble",
+    "start": 71.953,
+    "end": 72.353
+   },
+   {
+    "clip": "obama_2009__rushing_s5",
+    "type": "mumble",
+    "start": 71.672,
+    "end": 72.172
+   },
+   {
+    "clip": "reagan_1981__dragging_s5",
+    "type": "monotone",
+    "start": 5.545,
+    "end": 10.871
+   },
+   {
+    "clip": "reagan_1981__rushing_s2",
+    "type": "mumble",
+    "start": 11.774,
+    "end": 11.954
+   },
+   {
+    "clip": "reagan_1981__rushing_s4",
+    "type": "mumble",
+    "start": 11.472,
+    "end": 11.653
+   }
+  ]
+ },
+ "score_vs_level_spearman": {
+  "mix": -0.961,
+  "single": {
+   "dragging": -0.943,
+   "long_pause": -0.882,
+   "monotone": -0.949,
+   "mumble": -0.936,
+   "pause_removal": -0.943,
+   "rushing": -0.893,
+   "volume_drop": -0.904
+  }
+ },
+ "self_recorded": {
+  "by_type": {},
+  "overall": null,
+  "false_positives_per_minute": null,
+  "mean_score_by_take": {},
+  "minutes": 0.0,
+  "false_positive_items": []
+ },
+ "runtime_s": 112.8
+}

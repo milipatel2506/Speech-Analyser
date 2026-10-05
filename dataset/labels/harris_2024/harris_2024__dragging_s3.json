@@ -1,0 +1,959 @@
+{
+ "clip_id": "harris_2024__dragging_s3",
+ "baseline_id": "harris_2024",
+ "kind": "single",
+ "level": 3,
+ "generator_version": "1.0",
+ "audio": "audio/flawed/harris_2024/harris_2024__dragging_s3.wav",
+ "baseline_audio": "audio/baseline/harris_2024.wav",
+ "sample_rate": 16000,
+ "duration": 50.2139,
+ "transcript": "Look, many of you know I started out as a prosecutor and throughout my career, I saw people at some of the worst times in their lives, people who had suffered great harm and great pain, and yet found within themselves the strength and the courage and the resolve to take the stand, to take a stand, to fight for justice, to fight for themselves, to fight for others. So let their courage be our inspiration. Let their determination be our charge.",
+ "flaws": [
+  {
+   "type": "dragging",
+   "label": "Dragging pacing",
+   "rubric": "pace",
+   "severity": 3,
+   "start": 2.2418,
+   "end": 9.3114,
+   "word_span": [
+    10,
+    23
+   ],
+   "text": "prosecutor and throughout my career I saw people at some of the worst times",
+   "params": {
+    "duration_factor": 1.65
+   },
+   "description": "Span stretched to 165% of original duration (pitch preserved)"
+  }
+ ],
+ "words": [
+  {
+   "word": "Look",
+   "start": 0.1201,
+   "end": 0.2603
+  },
+  {
+   "word": "many",
+   "start": 0.3404,
+   "end": 0.5205
+  },
+  {
+   "word": "of",
+   "start": 0.6006,
+   "end": 0.6807
+  },
+  {
+   "word": "you",
+   "start": 0.7408,
+   "end": 0.8409
+  },
+  {
+   "word": "know",
+   "start": 0.8609,
+   "end": 1.1012
+  },
+  {
+   "word": "I",
+   "start": 1.3014,
+   "end": 1.3214
+  },
+  {
+   "word": "started",
+   "start": 1.3815,
+   "end": 1.7619
+  },
+  {
+   "word": "out",
+   "start": 1.8219,
+   "end": 1.9621
+  },
+  {
+   "word": "as",
+   "start": 2.0221,
+   "end": 2.1022
+  },
+  {
+   "word": "a",
+   "start": 2.1423,
+   "end": 2.1623
+  },
+  {
+   "word": "prosecutor",
+   "start": 2.2418,
+   "end": 3.299
+  },
+  {
+   "word": "and",
+   "start": 3.299,
+   "end": 3.4311
+  },
+  {
+   "word": "throughout",
+   "start": 3.4311,
+   "end": 3.9596
+  },
+  {
+   "word": "my",
+   "start": 4.0258,
+   "end": 4.2239
+  },
+  {
+   "word": "career",
+   "start": 4.3561,
+   "end": 4.9178
+  },
+  {
+   "word": "I",
+   "start": 5.2481,
+   "end": 5.2811
+  },
+  {
+   "word": "saw",
+   "start": 5.4463,
+   "end": 5.8426
+  },
+  {
+   "word": "people",
+   "start": 6.7676,
+   "end": 7.2962
+  },
+  {
+   "word": "at",
+   "start": 7.3622,
+   "end": 7.4614
+  },
+  {
+   "word": "some",
+   "start": 7.5604,
+   "end": 7.8247
+  },
+  {
+   "word": "of",
+   "start": 7.8577,
+   "end": 7.9239
+  },
+  {
+   "word": "the",
+   "start": 7.9569,
+   "end": 8.089
+  },
+  {
+   "word": "worst",
+   "start": 8.155,
+   "end": 8.6175
+  },
+  {
+   "word": "times",
+   "start": 8.7167,
+   "end": 9.3114
+  },
+  {
+   "word": "in",
+   "start": 9.3908,
+   "end": 9.4509
+  },
+  {
+   "word": "their",
+   "start": 9.4709,
+   "end": 9.6111
+  },
+  {
+   "word": "lives",
+   "start": 9.6911,
+   "end": 10.1516
+  },
+  {
+   "word": "people",
+   "start": 11.1327,
+   "end": 11.433
+  },
+  {
+   "word": "who",
+   "start": 11.473,
+   "end": 11.5531
+  },
+  {
+   "word": "had",
+   "start": 11.6132,
+   "end": 11.7133
+  },
+  {
+   "word": "suffered",
+   "start": 11.8134,
+   "end": 12.1938
+  },
+  {
+   "word": "great",
+   "start": 12.2538,
+   "end": 12.4941
+  },
+  {
+   "word": "harm",
+   "start": 12.5542,
+   "end": 12.9145
+  },
+  {
+   "word": "and",
+   "start": 13.8155,
+   "end": 13.8956
+  },
+  {
+   "word": "great",
+   "start": 13.9356,
+   "end": 14.1559
+  },
+  {
+   "word": "pain",
+   "start": 14.2159,
+   "end": 14.5563
+  },
+  {
+   "word": "and",
+   "start": 16.0178,
+   "end": 16.158
+  },
+  {
+   "word": "yet",
+   "start": 16.2381,
+   "end": 16.5183
+  },
+  {
+   "word": "found",
+   "start": 17.0589,
+   "end": 17.5995
+  },
+  {
+   "word": "within",
+   "start": 17.8998,
+   "end": 18.3002
+  },
+  {
+   "word": "themselves",
+   "start": 18.4003,
+   "end": 19.3013
+  },
+  {
+   "word": "the",
+   "start": 20.2623,
+   "end": 20.3624
+  },
+  {
+   "word": "strength",
+   "start": 20.5026,
+   "end": 21.0832
+  },
+  {
+   "word": "and",
+   "start": 21.5837,
+   "end": 21.6838
+  },
+  {
+   "word": "the",
+   "start": 21.7238,
+   "end": 21.7839
+  },
+  {
+   "word": "courage",
+   "start": 21.904,
+   "end": 22.5847
+  },
+  {
+   "word": "and",
+   "start": 23.1253,
+   "end": 23.2254
+  },
+  {
+   "word": "the",
+   "start": 23.2454,
+   "end": 23.3255
+  },
+  {
+   "word": "resolve",
+   "start": 23.3856,
+   "end": 24.3867
+  },
+  {
+   "word": "to",
+   "start": 25.2476,
+   "end": 25.3276
+  },
+  {
+   "word": "take",
+   "start": 25.4478,
+   "end": 25.8282
+  },
+  {
+   "word": "the",
+   "start": 26.0484,
+   "end": 26.1285
+  },
+  {
+   "word": "stand",
+   "start": 26.3687,
+   "end": 27.0895
+  },
+  {
+   "word": "to",
+   "start": 27.7902,
+   "end": 27.8703
+  },
+  {
+   "word": "take",
+   "start": 27.9905,
+   "end": 28.3909
+  },
+  {
+   "word": "a",
+   "start": 28.5911,
+   "end": 28.6111
+  },
+  {
+   "word": "stand",
+   "start": 28.8714,
+   "end": 29.5721
+  },
+  {
+   "word": "to",
+   "start": 30.7934,
+   "end": 30.8935
+  },
+  {
+   "word": "fight",
+   "start": 31.0537,
+   "end": 31.4741
+  },
+  {
+   "word": "for",
+   "start": 31.8345,
+   "end": 31.9546
+  },
+  {
+   "word": "justice",
+   "start": 32.1148,
+   "end": 32.8756
+  },
+  {
+   "word": "to",
+   "start": 33.8967,
+   "end": 33.9768
+  },
+  {
+   "word": "fight",
+   "start": 34.1169,
+   "end": 34.4172
+  },
+  {
+   "word": "for",
+   "start": 34.4973,
+   "end": 34.6375
+  },
+  {
+   "word": "themselves",
+   "start": 34.6775,
+   "end": 35.7386
+  },
+  {
+   "word": "to",
+   "start": 36.7997,
+   "end": 36.8598
+  },
+  {
+   "word": "fight",
+   "start": 36.9799,
+   "end": 37.2602
+  },
+  {
+   "word": "for",
+   "start": 37.4004,
+   "end": 37.6006
+  },
+  {
+   "word": "others",
+   "start": 37.8809,
+   "end": 38.3614
+  },
+  {
+   "word": "So",
+   "start": 39.843,
+   "end": 39.923
+  },
+  {
+   "word": "let",
+   "start": 40.1233,
+   "end": 40.3435
+  },
+  {
+   "word": "their",
+   "start": 40.5037,
+   "end": 40.7039
+  },
+  {
+   "word": "courage",
+   "start": 40.844,
+   "end": 41.4847
+  },
+  {
+   "word": "be",
+   "start": 41.9252,
+   "end": 42.0052
+  },
+  {
+   "word": "our",
+   "start": 42.2255,
+   "end": 42.6059
+  },
+  {
+   "word": "inspiration",
+   "start": 42.9663,
+   "end": 43.9873
+  },
+  {
+   "word": "Let",
+   "start": 45.0485,
+   "end": 45.2487
+  },
+  {
+   "word": "their",
+   "start": 45.3888,
+   "end": 45.589
+  },
+  {
+   "word": "determination",
+   "start": 45.6891,
+   "end": 46.6902
+  },
+  {
+   "word": "be",
+   "start": 47.511,
+   "end": 47.5911
+  },
+  {
+   "word": "our",
+   "start": 47.8714,
+   "end": 48.1918
+  },
+  {
+   "word": "charge",
+   "start": 48.5121,
+   "end": 49.2329
+  }
+ ],
+ "time_map": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   2.1923,
+   2.1923
+  ],
+  [
+   6.5369,
+   9.3608
+  ],
+  [
+   47.39,
+   50.2139
+  ]
+ ],
+ "aligned_words": [
+  {
+   "word": "Look",
+   "start": 0.1201,
+   "end": 0.2603,
+   "score": 0.5766
+  },
+  {
+   "word": "many",
+   "start": 0.3404,
+   "end": 0.5206,
+   "score": 0.9729
+  },
+  {
+   "word": "of",
+   "start": 0.6006,
+   "end": 0.6807,
+   "score": 0.9729
+  },
+  {
+   "word": "you",
+   "start": 0.7408,
+   "end": 0.8409,
+   "score": 0.9809
+  },
+  {
+   "word": "know",
+   "start": 0.8609,
+   "end": 1.1012,
+   "score": 0.9183
+  },
+  {
+   "word": "I",
+   "start": 1.3014,
+   "end": 1.3214,
+   "score": 0.9855
+  },
+  {
+   "word": "started",
+   "start": 1.3815,
+   "end": 1.7619,
+   "score": 0.9939
+  },
+  {
+   "word": "out",
+   "start": 1.822,
+   "end": 1.9621,
+   "score": 0.9932
+  },
+  {
+   "word": "as",
+   "start": 2.0222,
+   "end": 2.1023,
+   "score": 0.9912
+  },
+  {
+   "word": "a",
+   "start": 2.1423,
+   "end": 2.1623,
+   "score": 0.9842
+  },
+  {
+   "word": "prosecutor",
+   "start": 2.2624,
+   "end": 3.2835,
+   "score": 0.9014
+  },
+  {
+   "word": "and",
+   "start": 3.3035,
+   "end": 3.4037,
+   "score": 0.2059
+  },
+  {
+   "word": "throughout",
+   "start": 3.4437,
+   "end": 3.9242,
+   "score": 0.9447
+  },
+  {
+   "word": "my",
+   "start": 4.0243,
+   "end": 4.2045,
+   "score": 0.9971
+  },
+  {
+   "word": "career",
+   "start": 4.3447,
+   "end": 4.8852,
+   "score": 0.9024
+  },
+  {
+   "word": "I",
+   "start": 5.2456,
+   "end": 5.2657,
+   "score": 0.9976
+  },
+  {
+   "word": "saw",
+   "start": 5.4659,
+   "end": 5.7862,
+   "score": 0.9905
+  },
+  {
+   "word": "people",
+   "start": 6.7873,
+   "end": 7.2678,
+   "score": 0.9703
+  },
+  {
+   "word": "at",
+   "start": 7.3479,
+   "end": 7.448,
+   "score": 0.9944
+  },
+  {
+   "word": "some",
+   "start": 7.5681,
+   "end": 7.8084,
+   "score": 0.9969
+  },
+  {
+   "word": "of",
+   "start": 7.8484,
+   "end": 7.9285,
+   "score": 0.9941
+  },
+  {
+   "word": "the",
+   "start": 7.9686,
+   "end": 8.0687,
+   "score": 0.9762
+  },
+  {
+   "word": "worst",
+   "start": 8.1688,
+   "end": 8.5892,
+   "score": 0.9155
+  },
+  {
+   "word": "times",
+   "start": 8.7094,
+   "end": 9.31,
+   "score": 0.996
+  },
+  {
+   "word": "in",
+   "start": 9.3701,
+   "end": 9.4502,
+   "score": 0.9753
+  },
+  {
+   "word": "their",
+   "start": 9.4702,
+   "end": 9.6103,
+   "score": 0.9469
+  },
+  {
+   "word": "lives",
+   "start": 9.6904,
+   "end": 10.1509,
+   "score": 0.9988
+  },
+  {
+   "word": "people",
+   "start": 11.132,
+   "end": 11.4323,
+   "score": 0.9217
+  },
+  {
+   "word": "who",
+   "start": 11.4723,
+   "end": 11.5724,
+   "score": 0.9691
+  },
+  {
+   "word": "had",
+   "start": 11.6325,
+   "end": 11.7326,
+   "score": 0.9784
+  },
+  {
+   "word": "suffered",
+   "start": 11.8327,
+   "end": 12.1931,
+   "score": 0.964
+  },
+  {
+   "word": "great",
+   "start": 12.2532,
+   "end": 12.4934,
+   "score": 0.9415
+  },
+  {
+   "word": "harm",
+   "start": 12.5535,
+   "end": 12.9339,
+   "score": 0.8652
+  },
+  {
+   "word": "and",
+   "start": 13.8148,
+   "end": 13.9149,
+   "score": 0.9349
+  },
+  {
+   "word": "great",
+   "start": 13.935,
+   "end": 14.1552,
+   "score": 0.9909
+  },
+  {
+   "word": "pain",
+   "start": 14.2153,
+   "end": 14.5556,
+   "score": 0.998
+  },
+  {
+   "word": "and",
+   "start": 16.0172,
+   "end": 16.1574,
+   "score": 0.9201
+  },
+  {
+   "word": "yet",
+   "start": 16.2374,
+   "end": 16.5177,
+   "score": 0.9942
+  },
+  {
+   "word": "found",
+   "start": 17.0583,
+   "end": 17.5989,
+   "score": 0.9463
+  },
+  {
+   "word": "within",
+   "start": 17.8992,
+   "end": 18.2997,
+   "score": 0.9661
+  },
+  {
+   "word": "themselves",
+   "start": 18.3998,
+   "end": 19.3007,
+   "score": 0.9478
+  },
+  {
+   "word": "the",
+   "start": 20.2618,
+   "end": 20.3419,
+   "score": 0.9577
+  },
+  {
+   "word": "strength",
+   "start": 20.482,
+   "end": 21.0626,
+   "score": 0.8637
+  },
+  {
+   "word": "and",
+   "start": 21.5632,
+   "end": 21.6633,
+   "score": 0.9823
+  },
+  {
+   "word": "the",
+   "start": 21.7033,
+   "end": 21.7834,
+   "score": 0.9606
+  },
+  {
+   "word": "courage",
+   "start": 21.8835,
+   "end": 22.5642,
+   "score": 0.9599
+  },
+  {
+   "word": "and",
+   "start": 23.1449,
+   "end": 23.2249,
+   "score": 0.9494
+  },
+  {
+   "word": "the",
+   "start": 23.265,
+   "end": 23.3251,
+   "score": 0.9468
+  },
+  {
+   "word": "resolve",
+   "start": 23.3851,
+   "end": 24.3862,
+   "score": 0.9787
+  },
+  {
+   "word": "to",
+   "start": 25.2471,
+   "end": 25.3272,
+   "score": 0.9369
+  },
+  {
+   "word": "take",
+   "start": 25.4674,
+   "end": 25.8277,
+   "score": 0.9831
+  },
+  {
+   "word": "the",
+   "start": 26.048,
+   "end": 26.1481,
+   "score": 0.8278
+  },
+  {
+   "word": "stand",
+   "start": 26.3683,
+   "end": 27.0891,
+   "score": 0.9364
+  },
+  {
+   "word": "to",
+   "start": 27.7899,
+   "end": 27.89,
+   "score": 0.9421
+  },
+  {
+   "word": "take",
+   "start": 27.9901,
+   "end": 28.3905,
+   "score": 0.9908
+  },
+  {
+   "word": "a",
+   "start": 28.5907,
+   "end": 28.6107,
+   "score": 0.9828
+  },
+  {
+   "word": "stand",
+   "start": 28.871,
+   "end": 29.5718,
+   "score": 0.9654
+  },
+  {
+   "word": "to",
+   "start": 30.8131,
+   "end": 30.8932,
+   "score": 0.9576
+  },
+  {
+   "word": "fight",
+   "start": 31.0534,
+   "end": 31.4738,
+   "score": 0.9535
+  },
+  {
+   "word": "for",
+   "start": 31.8342,
+   "end": 31.9743,
+   "score": 0.9343
+  },
+  {
+   "word": "justice",
+   "start": 32.1145,
+   "end": 32.8953,
+   "score": 0.935
+  },
+  {
+   "word": "to",
+   "start": 33.8964,
+   "end": 33.9765,
+   "score": 0.9076
+  },
+  {
+   "word": "fight",
+   "start": 34.1166,
+   "end": 34.417,
+   "score": 0.9072
+  },
+  {
+   "word": "for",
+   "start": 34.5171,
+   "end": 34.6572,
+   "score": 0.8028
+  },
+  {
+   "word": "themselves",
+   "start": 34.6973,
+   "end": 35.7384,
+   "score": 0.9151
+  },
+  {
+   "word": "to",
+   "start": 36.7995,
+   "end": 36.8796,
+   "score": 0.8423
+  },
+  {
+   "word": "fight",
+   "start": 36.9797,
+   "end": 37.26,
+   "score": 0.9077
+  },
+  {
+   "word": "for",
+   "start": 37.4002,
+   "end": 37.6004,
+   "score": 0.9331
+  },
+  {
+   "word": "others",
+   "start": 37.8807,
+   "end": 38.3812,
+   "score": 0.936
+  },
+  {
+   "word": "So",
+   "start": 39.8428,
+   "end": 39.9229,
+   "score": 0.0622
+  },
+  {
+   "word": "let",
+   "start": 40.1031,
+   "end": 40.3233,
+   "score": 0.9988
+  },
+  {
+   "word": "their",
+   "start": 40.4835,
+   "end": 40.7037,
+   "score": 0.8908
+  },
+  {
+   "word": "courage",
+   "start": 40.8439,
+   "end": 41.4846,
+   "score": 0.9586
+  },
+  {
+   "word": "be",
+   "start": 41.905,
+   "end": 41.9851,
+   "score": 0.9993
+  },
+  {
+   "word": "our",
+   "start": 42.2053,
+   "end": 42.5857,
+   "score": 0.9962
+  },
+  {
+   "word": "inspiration",
+   "start": 42.9662,
+   "end": 43.9872,
+   "score": 0.9704
+  },
+  {
+   "word": "Let",
+   "start": 45.0484,
+   "end": 45.2686,
+   "score": 0.8771
+  },
+  {
+   "word": "their",
+   "start": 45.4088,
+   "end": 45.589,
+   "score": 0.9318
+  },
+  {
+   "word": "determination",
+   "start": 45.6891,
+   "end": 46.7102,
+   "score": 0.9512
+  },
+  {
+   "word": "be",
+   "start": 47.511,
+   "end": 47.5911,
+   "score": 0.9987
+  },
+  {
+   "word": "our",
+   "start": 47.8714,
+   "end": 48.1918,
+   "score": 0.9982
+  },
+  {
+   "word": "charge",
+   "start": 48.5121,
+   "end": 49.2529,
+   "score": 0.9372
+  }
+ ],
+ "alignment_error_ms": {
+  "mean": 6.5,
+  "max": 20.7
+ }
+}

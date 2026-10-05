@@ -1,0 +1,1451 @@
+{
+ "clip_id": "jfk_1961__long_pause_s2",
+ "baseline_id": "jfk_1961",
+ "kind": "single",
+ "level": 2,
+ "generator_version": "1.0",
+ "audio": "audio/flawed/jfk_1961/jfk_1961__long_pause_s2.wav",
+ "baseline_audio": "audio/baseline/jfk_1961.wav",
+ "sample_rate": 16000,
+ "duration": 75.14,
+ "transcript": "Finally, to those nations who would make themselves our adversary, we offer not a pledge but a request that both sides begin anew the quest for peace before the dark powers of destruction, unleashed by science engulf all humanity in planned or accidental self-destruction. We dare not tempt them with weakness, for only when our arms are sufficient beyond doubt can we be certain beyond doubt that they will never be employed. But neither can two great and powerful groups of nations take comfort from our present course, both sides overburdened by the cost of modern weapons, both rightly alarmed by the steady spread of the deadly atom, yet both racing to alter that uncertain balance of terror that stays the hand of mankind's final war.",
+ "flaws": [
+  {
+   "type": "long_pause",
+   "label": "Awkward mid-phrase pause",
+   "rubric": "pausing",
+   "severity": 2,
+   "start": 15.2464,
+   "end": 15.9464,
+   "word_span": [
+    24,
+    25
+   ],
+   "text": "quest for",
+   "params": {
+    "pause_s": 0.7
+   },
+   "description": "0.70 s of silence inserted inside a phrase"
+  }
+ ],
+ "words": [
+  {
+   "word": "Finally",
+   "start": 0.1001,
+   "end": 0.5406
+  },
+  {
+   "word": "to",
+   "start": 1.6418,
+   "end": 1.7219
+  },
+  {
+   "word": "those",
+   "start": 1.7819,
+   "end": 2.1023
+  },
+  {
+   "word": "nations",
+   "start": 2.1423,
+   "end": 2.6228
+  },
+  {
+   "word": "who",
+   "start": 3.724,
+   "end": 3.8241
+  },
+  {
+   "word": "would",
+   "start": 3.9042,
+   "end": 4.0844
+  },
+  {
+   "word": "make",
+   "start": 4.1244,
+   "end": 4.3647
+  },
+  {
+   "word": "themselves",
+   "start": 4.4047,
+   "end": 5.1856
+  },
+  {
+   "word": "our",
+   "start": 5.3858,
+   "end": 5.5059
+  },
+  {
+   "word": "adversary",
+   "start": 5.586,
+   "end": 6.1266
+  },
+  {
+   "word": "we",
+   "start": 7.448,
+   "end": 7.5481
+  },
+  {
+   "word": "offer",
+   "start": 7.7083,
+   "end": 8.0486
+  },
+  {
+   "word": "not",
+   "start": 8.1087,
+   "end": 8.2689
+  },
+  {
+   "word": "a",
+   "start": 8.329,
+   "end": 8.349
+  },
+  {
+   "word": "pledge",
+   "start": 8.409,
+   "end": 8.8495
+  },
+  {
+   "word": "but",
+   "start": 9.7905,
+   "end": 9.9307
+  },
+  {
+   "word": "a",
+   "start": 9.9907,
+   "end": 10.0108
+  },
+  {
+   "word": "request",
+   "start": 10.1309,
+   "end": 10.7115
+  },
+  {
+   "word": "that",
+   "start": 11.8728,
+   "end": 12.053
+  },
+  {
+   "word": "both",
+   "start": 12.1931,
+   "end": 12.4534
+  },
+  {
+   "word": "sides",
+   "start": 12.5134,
+   "end": 13.0741
+  },
+  {
+   "word": "begin",
+   "start": 13.975,
+   "end": 14.3154
+  },
+  {
+   "word": "anew",
+   "start": 14.3554,
+   "end": 14.6558
+  },
+  {
+   "word": "the",
+   "start": 14.7759,
+   "end": 14.856
+  },
+  {
+   "word": "quest",
+   "start": 14.9561,
+   "end": 15.2164
+  },
+  {
+   "word": "for",
+   "start": 15.9764,
+   "end": 16.0765
+  },
+  {
+   "word": "peace",
+   "start": 16.1566,
+   "end": 16.497
+  },
+  {
+   "word": "before",
+   "start": 17.6582,
+   "end": 18.1588
+  },
+  {
+   "word": "the",
+   "start": 18.2388,
+   "end": 18.3189
+  },
+  {
+   "word": "dark",
+   "start": 18.399,
+   "end": 18.7394
+  },
+  {
+   "word": "powers",
+   "start": 18.8595,
+   "end": 19.3
+  },
+  {
+   "word": "of",
+   "start": 19.3601,
+   "end": 19.4201
+  },
+  {
+   "word": "destruction",
+   "start": 19.4802,
+   "end": 20.0808
+  },
+  {
+   "word": "unleashed",
+   "start": 21.162,
+   "end": 21.8227
+  },
+  {
+   "word": "by",
+   "start": 22.0229,
+   "end": 22.2031
+  },
+  {
+   "word": "science",
+   "start": 22.3032,
+   "end": 22.8438
+  },
+  {
+   "word": "engulf",
+   "start": 23.8249,
+   "end": 24.3855
+  },
+  {
+   "word": "all",
+   "start": 24.6457,
+   "end": 24.926
+  },
+  {
+   "word": "humanity",
+   "start": 25.0462,
+   "end": 25.6268
+  },
+  {
+   "word": "in",
+   "start": 26.708,
+   "end": 26.8081
+  },
+  {
+   "word": "planned",
+   "start": 26.9282,
+   "end": 27.4087
+  },
+  {
+   "word": "or",
+   "start": 27.4287,
+   "end": 27.5088
+  },
+  {
+   "word": "accidental",
+   "start": 27.5889,
+   "end": 28.1895
+  },
+  {
+   "word": "self-destruction",
+   "start": 28.5499,
+   "end": 29.4109
+  },
+  {
+   "word": "We",
+   "start": 30.7323,
+   "end": 30.8324
+  },
+  {
+   "word": "dare",
+   "start": 31.0126,
+   "end": 31.2929
+  },
+  {
+   "word": "not",
+   "start": 31.373,
+   "end": 31.5732
+  },
+  {
+   "word": "tempt",
+   "start": 31.6733,
+   "end": 31.9536
+  },
+  {
+   "word": "them",
+   "start": 31.9936,
+   "end": 32.1538
+  },
+  {
+   "word": "with",
+   "start": 32.2139,
+   "end": 32.354
+  },
+  {
+   "word": "weakness",
+   "start": 32.4141,
+   "end": 32.7945
+  },
+  {
+   "word": "for",
+   "start": 34.0358,
+   "end": 34.176
+  },
+  {
+   "word": "only",
+   "start": 34.2761,
+   "end": 34.5564
+  },
+  {
+   "word": "when",
+   "start": 34.6565,
+   "end": 34.8167
+  },
+  {
+   "word": "our",
+   "start": 34.8767,
+   "end": 34.9969
+  },
+  {
+   "word": "arms",
+   "start": 35.097,
+   "end": 35.5374
+  },
+  {
+   "word": "are",
+   "start": 36.4785,
+   "end": 36.6186
+  },
+  {
+   "word": "sufficient",
+   "start": 36.6987,
+   "end": 37.2993
+  },
+  {
+   "word": "beyond",
+   "start": 37.4995,
+   "end": 37.9
+  },
+  {
+   "word": "doubt",
+   "start": 37.96,
+   "end": 38.2604
+  },
+  {
+   "word": "can",
+   "start": 39.4216,
+   "end": 39.6018
+  },
+  {
+   "word": "we",
+   "start": 39.6819,
+   "end": 39.762
+  },
+  {
+   "word": "be",
+   "start": 39.8821,
+   "end": 39.9822
+  },
+  {
+   "word": "certain",
+   "start": 40.1624,
+   "end": 40.5228
+  },
+  {
+   "word": "beyond",
+   "start": 40.5829,
+   "end": 40.9633
+  },
+  {
+   "word": "doubt",
+   "start": 41.0033,
+   "end": 41.3036
+  },
+  {
+   "word": "that",
+   "start": 42.0845,
+   "end": 42.2446
+  },
+  {
+   "word": "they",
+   "start": 42.3047,
+   "end": 42.4449
+  },
+  {
+   "word": "will",
+   "start": 42.4849,
+   "end": 42.6251
+  },
+  {
+   "word": "never",
+   "start": 42.6651,
+   "end": 42.8653
+  },
+  {
+   "word": "be",
+   "start": 42.9054,
+   "end": 42.9854
+  },
+  {
+   "word": "employed",
+   "start": 43.0655,
+   "end": 43.5861
+  },
+  {
+   "word": "But",
+   "start": 44.9876,
+   "end": 45.1678
+  },
+  {
+   "word": "neither",
+   "start": 45.2479,
+   "end": 45.6683
+  },
+  {
+   "word": "can",
+   "start": 45.8285,
+   "end": 46.0487
+  },
+  {
+   "word": "two",
+   "start": 46.1689,
+   "end": 46.4492
+  },
+  {
+   "word": "great",
+   "start": 46.6294,
+   "end": 47.0098
+  },
+  {
+   "word": "and",
+   "start": 47.5503,
+   "end": 47.6705
+  },
+  {
+   "word": "powerful",
+   "start": 47.7706,
+   "end": 48.3712
+  },
+  {
+   "word": "groups",
+   "start": 48.4513,
+   "end": 48.7516
+  },
+  {
+   "word": "of",
+   "start": 48.8117,
+   "end": 48.8718
+  },
+  {
+   "word": "nations",
+   "start": 48.9318,
+   "end": 49.3723
+  },
+  {
+   "word": "take",
+   "start": 50.4334,
+   "end": 50.6937
+  },
+  {
+   "word": "comfort",
+   "start": 50.7338,
+   "end": 51.1542
+  },
+  {
+   "word": "from",
+   "start": 51.2143,
+   "end": 51.3544
+  },
+  {
+   "word": "our",
+   "start": 51.4345,
+   "end": 51.5547
+  },
+  {
+   "word": "present",
+   "start": 51.6347,
+   "end": 51.9551
+  },
+  {
+   "word": "course",
+   "start": 51.9951,
+   "end": 52.4356
+  },
+  {
+   "word": "both",
+   "start": 53.5968,
+   "end": 53.8571
+  },
+  {
+   "word": "sides",
+   "start": 53.8972,
+   "end": 54.4378
+  },
+  {
+   "word": "overburdened",
+   "start": 54.5979,
+   "end": 55.2787
+  },
+  {
+   "word": "by",
+   "start": 56.2998,
+   "end": 56.4399
+  },
+  {
+   "word": "the",
+   "start": 56.4599,
+   "end": 56.54
+  },
+  {
+   "word": "cost",
+   "start": 56.6401,
+   "end": 57.1206
+  },
+  {
+   "word": "of",
+   "start": 57.1807,
+   "end": 57.2808
+  },
+  {
+   "word": "modern",
+   "start": 57.3609,
+   "end": 57.6812
+  },
+  {
+   "word": "weapons",
+   "start": 57.7213,
+   "end": 58.1417
+  },
+  {
+   "word": "both",
+   "start": 59.323,
+   "end": 59.6233
+  },
+  {
+   "word": "rightly",
+   "start": 59.7435,
+   "end": 60.1038
+  },
+  {
+   "word": "alarmed",
+   "start": 60.1639,
+   "end": 60.7846
+  },
+  {
+   "word": "by",
+   "start": 61.6655,
+   "end": 61.8257
+  },
+  {
+   "word": "the",
+   "start": 61.8858,
+   "end": 61.9658
+  },
+  {
+   "word": "steady",
+   "start": 62.0459,
+   "end": 62.3463
+  },
+  {
+   "word": "spread",
+   "start": 62.5064,
+   "end": 63.007
+  },
+  {
+   "word": "of",
+   "start": 63.067,
+   "end": 63.1271
+  },
+  {
+   "word": "the",
+   "start": 63.1671,
+   "end": 63.2472
+  },
+  {
+   "word": "deadly",
+   "start": 63.3073,
+   "end": 63.5876
+  },
+  {
+   "word": "atom",
+   "start": 63.7077,
+   "end": 63.928
+  },
+  {
+   "word": "yet",
+   "start": 65.0492,
+   "end": 65.2494
+  },
+  {
+   "word": "both",
+   "start": 65.4496,
+   "end": 65.7699
+  },
+  {
+   "word": "racing",
+   "start": 65.8901,
+   "end": 66.3105
+  },
+  {
+   "word": "to",
+   "start": 66.3706,
+   "end": 66.4507
+  },
+  {
+   "word": "alter",
+   "start": 66.5908,
+   "end": 66.8911
+  },
+  {
+   "word": "that",
+   "start": 67.9923,
+   "end": 68.2126
+  },
+  {
+   "word": "uncertain",
+   "start": 68.2726,
+   "end": 68.8733
+  },
+  {
+   "word": "balance",
+   "start": 68.9734,
+   "end": 69.4138
+  },
+  {
+   "word": "of",
+   "start": 69.4539,
+   "end": 69.534
+  },
+  {
+   "word": "terror",
+   "start": 69.594,
+   "end": 69.8944
+  },
+  {
+   "word": "that",
+   "start": 70.9555,
+   "end": 71.0957
+  },
+  {
+   "word": "stays",
+   "start": 71.1557,
+   "end": 71.5762
+  },
+  {
+   "word": "the",
+   "start": 71.6162,
+   "end": 71.6963
+  },
+  {
+   "word": "hand",
+   "start": 71.7764,
+   "end": 72.1368
+  },
+  {
+   "word": "of",
+   "start": 72.1968,
+   "end": 72.2569
+  },
+  {
+   "word": "mankind's",
+   "start": 72.317,
+   "end": 73.4382
+  },
+  {
+   "word": "final",
+   "start": 73.4382,
+   "end": 73.7585
+  },
+  {
+   "word": "war",
+   "start": 73.8386,
+   "end": 74.0789
+  }
+ ],
+ "time_map": [
+  [
+   0.0,
+   0.0
+  ],
+  [
+   15.2164,
+   15.2164
+  ],
+  [
+   15.2464,
+   15.2464
+  ],
+  [
+   15.2464,
+   15.9464
+  ],
+  [
+   15.2764,
+   15.9764
+  ],
+  [
+   74.44,
+   75.14
+  ]
+ ],
+ "aligned_words": [
+  {
+   "word": "Finally",
+   "start": 0.1001,
+   "end": 0.5406,
+   "score": 0.9954
+  },
+  {
+   "word": "to",
+   "start": 1.6417,
+   "end": 1.7018,
+   "score": 0.9847
+  },
+  {
+   "word": "those",
+   "start": 1.7819,
+   "end": 2.1022,
+   "score": 0.9363
+  },
+  {
+   "word": "nations",
+   "start": 2.1423,
+   "end": 2.6228,
+   "score": 0.9972
+  },
+  {
+   "word": "who",
+   "start": 3.724,
+   "end": 3.8241,
+   "score": 0.9809
+  },
+  {
+   "word": "would",
+   "start": 3.9042,
+   "end": 4.0843,
+   "score": 0.9888
+  },
+  {
+   "word": "make",
+   "start": 4.1244,
+   "end": 4.3646,
+   "score": 0.9988
+  },
+  {
+   "word": "themselves",
+   "start": 4.4047,
+   "end": 5.1855,
+   "score": 0.9727
+  },
+  {
+   "word": "our",
+   "start": 5.3857,
+   "end": 5.5059,
+   "score": 0.9972
+  },
+  {
+   "word": "adversary",
+   "start": 5.5859,
+   "end": 6.1265,
+   "score": 0.9901
+  },
+  {
+   "word": "we",
+   "start": 7.4479,
+   "end": 7.548,
+   "score": 0.9967
+  },
+  {
+   "word": "offer",
+   "start": 7.7082,
+   "end": 8.0486,
+   "score": 0.4314
+  },
+  {
+   "word": "not",
+   "start": 8.1086,
+   "end": 8.2688,
+   "score": 0.9879
+  },
+  {
+   "word": "a",
+   "start": 8.3289,
+   "end": 8.3489,
+   "score": 0.9919
+  },
+  {
+   "word": "pledge",
+   "start": 8.409,
+   "end": 8.8494,
+   "score": 0.9685
+  },
+  {
+   "word": "but",
+   "start": 9.7904,
+   "end": 9.9306,
+   "score": 0.996
+  },
+  {
+   "word": "a",
+   "start": 9.9906,
+   "end": 10.0107,
+   "score": 0.9797
+  },
+  {
+   "word": "request",
+   "start": 10.1308,
+   "end": 10.7114,
+   "score": 0.9839
+  },
+  {
+   "word": "that",
+   "start": 11.8726,
+   "end": 12.0528,
+   "score": 0.9413
+  },
+  {
+   "word": "both",
+   "start": 12.193,
+   "end": 12.4533,
+   "score": 0.9977
+  },
+  {
+   "word": "sides",
+   "start": 12.5133,
+   "end": 13.0739,
+   "score": 0.9408
+  },
+  {
+   "word": "begin",
+   "start": 13.9749,
+   "end": 14.3152,
+   "score": 0.9968
+  },
+  {
+   "word": "anew",
+   "start": 14.3553,
+   "end": 14.6556,
+   "score": 0.7752
+  },
+  {
+   "word": "the",
+   "start": 14.7757,
+   "end": 14.8558,
+   "score": 0.8501
+  },
+  {
+   "word": "quest",
+   "start": 14.9559,
+   "end": 15.2362,
+   "score": 0.9552
+  },
+  {
+   "word": "for",
+   "start": 15.977,
+   "end": 16.0971,
+   "score": 0.9237
+  },
+  {
+   "word": "peace",
+   "start": 16.1572,
+   "end": 16.4976,
+   "score": 0.9941
+  },
+  {
+   "word": "before",
+   "start": 17.6588,
+   "end": 18.1593,
+   "score": 0.9918
+  },
+  {
+   "word": "the",
+   "start": 18.2394,
+   "end": 18.3195,
+   "score": 0.8935
+  },
+  {
+   "word": "dark",
+   "start": 18.3996,
+   "end": 18.74,
+   "score": 0.9991
+  },
+  {
+   "word": "powers",
+   "start": 18.8601,
+   "end": 19.3005,
+   "score": 0.9964
+  },
+  {
+   "word": "of",
+   "start": 19.3606,
+   "end": 19.4207,
+   "score": 0.9971
+  },
+  {
+   "word": "destruction",
+   "start": 19.4607,
+   "end": 20.0614,
+   "score": 0.8482
+  },
+  {
+   "word": "unleashed",
+   "start": 21.1625,
+   "end": 21.8232,
+   "score": 0.9034
+  },
+  {
+   "word": "by",
+   "start": 22.0234,
+   "end": 22.2036,
+   "score": 0.9921
+  },
+  {
+   "word": "science",
+   "start": 22.3037,
+   "end": 22.8443,
+   "score": 0.9271
+  },
+  {
+   "word": "engulf",
+   "start": 23.8254,
+   "end": 24.386,
+   "score": 0.674
+  },
+  {
+   "word": "all",
+   "start": 24.6462,
+   "end": 24.9065,
+   "score": 0.9093
+  },
+  {
+   "word": "humanity",
+   "start": 25.0467,
+   "end": 25.6273,
+   "score": 0.9913
+  },
+  {
+   "word": "in",
+   "start": 26.7084,
+   "end": 26.8085,
+   "score": 0.926
+  },
+  {
+   "word": "planned",
+   "start": 26.9287,
+   "end": 27.4092,
+   "score": 0.8886
+  },
+  {
+   "word": "or",
+   "start": 27.4292,
+   "end": 27.5093,
+   "score": 0.939
+  },
+  {
+   "word": "accidental",
+   "start": 27.5894,
+   "end": 28.19,
+   "score": 0.9977
+  },
+  {
+   "word": "self-destruction",
+   "start": 28.5504,
+   "end": 29.4113,
+   "score": 0.9938
+  },
+  {
+   "word": "We",
+   "start": 30.7327,
+   "end": 30.8328,
+   "score": 0.9937
+  },
+  {
+   "word": "dare",
+   "start": 31.013,
+   "end": 31.2933,
+   "score": 0.482
+  },
+  {
+   "word": "not",
+   "start": 31.3734,
+   "end": 31.5736,
+   "score": 0.9968
+  },
+  {
+   "word": "tempt",
+   "start": 31.6737,
+   "end": 31.954,
+   "score": 0.8224
+  },
+  {
+   "word": "them",
+   "start": 31.9941,
+   "end": 32.1542,
+   "score": 0.9029
+  },
+  {
+   "word": "with",
+   "start": 32.2143,
+   "end": 32.3544,
+   "score": 0.9206
+  },
+  {
+   "word": "weakness",
+   "start": 32.4145,
+   "end": 32.7949,
+   "score": 0.996
+  },
+  {
+   "word": "for",
+   "start": 34.0362,
+   "end": 34.1764,
+   "score": 0.9827
+  },
+  {
+   "word": "only",
+   "start": 34.2765,
+   "end": 34.5568,
+   "score": 0.8768
+  },
+  {
+   "word": "when",
+   "start": 34.6569,
+   "end": 34.8171,
+   "score": 0.9656
+  },
+  {
+   "word": "our",
+   "start": 34.8771,
+   "end": 34.9973,
+   "score": 0.9047
+  },
+  {
+   "word": "arms",
+   "start": 35.0974,
+   "end": 35.5378,
+   "score": 0.9959
+  },
+  {
+   "word": "are",
+   "start": 36.4788,
+   "end": 36.619,
+   "score": 0.9116
+  },
+  {
+   "word": "sufficient",
+   "start": 36.6991,
+   "end": 37.2997,
+   "score": 0.9948
+  },
+  {
+   "word": "beyond",
+   "start": 37.4999,
+   "end": 37.9004,
+   "score": 0.9591
+  },
+  {
+   "word": "doubt",
+   "start": 37.9604,
+   "end": 38.2808,
+   "score": 0.7735
+  },
+  {
+   "word": "can",
+   "start": 39.422,
+   "end": 39.6022,
+   "score": 0.9411
+  },
+  {
+   "word": "we",
+   "start": 39.6822,
+   "end": 39.7623,
+   "score": 0.9037
+  },
+  {
+   "word": "be",
+   "start": 39.8825,
+   "end": 39.9625,
+   "score": 0.9204
+  },
+  {
+   "word": "certain",
+   "start": 40.1227,
+   "end": 40.5031,
+   "score": 0.9418
+  },
+  {
+   "word": "beyond",
+   "start": 40.5632,
+   "end": 40.9636,
+   "score": 0.967
+  },
+  {
+   "word": "doubt",
+   "start": 41.0037,
+   "end": 41.304,
+   "score": 0.7983
+  },
+  {
+   "word": "that",
+   "start": 42.0848,
+   "end": 42.245,
+   "score": 0.9093
+  },
+  {
+   "word": "they",
+   "start": 42.305,
+   "end": 42.4452,
+   "score": 0.9264
+  },
+  {
+   "word": "will",
+   "start": 42.4852,
+   "end": 42.6254,
+   "score": 0.9982
+  },
+  {
+   "word": "never",
+   "start": 42.6654,
+   "end": 42.8857,
+   "score": 0.9344
+  },
+  {
+   "word": "be",
+   "start": 42.9057,
+   "end": 42.9858,
+   "score": 0.9988
+  },
+  {
+   "word": "employed",
+   "start": 43.0659,
+   "end": 43.5864,
+   "score": 0.9909
+  },
+  {
+   "word": "But",
+   "start": 44.9879,
+   "end": 45.1681,
+   "score": 0.9992
+  },
+  {
+   "word": "neither",
+   "start": 45.2482,
+   "end": 45.6686,
+   "score": 0.9957
+  },
+  {
+   "word": "can",
+   "start": 45.8288,
+   "end": 46.049,
+   "score": 0.9619
+  },
+  {
+   "word": "two",
+   "start": 46.1692,
+   "end": 46.4495,
+   "score": 0.8381
+  },
+  {
+   "word": "great",
+   "start": 46.6296,
+   "end": 47.0101,
+   "score": 0.9762
+  },
+  {
+   "word": "and",
+   "start": 47.5506,
+   "end": 47.6708,
+   "score": 0.9923
+  },
+  {
+   "word": "powerful",
+   "start": 47.7709,
+   "end": 48.3715,
+   "score": 0.9532
+  },
+  {
+   "word": "groups",
+   "start": 48.4516,
+   "end": 48.7519,
+   "score": 0.9302
+  },
+  {
+   "word": "of",
+   "start": 48.812,
+   "end": 48.872,
+   "score": 0.9991
+  },
+  {
+   "word": "nations",
+   "start": 48.9321,
+   "end": 49.3726,
+   "score": 0.9883
+  },
+  {
+   "word": "take",
+   "start": 50.4337,
+   "end": 50.694,
+   "score": 0.9862
+  },
+  {
+   "word": "comfort",
+   "start": 50.734,
+   "end": 51.1545,
+   "score": 0.9863
+  },
+  {
+   "word": "from",
+   "start": 51.2145,
+   "end": 51.3547,
+   "score": 0.9985
+  },
+  {
+   "word": "our",
+   "start": 51.4348,
+   "end": 51.5549,
+   "score": 0.9425
+  },
+  {
+   "word": "present",
+   "start": 51.635,
+   "end": 51.9553,
+   "score": 0.976
+  },
+  {
+   "word": "course",
+   "start": 51.9954,
+   "end": 52.4358,
+   "score": 0.7709
+  },
+  {
+   "word": "both",
+   "start": 53.5971,
+   "end": 53.8573,
+   "score": 0.9446
+  },
+  {
+   "word": "sides",
+   "start": 53.8974,
+   "end": 54.438,
+   "score": 0.9723
+  },
+  {
+   "word": "overburdened",
+   "start": 54.5981,
+   "end": 55.2789,
+   "score": 0.9552
+  },
+  {
+   "word": "by",
+   "start": 56.2999,
+   "end": 56.4401,
+   "score": 0.9989
+  },
+  {
+   "word": "the",
+   "start": 56.4601,
+   "end": 56.5402,
+   "score": 0.8587
+  },
+  {
+   "word": "cost",
+   "start": 56.6403,
+   "end": 57.1208,
+   "score": 0.9256
+  },
+  {
+   "word": "of",
+   "start": 57.1809,
+   "end": 57.281,
+   "score": 0.9944
+  },
+  {
+   "word": "modern",
+   "start": 57.3611,
+   "end": 57.6814,
+   "score": 0.9511
+  },
+  {
+   "word": "weapons",
+   "start": 57.7215,
+   "end": 58.1419,
+   "score": 0.8037
+  },
+  {
+   "word": "both",
+   "start": 59.3232,
+   "end": 59.6235,
+   "score": 0.8825
+  },
+  {
+   "word": "rightly",
+   "start": 59.7436,
+   "end": 60.084,
+   "score": 0.9888
+  },
+  {
+   "word": "alarmed",
+   "start": 60.144,
+   "end": 60.7847,
+   "score": 0.9976
+  },
+  {
+   "word": "by",
+   "start": 61.6657,
+   "end": 61.8258,
+   "score": 0.9978
+  },
+  {
+   "word": "the",
+   "start": 61.8859,
+   "end": 61.966,
+   "score": 0.9837
+  },
+  {
+   "word": "steady",
+   "start": 62.0461,
+   "end": 62.3464,
+   "score": 0.9617
+  },
+  {
+   "word": "spread",
+   "start": 62.5065,
+   "end": 63.0071,
+   "score": 0.8836
+  },
+  {
+   "word": "of",
+   "start": 63.0671,
+   "end": 63.1272,
+   "score": 0.9977
+  },
+  {
+   "word": "the",
+   "start": 63.1673,
+   "end": 63.2473,
+   "score": 0.9822
+  },
+  {
+   "word": "deadly",
+   "start": 63.3074,
+   "end": 63.6077,
+   "score": 0.8973
+  },
+  {
+   "word": "atom",
+   "start": 63.7078,
+   "end": 63.9281,
+   "score": 0.9728
+  },
+  {
+   "word": "yet",
+   "start": 65.0493,
+   "end": 65.2495,
+   "score": 0.9988
+  },
+  {
+   "word": "both",
+   "start": 65.4497,
+   "end": 65.77,
+   "score": 0.997
+  },
+  {
+   "word": "racing",
+   "start": 65.8902,
+   "end": 66.3106,
+   "score": 0.9483
+  },
+  {
+   "word": "to",
+   "start": 66.3707,
+   "end": 66.4507,
+   "score": 0.9919
+  },
+  {
+   "word": "alter",
+   "start": 66.5909,
+   "end": 66.8912,
+   "score": 0.7721
+  },
+  {
+   "word": "that",
+   "start": 67.9924,
+   "end": 68.2126,
+   "score": 0.9726
+  },
+  {
+   "word": "uncertain",
+   "start": 68.2727,
+   "end": 68.8733,
+   "score": 0.9746
+  },
+  {
+   "word": "balance",
+   "start": 68.9734,
+   "end": 69.4139,
+   "score": 0.9927
+  },
+  {
+   "word": "of",
+   "start": 69.4539,
+   "end": 69.534,
+   "score": 0.9968
+  },
+  {
+   "word": "terror",
+   "start": 69.5941,
+   "end": 69.8944,
+   "score": 0.7557
+  },
+  {
+   "word": "that",
+   "start": 70.9555,
+   "end": 71.0957,
+   "score": 0.9866
+  },
+  {
+   "word": "stays",
+   "start": 71.1558,
+   "end": 71.5762,
+   "score": 0.9936
+  },
+  {
+   "word": "the",
+   "start": 71.6162,
+   "end": 71.6963,
+   "score": 0.8845
+  },
+  {
+   "word": "hand",
+   "start": 71.7764,
+   "end": 72.1368,
+   "score": 0.8876
+  },
+  {
+   "word": "of",
+   "start": 72.1969,
+   "end": 72.2569,
+   "score": 0.995
+  },
+  {
+   "word": "mankind's",
+   "start": 72.317,
+   "end": 73.4382,
+   "score": 0.6878
+  },
+  {
+   "word": "final",
+   "start": 73.4382,
+   "end": 73.7786,
+   "score": 0.931
+  },
+  {
+   "word": "war",
+   "start": 73.8386,
+   "end": 74.0789,
+   "score": 0.9908
+  }
+ ],
+ "alignment_error_ms": {
+  "mean": 1.0,
+  "max": 39.7
+ }
+}

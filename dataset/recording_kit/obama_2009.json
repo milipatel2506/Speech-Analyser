@@ -1,0 +1,45 @@
+{
+ "baseline_id": "obama_2009",
+ "scripts": {
+  "good": [],
+  "A": [
+   {
+    "type": "monotone",
+    "w0": 14,
+    "w1": 24
+   },
+   {
+    "type": "long_pause",
+    "w0": 68,
+    "w1": 69
+   },
+   {
+    "type": "rushing",
+    "w0": 98,
+    "w1": 109
+   }
+  ],
+  "B": [
+   {
+    "type": "pause_removal",
+    "w0": 46,
+    "w1": 47
+   },
+   {
+    "type": "mumble",
+    "w0": 70,
+    "w1": 77
+   },
+   {
+    "type": "volume_drop",
+    "w0": 81,
+    "w1": 86
+   },
+   {
+    "type": "dragging",
+    "w0": 115,
+    "w1": 123
+   }
+  ]
+ }
+}

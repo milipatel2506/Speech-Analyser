@@ -1,0 +1,45 @@
+{
+ "baseline_id": "clinton_1995",
+ "scripts": {
+  "good": [],
+  "A": [
+   {
+    "type": "monotone",
+    "w0": 2,
+    "w1": 16
+   },
+   {
+    "type": "rushing",
+    "w0": 106,
+    "w1": 118
+   },
+   {
+    "type": "long_pause",
+    "w0": 149,
+    "w1": 150
+   }
+  ],
+  "B": [
+   {
+    "type": "volume_drop",
+    "w0": 2,
+    "w1": 9
+   },
+   {
+    "type": "pause_removal",
+    "w0": 102,
+    "w1": 103
+   },
+   {
+    "type": "mumble",
+    "w0": 114,
+    "w1": 121
+   },
+   {
+    "type": "dragging",
+    "w0": 149,
+    "w1": 155
+   }
+  ]
+ }
+}

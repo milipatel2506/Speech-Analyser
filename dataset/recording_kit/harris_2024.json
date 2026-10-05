@@ -1,0 +1,45 @@
+{
+ "baseline_id": "harris_2024",
+ "scripts": {
+  "good": [],
+  "A": [
+   {
+    "type": "long_pause",
+    "w0": 15,
+    "w1": 16
+   },
+   {
+    "type": "monotone",
+    "w0": 41,
+    "w1": 50
+   },
+   {
+    "type": "rushing",
+    "w0": 70,
+    "w1": 76
+   }
+  ],
+  "B": [
+   {
+    "type": "mumble",
+    "w0": 13,
+    "w1": 18
+   },
+   {
+    "type": "dragging",
+    "w0": 26,
+    "w1": 39
+   },
+   {
+    "type": "volume_drop",
+    "w0": 46,
+    "w1": 54
+   },
+   {
+    "type": "pause_removal",
+    "w0": 64,
+    "w1": 65
+   }
+  ]
+ }
+}

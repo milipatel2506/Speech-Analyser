@@ -1,0 +1,660 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0
+xmax = 45.7671
+tiers? <exists>
+size = 2
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "words"
+        xmin = 0
+        xmax = 45.7671
+        intervals: size = 157
+        intervals [1]:
+            xmin = 0.0
+            xmax = 0.801
+            text = ""
+        intervals [2]:
+            xmin = 0.801
+            xmax = 0.9813
+            text = "Let"
+        intervals [3]:
+            xmin = 0.9813
+            xmax = 1.0814
+            text = ""
+        intervals [4]:
+            xmin = 1.0814
+            xmax = 1.1415
+            text = "me"
+        intervals [5]:
+            xmin = 1.1415
+            xmax = 1.2817
+            text = ""
+        intervals [6]:
+            xmin = 1.2817
+            xmax = 1.8023
+            text = "assert"
+        intervals [7]:
+            xmin = 1.8023
+            xmax = 1.9425
+            text = ""
+        intervals [8]:
+            xmin = 1.9425
+            xmax = 2.1428
+            text = "my"
+        intervals [9]:
+            xmin = 2.1428
+            xmax = 2.343
+            text = ""
+        intervals [10]:
+            xmin = 2.343
+            xmax = 2.6835
+            text = "firm"
+        intervals [11]:
+            xmin = 2.6835
+            xmax = 2.7636
+            text = ""
+        intervals [12]:
+            xmin = 2.7636
+            xmax = 3.1841
+            text = "belief"
+        intervals [13]:
+            xmin = 3.1841
+            xmax = 4.3256
+            text = ""
+        intervals [14]:
+            xmin = 4.3256
+            xmax = 4.4858
+            text = "that"
+        intervals [15]:
+            xmin = 4.4858
+            xmax = 4.5228
+            text = ""
+        intervals [16]:
+            xmin = 4.5228
+            xmax = 4.5909
+            text = "the"
+        intervals [17]:
+            xmin = 4.5909
+            xmax = 4.6761
+            text = ""
+        intervals [18]:
+            xmin = 4.6761
+            xmax = 4.9654
+            text = "only"
+        intervals [19]:
+            xmin = 4.9654
+            xmax = 5.1186
+            text = ""
+        intervals [20]:
+            xmin = 5.1186
+            xmax = 5.3739
+            text = "thing"
+        intervals [21]:
+            xmin = 5.3739
+            xmax = 5.4931
+            text = ""
+        intervals [22]:
+            xmin = 5.4931
+            xmax = 5.5952
+            text = "we"
+        intervals [23]:
+            xmin = 5.5952
+            xmax = 5.7825
+            text = ""
+        intervals [24]:
+            xmin = 5.7825
+            xmax = 6.0548
+            text = "have"
+        intervals [25]:
+            xmin = 6.0548
+            xmax = 6.1399
+            text = ""
+        intervals [26]:
+            xmin = 6.1399
+            xmax = 6.208
+            text = "to"
+        intervals [27]:
+            xmin = 6.208
+            xmax = 6.4123
+            text = ""
+        intervals [28]:
+            xmin = 6.4123
+            xmax = 6.6846
+            text = "fear"
+        intervals [29]:
+            xmin = 6.6846
+            xmax = 6.94
+            text = ""
+        intervals [30]:
+            xmin = 6.94
+            xmax = 7.2804
+            text = "is"
+        intervals [31]:
+            xmin = 7.2804
+            xmax = 8.2507
+            text = ""
+        intervals [32]:
+            xmin = 8.2507
+            xmax = 8.6081
+            text = "fear"
+        intervals [33]:
+            xmin = 8.6081
+            xmax = 8.7193
+            text = ""
+        intervals [34]:
+            xmin = 8.7193
+            xmax = 9.3401
+            text = "itself"
+        intervals [35]:
+            xmin = 9.3401
+            xmax = 10.4816
+            text = ""
+        intervals [36]:
+            xmin = 10.4816
+            xmax = 11.1024
+            text = "nameless"
+        intervals [37]:
+            xmin = 11.1024
+            xmax = 11.3227
+            text = ""
+        intervals [38]:
+            xmin = 11.3227
+            xmax = 12.2038
+            text = "unreasoning"
+        intervals [39]:
+            xmin = 12.2038
+            xmax = 12.2839
+            text = ""
+        intervals [40]:
+            xmin = 12.2839
+            xmax = 13.3252
+            text = "unjustified"
+        intervals [41]:
+            xmin = 13.3252
+            xmax = 13.4454
+            text = ""
+        intervals [42]:
+            xmin = 13.4454
+            xmax = 13.8459
+            text = "terror"
+        intervals [43]:
+            xmin = 13.8459
+            xmax = 14.8072
+            text = ""
+        intervals [44]:
+            xmin = 14.8072
+            xmax = 15.0274
+            text = "which"
+        intervals [45]:
+            xmin = 15.0274
+            xmax = 15.1676
+            text = ""
+        intervals [46]:
+            xmin = 15.1676
+            xmax = 16.1088
+            text = "paralyzes"
+        intervals [47]:
+            xmin = 16.1088
+            xmax = 16.249
+            text = ""
+        intervals [48]:
+            xmin = 16.249
+            xmax = 16.5494
+            text = "needed"
+        intervals [49]:
+            xmin = 16.5494
+            xmax = 16.6295
+            text = ""
+        intervals [50]:
+            xmin = 16.6295
+            xmax = 17.05
+            text = "efforts"
+        intervals [51]:
+            xmin = 17.05
+            xmax = 17.6108
+            text = ""
+        intervals [52]:
+            xmin = 17.6108
+            xmax = 17.6909
+            text = "to"
+        intervals [53]:
+            xmin = 17.6909
+            xmax = 17.811
+            text = ""
+        intervals [54]:
+            xmin = 17.811
+            xmax = 18.3918
+            text = "convert"
+        intervals [55]:
+            xmin = 18.3918
+            xmax = 18.552
+            text = ""
+        intervals [56]:
+            xmin = 18.552
+            xmax = 19.1327
+            text = "retreat"
+        intervals [57]:
+            xmin = 19.1327
+            xmax = 19.7736
+            text = ""
+        intervals [58]:
+            xmin = 19.7736
+            xmax = 19.9738
+            text = "into"
+        intervals [59]:
+            xmin = 19.9738
+            xmax = 20.0739
+            text = ""
+        intervals [60]:
+            xmin = 20.0739
+            xmax = 20.6947
+            text = "advance"
+        intervals [61]:
+            xmin = 20.6947
+            xmax = 21.9364
+            text = ""
+        intervals [62]:
+            xmin = 21.9364
+            xmax = 22.0165
+            text = "In"
+        intervals [63]:
+            xmin = 22.0165
+            xmax = 22.0565
+            text = ""
+        intervals [64]:
+            xmin = 22.0565
+            xmax = 22.2768
+            text = "every"
+        intervals [65]:
+            xmin = 22.2768
+            xmax = 22.3769
+            text = ""
+        intervals [66]:
+            xmin = 22.3769
+            xmax = 22.7174
+            text = "dark"
+        intervals [67]:
+            xmin = 22.7174
+            xmax = 22.7774
+            text = ""
+        intervals [68]:
+            xmin = 22.7774
+            xmax = 23.0378
+            text = "hour"
+        intervals [69]:
+            xmin = 23.0378
+            xmax = 23.0778
+            text = ""
+        intervals [70]:
+            xmin = 23.0778
+            xmax = 23.1579
+            text = "of"
+        intervals [71]:
+            xmin = 23.1579
+            xmax = 23.218
+            text = ""
+        intervals [72]:
+            xmin = 23.218
+            xmax = 23.3582
+            text = "our"
+        intervals [73]:
+            xmin = 23.3582
+            xmax = 23.4583
+            text = ""
+        intervals [74]:
+            xmin = 23.4583
+            xmax = 23.9189
+            text = "national"
+        intervals [75]:
+            xmin = 23.9189
+            xmax = 23.979
+            text = ""
+        intervals [76]:
+            xmin = 23.979
+            xmax = 24.3194
+            text = "life"
+        intervals [77]:
+            xmin = 24.3194
+            xmax = 25.3207
+            text = ""
+        intervals [78]:
+            xmin = 25.3207
+            xmax = 25.3407
+            text = "a"
+        intervals [79]:
+            xmin = 25.3407
+            xmax = 25.521
+            text = ""
+        intervals [80]:
+            xmin = 25.521
+            xmax = 26.0416
+            text = "leadership"
+        intervals [81]:
+            xmin = 26.0416
+            xmax = 26.302
+            text = ""
+        intervals [82]:
+            xmin = 26.302
+            xmax = 26.4021
+            text = "of"
+        intervals [83]:
+            xmin = 26.4021
+            xmax = 26.5223
+            text = ""
+        intervals [84]:
+            xmin = 26.5223
+            xmax = 27.083
+            text = "frankness"
+        intervals [85]:
+            xmin = 27.083
+            xmax = 27.2832
+            text = ""
+        intervals [86]:
+            xmin = 27.2832
+            xmax = 27.3834
+            text = "and"
+        intervals [87]:
+            xmin = 27.3834
+            xmax = 27.4435
+            text = ""
+        intervals [88]:
+            xmin = 27.4435
+            xmax = 27.5035
+            text = "of"
+        intervals [89]:
+            xmin = 27.5035
+            xmax = 27.6037
+            text = ""
+        intervals [90]:
+            xmin = 27.6037
+            xmax = 27.9041
+            text = "vigor"
+        intervals [91]:
+            xmin = 27.9041
+            xmax = 28.8653
+            text = ""
+        intervals [92]:
+            xmin = 28.8653
+            xmax = 29.0856
+            text = "has"
+        intervals [93]:
+            xmin = 29.0856
+            xmax = 29.2258
+            text = ""
+        intervals [94]:
+            xmin = 29.2258
+            xmax = 29.426
+            text = "met"
+        intervals [95]:
+            xmin = 29.426
+            xmax = 29.5261
+            text = ""
+        intervals [96]:
+            xmin = 29.5261
+            xmax = 29.7064
+            text = "with"
+        intervals [97]:
+            xmin = 29.7064
+            xmax = 29.7464
+            text = ""
+        intervals [98]:
+            xmin = 29.7464
+            xmax = 29.9467
+            text = "that"
+        intervals [99]:
+            xmin = 29.9467
+            xmax = 30.1269
+            text = ""
+        intervals [100]:
+            xmin = 30.1269
+            xmax = 31.0681
+            text = "understanding"
+        intervals [101]:
+            xmin = 31.0681
+            xmax = 31.0882
+            text = ""
+        intervals [102]:
+            xmin = 31.0882
+            xmax = 31.1883
+            text = "and"
+        intervals [103]:
+            xmin = 31.1883
+            xmax = 31.2684
+            text = ""
+        intervals [104]:
+            xmin = 31.2684
+            xmax = 31.8692
+            text = "support"
+        intervals [105]:
+            xmin = 31.8692
+            xmax = 31.9092
+            text = ""
+        intervals [106]:
+            xmin = 31.9092
+            xmax = 31.9693
+            text = "of"
+        intervals [107]:
+            xmin = 31.9693
+            xmax = 32.0093
+            text = ""
+        intervals [108]:
+            xmin = 32.0093
+            xmax = 32.0895
+            text = "the"
+        intervals [109]:
+            xmin = 32.0895
+            xmax = 32.1696
+            text = ""
+        intervals [110]:
+            xmin = 32.1696
+            xmax = 32.4699
+            text = "people"
+        intervals [111]:
+            xmin = 32.4699
+            xmax = 32.51
+            text = ""
+        intervals [112]:
+            xmin = 32.51
+            xmax = 33.271
+            text = "themselves"
+        intervals [113]:
+            xmin = 33.271
+            xmax = 33.9519
+            text = ""
+        intervals [114]:
+            xmin = 33.9519
+            xmax = 34.1721
+            text = "which"
+        intervals [115]:
+            xmin = 34.1721
+            xmax = 34.2322
+            text = ""
+        intervals [116]:
+            xmin = 34.2322
+            xmax = 34.3323
+            text = "is"
+        intervals [117]:
+            xmin = 34.3323
+            xmax = 34.3924
+            text = ""
+        intervals [118]:
+            xmin = 34.3924
+            xmax = 35.0132
+            text = "essential"
+        intervals [119]:
+            xmin = 35.0132
+            xmax = 35.0933
+            text = ""
+        intervals [120]:
+            xmin = 35.0933
+            xmax = 35.1734
+            text = "to"
+        intervals [121]:
+            xmin = 35.1734
+            xmax = 35.3136
+            text = ""
+        intervals [122]:
+            xmin = 35.3136
+            xmax = 35.7742
+            text = "victory"
+        intervals [123]:
+            xmin = 35.7742
+            xmax = 37.5966
+            text = ""
+        intervals [124]:
+            xmin = 37.5966
+            xmax = 37.6967
+            text = "And"
+        intervals [125]:
+            xmin = 37.6967
+            xmax = 37.8369
+            text = ""
+        intervals [126]:
+            xmin = 37.8369
+            xmax = 37.8569
+            text = "I"
+        intervals [127]:
+            xmin = 37.8569
+            xmax = 37.937
+            text = ""
+        intervals [128]:
+            xmin = 37.937
+            xmax = 38.0171
+            text = "am"
+        intervals [129]:
+            xmin = 38.0171
+            xmax = 38.0772
+            text = ""
+        intervals [130]:
+            xmin = 38.0772
+            xmax = 38.678
+            text = "convinced"
+        intervals [131]:
+            xmin = 38.678
+            xmax = 38.718
+            text = ""
+        intervals [132]:
+            xmin = 38.718
+            xmax = 38.8782
+            text = "that"
+        intervals [133]:
+            xmin = 38.8782
+            xmax = 38.8982
+            text = ""
+        intervals [134]:
+            xmin = 38.8982
+            xmax = 38.9984
+            text = "you"
+        intervals [135]:
+            xmin = 38.9984
+            xmax = 39.0384
+            text = ""
+        intervals [136]:
+            xmin = 39.0384
+            xmax = 39.2387
+            text = "will"
+        intervals [137]:
+            xmin = 39.2387
+            xmax = 39.7593
+            text = ""
+        intervals [138]:
+            xmin = 39.7593
+            xmax = 40.3401
+            text = "again"
+        intervals [139]:
+            xmin = 40.3401
+            xmax = 40.9008
+            text = ""
+        intervals [140]:
+            xmin = 40.9008
+            xmax = 41.1011
+            text = "give"
+        intervals [141]:
+            xmin = 41.1011
+            xmax = 41.1211
+            text = ""
+        intervals [142]:
+            xmin = 41.1211
+            xmax = 41.3414
+            text = "that"
+        intervals [143]:
+            xmin = 41.3414
+            xmax = 41.4215
+            text = ""
+        intervals [144]:
+            xmin = 41.4215
+            xmax = 41.9422
+            text = "support"
+        intervals [145]:
+            xmin = 41.9422
+            xmax = 42.3427
+            text = ""
+        intervals [146]:
+            xmin = 42.3427
+            xmax = 42.4228
+            text = "to"
+        intervals [147]:
+            xmin = 42.4228
+            xmax = 42.603
+            text = ""
+        intervals [148]:
+            xmin = 42.603
+            xmax = 43.1838
+            text = "leadership"
+        intervals [149]:
+            xmin = 43.1838
+            xmax = 43.7645
+            text = ""
+        intervals [150]:
+            xmin = 43.7645
+            xmax = 43.8646
+            text = "in"
+        intervals [151]:
+            xmin = 43.8646
+            xmax = 43.9247
+            text = ""
+        intervals [152]:
+            xmin = 43.9247
+            xmax = 44.2051
+            text = "these"
+        intervals [153]:
+            xmin = 44.2051
+            xmax = 44.2451
+            text = ""
+        intervals [154]:
+            xmin = 44.2451
+            xmax = 44.6256
+            text = "critical"
+        intervals [155]:
+            xmin = 44.6256
+            xmax = 44.6857
+            text = ""
+        intervals [156]:
+            xmin = 44.6857
+            xmax = 45.0862
+            text = "days"
+        intervals [157]:
+            xmin = 45.0862
+            xmax = 45.7671
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "flaws"
+        xmin = 0
+        xmax = 45.7671
+        intervals: size = 3
+        intervals [1]:
+            xmin = 0.0
+            xmax = 4.5228
+            text = ""
+        intervals [2]:
+            xmin = 4.5228
+            xmax = 8.6081
+            text = "rushing:s1"
+        intervals [3]:
+            xmin = 8.6081
+            xmax = 45.7671
+            text = ""
