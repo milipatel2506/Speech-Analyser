@@ -77,8 +77,14 @@ def main() -> None:
         kit = {"baseline_id": sid, "scripts": {"good": []}}
         md = [f"# Recording kit: {meta['speaker']}, {meta['title']} ({meta['year']})", ""]
         md += [
-            "Record in a quiet room, phone or laptop mic ~20 cm from your mouth. Say your take name before you start, "
-            "leave 1 s of silence, then read. Save as WAV/M4A/WebM; any format works.",
+            "Record in a quiet room, phone or laptop mic ~20 cm from your mouth. Start recording, stay silent for "
+            "1 second, read the text, stay silent for 1 second, stop. **Say nothing except the text**: no take name, "
+            "no \"okay\". Forced alignment expects exactly these words, so extra speech shifts every timestamp. "
+            "Any format works (M4A, WAV, MP3, WebM).",
+            "",
+            f"Save each take as `recordings/{sid.split('_')[0]}_<take>_<your initials>.<ext>` "
+            f"(e.g. `recordings/{sid.split('_')[0]}_A_mp.m4a`), then run "
+            "`uv run python scripts/import_recordings.py`.",
             "",
             "## Take `good`: read naturally, as well as you can",
             "",
@@ -102,8 +108,8 @@ def main() -> None:
             "## Import",
             "",
             "```bash",
-            f"uv run python scripts/import_recording.py --baseline {sid} --speaker <initials> --take good  path/to/good.wav",
-            f"uv run python scripts/import_recording.py --baseline {sid} --speaker <initials> --take A     path/to/A.wav",
+            "uv run python scripts/import_recordings.py          # every file in recordings/ named <speech>_<take>_<initials>.<ext>",
+            f"uv run python scripts/import_recording.py --baseline {sid} --speaker <initials> --take A  path/to/file.m4a   # one file",
             "```",
         ]
         (DS / "recording_kit" / f"{sid}.json").write_text(json.dumps(kit, indent=1), encoding="utf-8")
