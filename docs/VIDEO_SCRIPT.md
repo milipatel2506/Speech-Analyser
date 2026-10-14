@@ -98,6 +98,9 @@ dataset tab, open Harris and click a *Self-recorded* take.
 > Kamala Harris word for word. The synthetic test measures how precisely a flaw is located; real
 > speakers need tolerances calibrated on many natural readers, which is our next step. Our report
 > documents this negative result with numbers."
+>
+> "We also tried adapting the tolerances to each speaker. It cut false alarms by 75 %, but it missed
+> real mistakes, so we kept the original model and documented this as future work."
 
 ## 6:30–7:00 · Close
 

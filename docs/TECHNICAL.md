@@ -225,6 +225,16 @@ pauses differently (10–15 vs 21 pauses ≥ 0.3 s). The synthetic benchmark the
 *localisation of a flaw given an otherwise identical delivery*; it does not measure robustness to
 natural reader-to-reader variation, and the word-by-word tolerances are far too tight for it.
 
+**Attempted fix: speaker-adaptive tolerances (not adopted).** We widened every tolerance to
+3 × the robust spread (1.4826 · MAD) of the recording's own per-word deviations, so only spans that
+stand out from the reader's *own* variability are flagged; on synthetic clips that spread is ≈ 0
+and the benchmark was unchanged (recall 94.3 %, IoU 0.93). On the self-recordings it cut false
+positives by 75 % (57 → 14.5 per minute) and natural takes rose to 74/100, but directed flaws found
+fell from 9/14 to 3/14. Sweeping the multiplier from 1 to 3 (chosen on one speaker, checked on the
+other) gave no acceptable trade-off: performed flaws are about as large as natural style
+differences. We therefore kept the original detector; the experiment is preserved on the
+`speaker-relative` branch.
+
 ## 7. Dashboard
 
 React + TypeScript (Vite), wavesurfer.js and ECharts, served by a FastAPI backend.
