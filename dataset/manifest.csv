@@ -117,6 +117,12 @@ harris_2024__rushing_s2,harris_2024,single,2,1,rushing,45.8584,audio/flawed/harr
 harris_2024__rushing_s3,harris_2024,single,3,1,rushing,45.2458,audio/flawed/harris_2024/harris_2024__rushing_s3.wav,labels/harris_2024/harris_2024__rushing_s3.json
 harris_2024__rushing_s4,harris_2024,single,4,1,rushing,44.6331,audio/flawed/harris_2024/harris_2024__rushing_s4.wav,labels/harris_2024/harris_2024__rushing_s4.json
 harris_2024__rushing_s5,harris_2024,single,5,1,rushing,44.0204,audio/flawed/harris_2024/harris_2024__rushing_s5.wav,labels/harris_2024/harris_2024__rushing_s5.json
+harris_2024__self_mp_A,harris_2024,self,,3,long_pause;monotone;rushing,33.4507,audio/self/harris_2024/harris_2024__self_mp_A.wav,labels/harris_2024/harris_2024__self_mp_A.json
+harris_2024__self_mp_B,harris_2024,self,,4,mumble;dragging;volume_drop;pause_removal,27.2214,audio/self/harris_2024/harris_2024__self_mp_B.wav,labels/harris_2024/harris_2024__self_mp_B.json
+harris_2024__self_mp_good,harris_2024,self,0,0,,41.472,audio/self/harris_2024/harris_2024__self_mp_good.wav,labels/harris_2024/harris_2024__self_mp_good.json
+harris_2024__self_vd_A,harris_2024,self,,3,long_pause;monotone;rushing,29.4827,audio/self/harris_2024/harris_2024__self_vd_A.wav,labels/harris_2024/harris_2024__self_vd_A.json
+harris_2024__self_vd_B,harris_2024,self,,4,mumble;dragging;volume_drop;pause_removal,39.5094,audio/self/harris_2024/harris_2024__self_vd_B.wav,labels/harris_2024/harris_2024__self_vd_B.json
+harris_2024__self_vd_good,harris_2024,self,0,0,,27.2,audio/self/harris_2024/harris_2024__self_vd_good.wav,labels/harris_2024/harris_2024__self_vd_good.json
 harris_2024__volume_drop_s1,harris_2024,single,1,1,volume_drop,47.39,audio/flawed/harris_2024/harris_2024__volume_drop_s1.wav,labels/harris_2024/harris_2024__volume_drop_s1.json
 harris_2024__volume_drop_s2,harris_2024,single,2,1,volume_drop,47.39,audio/flawed/harris_2024/harris_2024__volume_drop_s2.wav,labels/harris_2024/harris_2024__volume_drop_s2.json
 harris_2024__volume_drop_s3,harris_2024,single,3,1,volume_drop,47.39,audio/flawed/harris_2024/harris_2024__volume_drop_s3.wav,labels/harris_2024/harris_2024__volume_drop_s3.json

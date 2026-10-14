@@ -90,8 +90,14 @@ part), then click **Analyse**.
 > "Anyone can record or upload their own reading. Here I rushed the middle on purpose, and it is
 > caught."
 
-(If the team's self-recordings have been imported, show the "Self-recorded readings" row instead:
-a teammate's natural reading scores high and their directed flawed take is caught.)
+**Then be honest about the limit (this impresses judges more than hiding it):** in the Contrastive
+dataset tab, open Harris and click a *Self-recorded* take.
+
+> "We also recorded ourselves reading the same speech. Our planted mistakes were caught, 9 of 14,
+> but the system also flags our *natural* reading, because two different people never sound like
+> Kamala Harris word for word. The synthetic test measures how precisely a flaw is located; real
+> speakers need tolerances calibrated on many natural readers, which is our next step. Our report
+> documents this negative result with numbers."
 
 ## 6:30–7:00 · Close
 

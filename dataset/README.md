@@ -126,6 +126,22 @@ manifest.csv                     one row per clip: kind, level, flaw types, dura
 }
 ```
 
+## Self-recorded readings (cross-speaker set)
+
+Two team members (anonymous ids `mp`, `vd`; both consented to publication) each read the Harris
+excerpt three times on consumer devices: `good` (natural reading), and `A` / `B` (directed scripts
+from `recording_kit/harris_2024.json`, performing marked flaws: pause, flat, rush / mumble, drag,
+quiet, no-pause). Files: `audio/self/harris_2024/harris_2024__self_<id>_<take>.wav` with labels in
+`labels/harris_2024/`. Flaw regions are the forced-aligned onset/offset of the directed word spans;
+severity is `null` because the size of a human-performed flaw is not controlled.
+
+These clips are the dataset's test of **natural cross-speaker variation**. In the synthetic clips,
+every word outside an injected flaw is identical to the reference; in these, every word differs.
+With the thresholds calibrated on synthetic data, the detector found 9 of 14 directed flaws but
+also flagged about 30 regions per take, *including the natural "good" readings* (median word
+deviation 1.4–3.4× tolerance for pace, pitch and clarity). Calibrating tolerances to natural
+reader-to-reader variation is open work; see the technical report.
+
 ## Rebuilding
 
 ```bash

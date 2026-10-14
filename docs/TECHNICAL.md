@@ -211,6 +211,20 @@ window, which spreads the evidence into neighbouring words. An identical deliver
 (unit test), and forced alignment of the flawed audio stays within 3.8 ms of the exact labels on
 average, so alignment is not the limiting factor.
 
+**Cross-speaker test (self-recordings): a negative result.** Two team members each read the Harris
+excerpt three times on consumer devices: a natural `good` take and two takes performing seven
+directed flaws at marked word spans (§2; labels from forced alignment of each recording). With the
+thresholds above, the detector found **9 of 14** directed flaws (all pauses and missing pauses, both
+monotone and rushing spans, 1 of 2 dragging spans; neither mumbling nor volume drop), but it also
+flagged **about 30 regions per take, including the natural readings**: 57 false positives per
+minute, with natural takes scoring 31/100, no better than the flawed takes. The cause is
+measurable. In synthetic clips every word outside the injected flaw is identical to the
+reference (deviation 0.0× tolerance), whereas between two real readers the *median* word already
+deviates 1.4–3.4× tolerance in pace, pitch spread and spectral balance, and the readers place
+pauses differently (10–15 vs 21 pauses ≥ 0.3 s). The synthetic benchmark therefore measures
+*localisation of a flaw given an otherwise identical delivery*; it does not measure robustness to
+natural reader-to-reader variation, and the word-by-word tolerances are far too tight for it.
+
 ## 7. Dashboard
 
 React + TypeScript (Vite), wavesurfer.js and ECharts, served by a FastAPI backend.
@@ -238,8 +252,12 @@ React + TypeScript (Vite), wavesurfer.js and ECharts, served by a FastAPI backen
 ## 9. Limitations and next steps
 
 Injected flaws are perfectly controlled but simplified: real rushing also slurs consonants, and
-real nerves add pitch tremor. Self-recorded flawed readings (§2) test transfer. Thresholds are
-literature- and data-calibrated constants, not learned. With a larger set of human recordings,
+real nerves add pitch tremor. The cross-speaker test (§6) shows the main open problem: word-by-word
+deviations from a single reference speaker confound *style* with *flaws*. Two fixes follow directly:
+(1) judge local delivery against the participant's **own** global behaviour (a span is rushed if it
+is much faster than *this speaker's* median rate) and use the reference only for global comparisons,
+and (2) calibrate tolerances on natural readings by many speakers instead of synthetic copies.
+Thresholds are currently literature- and data-calibrated constants, not learned. With a larger set of human recordings,
 a learned per-dimension classifier on the same word-level deviation features would be a natural
 extension. Fillers ("um", "uh") and mispronunciations are not yet modelled. A transcript
 mismatch is handled by sequence alignment, but unmatched words are excluded from comparison.

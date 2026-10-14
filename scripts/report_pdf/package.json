@@ -1,0 +1,4 @@
+{ "name": "report-pdf", "private": true, "type": "module",
+  "description": "Render docs/TECHNICAL.md to docs/Cadence_Technical_Report.pdf with headless Edge/Chrome",
+  "scripts": { "build": "node build.mjs ../../docs/TECHNICAL.md ../../docs/Cadence_Technical_Report.pdf" },
+  "dependencies": { "marked": "^16.0.0", "playwright-core": "^1.55.0" } }
