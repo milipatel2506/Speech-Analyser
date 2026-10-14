@@ -18,7 +18,7 @@ pausing       gap after word i vs baseline gap scaled by local tempo            
 from __future__ import annotations
 
 import difflib
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 
 import numpy as np
 
@@ -43,6 +43,12 @@ class DetectorConfig:
     pause_phrase_s: float = 0.30  # baseline gaps >= this are treated as intentional pauses
     pause_removed_ratio: float = 0.50  # participant keeps < 50 % of an intentional pause
     max_hole_words: int = 1  # bridge one unflagged word inside a region
+    # Speaker-adaptive tolerance: each tolerance is widened to adaptive_k x the robust spread
+    # (1.4826 x MAD) of this recording's own per-word deviations. When the participant is the
+    # reference speaker (synthetic clips), that spread is ~0 and the fixed tolerances apply
+    # unchanged; between two different readers it absorbs natural style variation, so only
+    # spans that stand out from the participant's *own* variability are flagged. 0 disables.
+    adaptive_k: float = 3.0
 
 
 @dataclass
@@ -169,6 +175,12 @@ def _resolve_overlaps(regions: list[Region], cfg: DetectorConfig) -> list[Region
     return [r for k, r in enumerate(regions) if k not in drop]
 
 
+def _spread(dev: np.ndarray) -> float:
+    """Robust spread (1.4826 x MAD) of a deviation series; 0 when there is nothing to measure."""
+    d = dev[np.isfinite(dev)]
+    return float(1.4826 * np.median(np.abs(d - np.median(d)))) if len(d) >= 5 else 0.0
+
+
 # --------------------------------------------------------------------------- detector
 
 
@@ -178,6 +190,7 @@ class Comparison:
     series: dict[str, np.ndarray]  # per participant word: signed deviations (NaN = unmatched)
     globals: dict
     regions: list[Region]
+    cfg: DetectorConfig  # tolerances actually applied (after speaker adaptation)
 
 
 def compare(
@@ -217,7 +230,8 @@ def compare(
     tempo_global = float(np.nanmedian(log_r[m]))
     pace_dev = log_r - tempo_global
     pace_dev[~m] = np.nan
-    tol = np.log2(1 + cfg.pace_tol)
+    k = cfg.adaptive_k
+    tol = max(np.log2(1 + cfg.pace_tol), k * _spread(pace_dev))
     for sign, ftype in ((-1, "rushing"), (1, "dragging")):
         flag = np.nan_to_num(sign * pace_dev) > tol
         for a, b in _runs(flag, cfg.max_hole_words, cfg.pace_min_words):
@@ -257,7 +271,7 @@ def compare(
     pitch_global = float(np.nanmedian(pitch_lr[m]))
     pitch_dev = pitch_lr - pitch_global
     pitch_dev[~m] = np.nan
-    ptol = np.log2(cfg.pitch_ratio_tol)
+    ptol = min(np.log2(cfg.pitch_ratio_tol), -k * _spread(pitch_dev))
     for a, b in _runs(np.nan_to_num(pitch_dev) < ptol, cfg.max_hole_words, cfg.pitch_min_words):
         seg_p = np.concatenate(f0_p[a : b + 1])
         seg_b = np.concatenate(f0_b[a : b + 1])
@@ -284,12 +298,13 @@ def compare(
         return sm - g, g
 
     energy_dev, energy_global = smoothed_delta("energy_db")
-    for a, b in _runs(np.nan_to_num(energy_dev) < -cfg.energy_tol_db, cfg.max_hole_words, cfg.energy_min_words):
+    energy_tol = max(cfg.energy_tol_db, k * _spread(energy_dev))
+    for a, b in _runs(np.nan_to_num(energy_dev) < -energy_tol, cfg.max_hole_words, cfg.energy_min_words):
         drop = float(np.nanmean(energy_dev[a : b + 1]))
         regions.append(
             Region("volume_drop", wf_p[a]["start"], wf_p[b]["end"], a, b,
                    {"level_change_db": drop}, _ladder_severity("volume_drop", drop),
-                   float(-np.nanmin(energy_dev[a : b + 1]) / cfg.energy_tol_db))
+                   float(-np.nanmin(energy_dev[a : b + 1]) / energy_tol))
         )
 
     # clarity uses two bands: 4-8 kHz "air" is sensitive to subtle consonant loss but saturates,
@@ -297,7 +312,9 @@ def compare(
     clarity_dev, clarity_global = smoothed_delta("hf_db")
     air_dev, _ = smoothed_delta("air_db")
     hnr_dev, _ = smoothed_delta("hnr_db")
-    clarity_score = np.fmax(-clarity_dev / cfg.clarity_tol_db, -air_dev / cfg.air_tol_db)
+    clarity_tol = max(cfg.clarity_tol_db, k * _spread(clarity_dev))
+    air_tol = max(cfg.air_tol_db, k * _spread(air_dev))
+    clarity_score = np.fmax(-clarity_dev / clarity_tol, -air_dev / air_tol)
     for a, b in _runs(np.nan_to_num(clarity_score) > 1, cfg.max_hole_words, cfg.clarity_min_words):
         drop = float(np.nanmean(clarity_dev[a : b + 1]))
         air = float(np.nanmean(air_dev[a : b + 1]))
@@ -317,28 +334,43 @@ def compare(
     local_tempo = 2 ** np.nan_to_num(log_r, nan=tempo_global)
     expected = gap_b * local_tempo
     pause_dev = gap_p - expected
+    insert_tol = max(cfg.pause_insert_s, k * _spread(pause_dev))
+    # a reader who habitually shortens the reference's pauses is judged against their own habit
+    phrase = np.isfinite(gap_b) & (gap_b >= cfg.pause_phrase_s)
+    kept_typical = float(np.nanmedian(np.clip(gap_p[phrase] / np.maximum(expected[phrase], 1e-3), 0, 1))) if phrase.sum() >= 3 else 1.0
+    removed_ratio = cfg.pause_removed_ratio * (min(1.0, kept_typical) if k > 0 else 1.0)
     for i in range(n - 1):
         if not np.isfinite(gap_b[i]):
             continue
-        if pause_dev[i] > cfg.pause_insert_s and gap_p[i] > cfg.pause_insert_min_s:
+        if pause_dev[i] > insert_tol and gap_p[i] > cfg.pause_insert_min_s:
             extra = float(pause_dev[i])
             regions.append(
                 Region("long_pause", wf_p[i]["end"], wf_p[i + 1]["start"], i, i + 1,
                        {"pause_s": float(gap_p[i]), "expected_pause_s": float(expected[i]), "extra_s": extra,
                         "baseline_pause_s": float(gap_b[i])},
-                       _ladder_severity("long_pause", extra), extra / cfg.pause_insert_s)
+                       _ladder_severity("long_pause", extra), extra / insert_tol)
             )
-        elif gap_b[i] >= cfg.pause_phrase_s and gap_p[i] < cfg.pause_removed_ratio * expected[i]:
+        elif gap_b[i] >= cfg.pause_phrase_s and gap_p[i] < removed_ratio * expected[i]:
             kept = float(max(gap_p[i] - 0.04, 0) / max(expected[i] - 0.04, 1e-3))
             regions.append(
                 Region("pause_removal", wf_p[i]["start"], wf_p[i + 1]["end"], i, i + 1,
                        {"pause_s": float(gap_p[i]), "expected_pause_s": float(expected[i]), "pause_kept": kept,
                         "baseline_pause_s": float(gap_b[i])},
                        _ladder_severity("pause_removal", kept),
-                       float(expected[i] / max(gap_p[i], 0.02)) * cfg.pause_removed_ratio)
+                       float(expected[i] / max(gap_p[i], 0.02)) * removed_ratio)
             )
 
-    regions = _resolve_overlaps(regions, cfg)
+    applied = replace(
+        cfg,
+        pace_tol=float(2**tol - 1),
+        pitch_ratio_tol=float(2**ptol),
+        energy_tol_db=float(energy_tol),
+        clarity_tol_db=float(clarity_tol),
+        air_tol_db=float(air_tol),
+        pause_insert_s=float(insert_tol),
+        pause_removed_ratio=float(removed_ratio),
+    )
+    regions = _resolve_overlaps(regions, applied)
     regions.sort(key=lambda r: r.start)
     return Comparison(
         pairs=pairs,
@@ -360,6 +392,7 @@ def compare(
             "baseline_words": len(wf_b),
         },
         regions=regions,
+        cfg=applied,
     )
 
 

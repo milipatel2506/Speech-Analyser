@@ -56,12 +56,22 @@ def report(base: Analysed, part: Analysed, cfg: DetectorConfig | None = None) ->
 def _report(base: Analysed, part: Analysed, cfg: DetectorConfig | None = None) -> dict:
     cfg = cfg or DetectorConfig()
     comp: Comparison = compare(base.frames, base.word_feats, part.frames, part.word_feats, cfg)
-    flaws = [explain(r, part.words, comp, cfg) for r in comp.regions]
+    flaws = [explain(r, part.words, comp, comp.cfg) for r in comp.regions]  # adapted tolerances
     warp = time_warp(comp.pairs, part.words, base.words)
     return {
         "score": score(flaws, comp.globals),
         "flaws": flaws,
         "globals": comp.globals,
+        "tolerances": {
+            "pace_pct": round(comp.cfg.pace_tol * 100, 1),
+            "pitch_spread_min": round(comp.cfg.pitch_ratio_tol, 3),
+            "energy_db": round(comp.cfg.energy_tol_db, 2),
+            "clarity_db": round(comp.cfg.clarity_tol_db, 2),
+            "air_db": round(comp.cfg.air_tol_db, 2),
+            "pause_insert_s": round(comp.cfg.pause_insert_s, 3),
+            "pause_kept_min": round(comp.cfg.pause_removed_ratio, 3),
+            "adapted": comp.cfg != cfg,
+        },
         "summary": {"participant": part.summary, "baseline": base.summary},
         "words": {"participant": part.words, "baseline": base.words},
         "word_deviation": {
