@@ -1,116 +1,148 @@
-# Demo video script (target 6–7 minutes)
+# Demo video script: final version (7 clips, ~7 minutes)
 
-The brief asks the video to show three things: **(1)** how the dataset was collected, **(2)** stress
-testing across different speech qualities, and **(3)** the dashboard catching specific delivery
-deviations. The script follows that order.
+Record **7 short clips** (one per section below) and join them in Clipchamp. If you make a mistake,
+redo only that clip. Everything happens in the **browser**: no VS Code or other apps on screen.
 
-**Setup before recording**
-- Start the app (`powershell -ExecutionPolicy Bypass -File .\start.ps1`) or open the live demo.
-- Open each clip once before recording, so it is cached and loads instantly on camera.
-- Recorder: OBS Studio (free), or the Windows Game Bar (**Win + G**, then record). Use 1920×1080 with
-  the browser full screen and zoom at 110–125 %.
-- Use a headset microphone, and record the narration in a quiet room.
-- Keep the files `docs/TECHNICAL.md`, `dataset/README.md` and one `dataset/labels/.../*.TextGrid` ready
-  to show.
+The brief asks the video to show **(1)** how the dataset was collected, **(2)** stress testing across
+different speech qualities, and **(3)** the dashboard catching specific delivery deviations, including
+**audio upload**. Clips 2, 4, 5 and 6 cover those.
+
+## Before recording
+
+1. Start the app in the VS Code terminal: `powershell -ExecutionPolicy Bypass -File .\start.ps1`
+2. Open three browser tabs, in this order, and close all others. Zoom 110 % (**Ctrl + +**).
+   1. GitHub: https://github.com/milipatel2506/Speech-Analyser
+   2. Dataset: https://huggingface.co/datasets/milipatel2506/cadence-contrastive-speech
+   3. Dashboard: http://127.0.0.1:5173
+3. **Warm up** (the first click on a clip takes a few seconds; after that it is instant). Click
+   Kennedy **L1 → L5** once, and the Kamala Harris **self-recorded** takes once.
+4. **Win + N → Do not disturb.** Close WhatsApp, email and other apps that make sounds.
+5. Use earphones with a mic in a quiet room. Keep this script open on your phone to read from.
+6. Record each clip with **Win + Shift + R** (Snipping Tool): select the browser window, **turn
+   the microphone ON**, Start, then Stop and Save as `clip1.mp4` … `clip7.mp4`. Do a 10-second test
+   first and check that your voice is audible.
 
 ---
 
-## 0:00–0:30 · Hook and problem
+## Clip 1 · Introduction (~30 s)
 
-**Screen:** dashboard home page.
+**Show:** the dashboard home page.
 
-> "Speech judges score delivery inconsistently, and speakers get vague feedback like 'work on your
-> pacing'. Cadence compares a delivery against a strong reference of the *same* text, finds the
-> exact seconds where delivery breaks down, and explains *why*, with numbers."
+> "Speech judges score delivery inconsistently and give vague feedback like 'work on your pacing'.
+> Our project, Cadence, compares a delivery with a strong reference of the same text, finds the
+> exact seconds where delivery breaks down, and explains why, with numbers."
 
-## 0:30–2:00 · How we built the dataset
+## Clip 2 · How we built the dataset (~1.5 min)
 
-**Screen:** `dataset/sources.csv`, then `dataset/README.md` (the flaw ladder table), then a TextGrid
-opened in Praat if available (or the JSON label).
+**Show:** the Hugging Face dataset tab. Scroll slowly through the dataset card (the baselines table
+and the flaw ladder table). If an audio player is visible, play 3 seconds of a clip.
 
-> "There is no public dataset of good versus bad deliveries of the same text, so we built one."
+> "No public dataset of good versus bad deliveries of the same text existed, so we built one. We
+> took six famous public-domain speeches, from Roosevelt in 1933 to Kamala Harris in 2024, and
+> transcribed them with Whisper. Then we created bad versions with audio processing: seven kinds
+> of mistakes (monotone, rushing, dragging, awkward pauses, missing pauses, volume drops and
+> mumbling), each at five severity levels, from barely noticeable to egregious. That gives 240
+> flawed clips with 300 labelled mistakes. Because we created each mistake ourselves, we know its
+> exact start and end time to the millisecond."
 
-1. **Good baselines:** "Six landmark public-domain speeches: FDR 1933, Kennedy 1961, Reagan 1981,
-   Clinton 1995, Obama 2009 and Harris 2024, spanning ninety years of recording technology. We cut
-   45–75 second passages without applause, transcribed them with Whisper and checked the transcripts by hand."
-2. **The bad mirror:** "We injected seven kinds of delivery flaws with signal processing:
-   monotone, rushing, dragging, awkward pauses, missing pauses, volume drops and mumbling. Each has
-   five severity levels, from almost unnoticeable to egregious."
-3. **Exact labels:** "Because we create the flaw ourselves, we know its exact start and end to
-   the millisecond. That gave us 240 flawed clips and 300 labelled flaw regions."
+## Clip 3 · How it works (~45 s)
 
-**Optional:** play 3 seconds of the original, then the same words at monotone severity 5.
+**Show:** the GitHub tab, scrolled to the "How it works" diagram in the README.
 
-## 2:00–3:00 · How it works (keep it short)
+> "First, a wav2vec2 AI model finds the exact timing of every word. Then we measure pitch,
+> loudness, FFT spectral balance and voice clarity every 10 milliseconds, normalised for each
+> speaker's voice. Because both recordings say the same words, we compare them word by word, and
+> wherever the delivery deviates past a tolerance, that becomes a flaw region with exact
+> timestamps and an explanation."
 
-**Screen:** README "How it works" diagram, or the TECHNICAL.md feature table.
+## Clip 4 · The dashboard catching specific deviations (~2 min) ⭐ most important
 
-> "Forced alignment with a wav2vec2 model maps every word to its timestamps. We extract pitch,
-> loudness, FFT spectral balance and voice clarity every 10 milliseconds, normalised per speaker,
-> so a deep voice or a quiet speaker is not penalised. Because both recordings say the same words,
-> we compare them word by word, and any word that deviates past a tolerance becomes a flaw region."
+**Show:** Dashboard → **Contrastive dataset** → **John F. Kennedy** → **L4 Poor**.
 
-## 3:00–4:45 · The dashboard catching specific deviations
+1. Point at the score and hover a rubric bar:
+   > "This delivery scores __ out of 100" *(say the number on screen)* "and each bar shows exactly
+   > where points were lost."
+2. Point at the **Injected vs Detected** strip:
+   > "The top row is where we planted mistakes; the bottom row is what the AI found. They line up."
+3. Click a **Rushed pacing** flaw card. Click **Play yours**, then **Play reference**, and let both
+   play. Then click **Why this was flagged**:
+   > "This part was much faster than the reference, and here are the measured numbers and the exact
+   > formula behind the decision."
+4. Click a **Monotone** card. The charts zoom in; point at the blue line versus the grey line:
+   > "Here the pitch line goes flat compared with the reference."
+5. Click a word in the **transcript**:
+   > "Everything is synced to the audio."
 
-**Screen:** Analyse tab, then Contrastive dataset, then **Kennedy**.
+## Clip 5 · Stress testing across speech qualities (~1 min)
 
-1. Click **L4 Poor**. Show the **score** and the **rubric bars**, and hover a bar to show its deductions.
-2. Point at the **"Injected vs Detected"** strip: "Top is the truth we injected, bottom is what the
-   system found. They line up."
-3. Click a flaw card, for example **Rushed pacing**:
-   - Click **Play yours**, then **Play reference**, so viewers hear the difference.
-   - Expand **"Why this was flagged"**: "45 % faster, 5.8 versus 3.2 syllables per second, and here
-     is the exact formula with the numbers."
-   - The charts zoom to that moment; point at the blue line versus the grey reference.
-4. Click a **Monotone** card: "the pitch line goes flat. It kept only 38 % of the speaker's natural
-   pitch movement."
-5. Click a word in the **transcript** to show that everything is synced to the audio.
+**Show:** for Kennedy, click **L1 → L2 → L3 → L4 → L5** quickly, then the **Stress test** tab.
 
-## 4:45–5:45 · Stress testing across speech qualities
-
-**Screen:** for the same speech, click **L1 → L2 → L3 → L4 → L5** quickly (cached), then open the
-**Stress test** tab.
-
-> "As delivery gets worse, from near-perfect to botched, the score falls step by step."
+> "As the delivery gets worse, from near-perfect to botched, the score drops step by step."
 
 On the Stress test page:
 
-> "Across all 240 flawed clips, with every clip re-aligned from scratch, the system finds 94 % of
-> injected flaws, with 0.93 overlap with the true timestamps and only 0.14 false alarms per minute.
-> Four of the six speeches were held out from tuning and score the same, 95 % recall."
+> "Across all 240 clips, with every clip re-aligned from scratch, the system finds 94 % of planted
+> mistakes, with 0.93 timing overlap and only 0.14 false alarms per minute. On four speeches it
+> never saw during tuning, it scores the same. It misses mostly at level 1, the barely noticeable
+> mistakes."
 
-Point at the heat-map: "The only misses are at severity 1, the barely noticeable level, which is
-what we expect."
+## Clip 6 · Uploading your own audio (~1 min)
 
-## 5:45–6:30 · Your own delivery (+ self-recordings when available)
+**Show:** Dashboard → **Analyse your delivery** tab.
 
-**Screen:** "Analyse your delivery" tab. Pick Harris, click **Record**, read two sentences (rush one
-part), then click **Analyse**.
+1. Click **Kamala Harris** as the reference (her text appears).
+2. Click **Upload audio** and choose `D:\Multimodel speech analyser\recordings\harris_A_mp.m4a`.
+3. Click **Analyse delivery**.
 
-> "Anyone can record or upload their own reading. Here I rushed the middle on purpose, and it is
-> caught."
+> "Anyone can upload or record their own reading. The system decodes the audio, aligns every word
+> and extracts the features."
 
-**Then be honest about the limit (this impresses judges more than hiding it):** in the Contrastive
-dataset tab, open Harris and click a *Self-recorded* take.
+The analysis takes about 20–40 seconds. Keep talking or pause the recording; you can cut the wait
+in Clipchamp. When the result appears, scroll through the score, waveform and flaw cards:
 
-> "We also recorded ourselves reading the same speech. Our planted mistakes were caught, 9 of 14,
-> but the system also flags our *natural* reading, because two different people never sound like
-> Kamala Harris word for word. The synthetic test measures how precisely a flaw is located; real
-> speakers need tolerances calibrated on many natural readers, which is our next step. Our report
-> documents this negative result with numbers."
->
-> "We also tried adapting the tolerances to each speaker. It cut false alarms by 75 %, but it missed
-> real mistakes, so we kept the original model and documented this as future work."
+> "Here are the results for my own reading."
 
-## 6:30–7:00 · Close
+## Clip 7 · Honest limits and closing (~1 min)
 
-**Screen:** GitHub README.
+**Show:** while still on the results from clip 6 (or a Harris *Self-recorded* take in the
+Contrastive dataset tab):
+
+> "Our planted mistakes were caught, but the system also flags parts of our natural reading,
+> because two different people never sound exactly like Kamala Harris. We tried adapting the
+> tolerances to each speaker. It cut false alarms by 75 %, but it missed real mistakes, so we
+> kept the original model and documented this as future work."
+
+Switch to the **GitHub** tab:
 
 > "Everything is open: the code, the dataset on Hugging Face, and a technical report with the full
-> evaluation. The results are reproducible with three commands. Thank you."
+> evaluation. Thank you!"
 
 ---
 
-**Tips:** speak slowly, and pause the recording between sections and cut later. Highlight the mouse
-cursor (OBS has an option for this). Upload to YouTube as *Unlisted* or *Public* and paste the link
-into the README.
+## Editing and upload
+
+1. **Clipchamp** (Windows key → type *Clipchamp*): Create a new video → Import media (clip1–clip7) →
+   drag them to the timeline in order → trim the silent starts and ends → optionally add a title
+   text → **Export 1080p**. Target 6–8 minutes (the allowed range is 3–10).
+2. **YouTube**: Create (+) → Upload video → *Not made for kids* → Visibility **Unlisted** or
+   **Public** → Publish → copy the link and test it in a private window (Ctrl + Shift + N).
+
+**Title:** `Cadence: Contrastive Speech Analytics & Temporal Flaw Grounding | Multimodal AI Hackathon 2026 (Track C)`
+
+**Description:**
+
+```
+Cadence compares a speech delivery against a reference reading of the same text, finds the exact time regions where delivery breaks down (pace, pauses, pitch, energy, clarity), and explains each flaw with the measured acoustic numbers.
+
+Code: https://github.com/milipatel2506/Speech-Analyser
+Dataset: https://huggingface.co/datasets/milipatel2506/cadence-contrastive-speech
+
+Multimodal AI Hackathon 2026, Track C
+```
+
+**Backup recorder:** if Snipping Tool doesn't capture your voice, use **Win + Alt + R** (Xbox Game
+Bar; press again to stop, files go to `Videos\Captures`). It records only the browser window, which
+is fine because everything above happens in the browser.
+
+**Tips:** speak slowly, move the mouse calmly to what you're describing, and redo a clip if you
+stumble. It only takes a minute.
